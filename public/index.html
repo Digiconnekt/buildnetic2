@@ -10,34 +10,460 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <title>Buildnetic</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- imported files start -->
+
+    <script type="text/javascript">
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/steadyrabbit.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7",
+        },
+      };
+      !(function (e, a, t) {
+        var n,
+          r,
+          o,
+          i = a.createElement("canvas"),
+          p = i.getContext && i.getContext("2d");
+        function s(e, t) {
+          var a = String.fromCharCode;
+          p.clearRect(0, 0, i.width, i.height),
+            p.fillText(a.apply(this, e), 0, 0);
+          e = i.toDataURL();
+          return (
+            p.clearRect(0, 0, i.width, i.height),
+            p.fillText(a.apply(this, t), 0, 0),
+            e === i.toDataURL()
+          );
+        }
+        function c(e) {
+          var t = a.createElement("script");
+          (t.src = e),
+            (t.defer = t.type = "text/javascript"),
+            a.getElementsByTagName("head")[0].appendChild(t);
+        }
+        for (
+          o = Array("flag", "emoji"),
+            t.supports = { everything: !0, everythingExceptFlag: !0 },
+            r = 0;
+          r < o.length;
+          r++
+        )
+          (t.supports[o[r]] = (function (e) {
+            if (!p || !p.fillText) return !1;
+            switch (
+              ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
+            ) {
+              case "flag":
+                return s(
+                  [127987, 65039, 8205, 9895, 65039],
+                  [127987, 65039, 8203, 9895, 65039]
+                )
+                  ? !1
+                  : !s(
+                      [55356, 56826, 55356, 56819],
+                      [55356, 56826, 8203, 55356, 56819]
+                    ) &&
+                      !s(
+                        [
+                          55356, 57332, 56128, 56423, 56128, 56418, 56128,
+                          56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                        ],
+                        [
+                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418,
+                          8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128,
+                          56423, 8203, 56128, 56447,
+                        ]
+                      );
+              case "emoji":
+                return !s(
+                  [55357, 56424, 8205, 55356, 57212],
+                  [55357, 56424, 8203, 55356, 57212]
+                );
+            }
+            return !1;
+          })(o[r])),
+            (t.supports.everything = t.supports.everything && t.supports[o[r]]),
+            "flag" !== o[r] &&
+              (t.supports.everythingExceptFlag =
+                t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag =
+          t.supports.everythingExceptFlag && !t.supports.flag),
+          (t.DOMReady = !1),
+          (t.readyCallback = function () {
+            t.DOMReady = !0;
+          }),
+          t.supports.everything ||
+            ((n = function () {
+              t.readyCallback();
+            }),
+            a.addEventListener
+              ? (a.addEventListener("DOMContentLoaded", n, !1),
+                e.addEventListener("load", n, !1))
+              : (e.attachEvent("onload", n),
+                a.attachEvent("onreadystatechange", function () {
+                  "complete" === a.readyState && t.readyCallback();
+                })),
+            (n = t.source || {}).concatemoji
+              ? c(n.concatemoji)
+              : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)));
+      })(window, document, window._wpemojiSettings);
+    </script>
+
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="./assets/wp-includes/css/dist/block-library/style.min.css?ver=5.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="tfree-slick-css"
+      href="./assets/wp-content/plugins/testimonial-free/public/assets/css/slick.css?ver=2.2.8"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="tfree-font-awesome-css"
+      href="./assets/wp-content/plugins/testimonial-free/public/assets/css/font-awesome.min.css?ver=2.2.8"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="tfree-deprecated-style-css"
+      href="./assets/wp-content/plugins/testimonial-free/public/assets/css/deprecated-style.css?ver=2.2.8"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="tfree-style-css"
+      href="./assets/wp-content/plugins/testimonial-free/public/assets/css/style.css?ver=2.2.8"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ivory-search-styles-css"
+      href="./assets/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.4.5"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nowadays-style-css"
+      href="./assets/wp-content/themes/nowadays/assets/css/styles.min.css?ver=5.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nowadays-theme-color-css"
+      href="./assets/wp-content/themes/nowadays/assets/css/theme-colors/theme-custom.css?ver=5.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nowadays-icons-font-awesome-css-css"
+      href="./assets/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/font-awesome.min.css?ver=5.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nowadays-icons-theme-css"
+      href="./assets/wp-content/themes/nowadays/assets/icons/styles.css?ver=5.7"
+      type="text/css"
+      media="all"
+    />
+
+    <style id="nowadays-icons-theme-inline-css" type="text/css">
+      .menu-desktop .header-dark,
+      .menu-desktop .submenu {
+        background: #ffffff !important;
+      }
+      .menu-desktop .menu__link,
+      .menu-desktop .submenu__link {
+        color: #212121;
+      }
+      .menu-desktop
+        .submenu-mega
+        > .submenu
+        .submenu
+        .submenu__item:first-child:not(.submenu__item_empty):before {
+        background: #ffd1d1;
+      }
+      .menu-mobile .header-dark,
+      .menu-mobile .menu,
+      .menu-mobile .submenu {
+        background: #ffffff !important;
+      }
+      .menu-mobile .menu__link {
+        color: #212121;
+      }
+      .menu-desktop .submenu-mega .submenu__link,
+      .menu-mobile .submenu__link,
+      .menu-mobile .submenu-mega > .submenu .submenu__item:first-child {
+        color: #212121;
+      }
+      .footer-top {
+        background: #1a1d24;
+      }
+      .footer__title:before {
+        background: #1a1d24;
+      }
+      .footer-social__item:before {
+        color: #1a1d24;
+      }
+      .footer-bottom {
+        background: #1a1d24;
+      }
+      h1,
+      h2,
+      h3,
+      .header-logo__link,
+      .menu-desktop .menu__link,
+      .menu-desktop .submenu__link,
+      .menu-mobile .menu__link,
+      .menu-mobile .submenu__link,
+      .features-1 .features-item__title,
+      .features-2 .features-item__title,
+      .features-3 .features-item__title,
+      .counters-item__count,
+      .footer__title,
+      .footer-copy,
+      .footer-menu__link,
+      .btn-a,
+      .project-modal__title,
+      .p-preloader__percentage {
+        font-family: "Montserrat", Helvetica, sans-serif !important;
+      }
+      body,
+      [class*="col-"],
+      .main-simple__subtitle,
+      .main-5-slider-text__subtitle,
+      .footer-form__input,
+      .footer-form__submit,
+      .contact-form__input,
+      .contact-form__textarea,
+      .comment-form__input,
+      .comment-form__textarea {
+        font-family: "Montserrat", Helvetica, sans-serif !important;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      id="fw-shortcode-divider-css"
+      href="./assets/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/divider/static/css/styles.css?ver=5.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      crossorigin="anonymous"
+      rel="stylesheet"
+      id="mystickyelements-google-fonts-css"
+      href="css?family=Montserrat%3A400%2C500%2C600%2C700&#038;ver=5.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-css-css"
+      href="./assets/wp-content/plugins/mystickyelements/css/font-awesome.min.css?ver=1.9.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="mystickyelements-front-css-css"
+      href="./assets/wp-content/plugins/mystickyelements/css/mystickyelements-front.min.css?ver=1.9.4"
+      type="text/css"
+      media="all"
+    />
+
+    <style id="mystickyelements-front-css-inline-css" type="text/css">
+      .mystickyelements-fixed,
+      form#stickyelements-form select,
+      form#stickyelements-form input,
+      form#stickyelements-form textarea,
+      .element-contact-form h3 {
+        font-family: "Montserrat";
+      }
+      .mystickyelements-contact-form[dir="rtl"],
+      .mystickyelements-contact-form[dir="rtl"] .element-contact-form h3,
+      .mystickyelements-contact-form[dir="rtl"] form#stickyelements-form input,
+      .mystickyelements-contact-form[dir="rtl"]
+        form#stickyelements-form
+        textarea,
+      .mystickyelements-fixed[dir="rtl"] .mystickyelements-social-icon,
+      .mystickyelements-fixed[dir="rtl"] .mystickyelements-social-text,
+      html[dir="rtl"] .mystickyelements-contact-form,
+      html[dir="rtl"] .mystickyelements-contact-form .element-contact-form h3,
+      html[dir="rtl"]
+        .mystickyelements-contact-form
+        form#stickyelements-form
+        input,
+      html[dir="rtl"]
+        .mystickyelements-contact-form
+        form#stickyelements-form
+        textarea,
+      html[dir="rtl"] .mystickyelements-fixed .mystickyelements-social-icon,
+      html[dir="rtl"] .mystickyelements-fixed .mystickyelements-social-text {
+        font-family: "Montserrat";
+      }
+    </style>
+
+    <script
+      type="text/javascript"
+      src="./assets/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+      id="jquery-migrate-js"
+    ></script>
+    <script type="text/javascript" id="jquery-migrate-js-after">
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Steady Rabbit",
+        "url": "https://steadyrabbit.in/",
+        "logo": "",
+        "sameAs": [
+          "https://www.linkedin.com/company/steady-rabbit-technology",
+          "https://twitter.com/SteadyRabbits",
+          "https://fb.me/Steadyrabbit"
+        ]
+      }
+    </script>
+
+    <link rel="https://api.w.org/" href="./assets/wp-json/index.htm" />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="./assets/wp-json/wp/v2/pages/7187"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="./assets/xmlrpc.php?rsd"
+    />
+    <link
+      rel="wlwmanifest"
+      type="application/wlwmanifest+xml"
+      href="./assets/wp-includes/wlwmanifest.xml"
+    />
+
+    <link rel="shortlink" href="index.htm" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="./assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsteadyrabbit.in%2F"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="./assets/wp-json/oembed/1.0/embed-1?url=https%3A%2F%2Fsteadyrabbit.in%2F&#038;format=xml"
+    />
+
+    <script>
+      document.documentElement.className =
+        document.documentElement.className.replace("no-js", "js");
+    </script>
+
+    <style>
+      .no-js img.lazyload {
+        display: none;
+      }
+      figure.wp-block-image img.lazyloading {
+        min-width: 150px;
+      }
+      .lazyload,
+      .lazyloading {
+        opacity: 0;
+      }
+      .lazyloaded {
+        opacity: 1;
+        transition: opacity 400ms;
+        transition-delay: 0ms;
+      }
+    </style>
+
+    <link
+      rel="apple-touch-icon"
+      href="./assets/wp-content/uploads/2020/12/Fevicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="./assets/wp-content/uploads/2020/12/Fevicon.png"
+      type="image/png"
+    />
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-180740925-1", "auto");
+      ga("send", "pageview");
+    </script>
+
+    <style type="text/css" id="wp-custom-css">
+      .features-2 .features-item {
+        background: #555555 !important;
+      }
+    </style>
   </head>
-  <body>
+  <body
+    class="home page-template page-template-page-home page-template-page-home-php page page-id-7187 nowadays p-multipage menu-mobile-right sticky-header"
+  >
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="wrapper" id="root"></div>
   </body>
 </html>
