@@ -7,11 +7,7 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="header-logo col-xs-9 col-sm-3 align-left">
-              <a
-                className="header-logo__link"
-                href="https://steadyrabbit.in/"
-                rel="home"
-              >
+              <a className="header-logo__link" href="/" rel="home">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="110.698"
@@ -41,7 +37,7 @@ const Header = () => {
                       data-name="Path 95637"
                       d="M13.731-4.807a4.579,4.579,0,0,1-.724,2.53A4.946,4.946,0,0,1,10.9-.495,7.6,7.6,0,0,1,7.613.161,8.032,8.032,0,0,1,2.795-1.208,5.041,5.041,0,0,1,.736-5.221H6.164q.115,1.4,1.242,1.4a.938.938,0,0,0,.633-.207.744.744,0,0,0,.241-.6,1.013,1.013,0,0,0-.587-.909A11.536,11.536,0,0,0,5.8-6.3,17.683,17.683,0,0,1,3.232-7.337,5.133,5.133,0,0,1,1.449-8.9,4.44,4.44,0,0,1,.69-11.592a4.45,4.45,0,0,1,.817-2.7,5.042,5.042,0,0,1,2.231-1.691,8.393,8.393,0,0,1,3.186-.575A7.314,7.314,0,0,1,11.569-15.2a5.118,5.118,0,0,1,1.886,3.91h-5.5Q7.843-12.581,6.9-12.581a.739.739,0,0,0-.529.2.77.77,0,0,0-.207.587.984.984,0,0,0,.587.862,12.063,12.063,0,0,0,1.829.771,19.624,19.624,0,0,1,2.588,1.092,5.311,5.311,0,0,1,1.794,1.587A4.4,4.4,0,0,1,13.731-4.807ZM31.993-16.284v4.048H27.669V0H22.563V-12.236H18.285v-4.048Zm10.166,4.048v2.024h5.06v3.841h-5.06v2.3h5.75V0H37.053V-16.284H47.909v4.048Zm21.8,9.775H58.535L57.73,0H52.371l5.957-16.284h5.888L70.15,0H64.768ZM62.721-6.3l-1.472-4.531L59.777-6.3ZM90.229-8.188A8.472,8.472,0,0,1,89.194-4a7.45,7.45,0,0,1-2.955,2.933A9.044,9.044,0,0,1,81.765,0H74.98V-16.284h6.785a9.288,9.288,0,0,1,4.474,1.035,7.265,7.265,0,0,1,2.955,2.875A8.39,8.39,0,0,1,90.229-8.188ZM81.305-4.554A3.855,3.855,0,0,0,84.042-5.5a3.5,3.5,0,0,0,1.012-2.691,3.5,3.5,0,0,0-1.012-2.691,3.855,3.855,0,0,0-2.737-.943H80.086v7.268Zm30.084-11.73L105.547-4.945V0h-5.106V-4.945L94.6-16.284h5.842l2.6,5.773,2.6-5.773Z"
                       transform="translate(140 84.784)"
-                      fill="#f11b27"
+                      fill="#0075FF"
                     ></path>{" "}
                     <g
                       id="Group_61392"
@@ -73,8 +69,8 @@ const Header = () => {
                               d="M73.431,41.829c-.1-.039-.23-.088-.4-.149A39.531,39.531,0,0,1,54.464,27.171h0a.422.422,0,0,1,.5-.637h0c3.417,1.38,9.389,3.379,11,1.261.977-1.286.02-3.915-1.377-5.735-1.767-2.18-5.6-4.088-9.858-6.053a.426.426,0,0,0-.51.124c-1.944,2.407-4.821,3.49-8.765,3.3-3.674-.172-7.666-1.38-11.527-2.549-3.736-1.131-7.264-2.2-9.675-1.989-5.1.443-6.09,4.388-7.133,8.565a21.685,21.685,0,0,1-2.075,5.885C10.443,37.015.428,37.661,0,37.685c-.231.012,9.949-1.492,14.318-8.772a21.1,21.1,0,0,0,1.98-5.655c1.069-4.28,2.174-8.706,7.878-9.2,2.572-.223,6.176.867,9.992,2.022,7.1,2.149,15.1,4.572,19.271-.334.217-.278.17-.243-.085-.368-4.272-1.956-8.719-3.973-11.772-6.4C38.549,6.564,37.03,4.406,37.5,2.111A2.53,2.53,0,0,1,39.214.186c2.143-.656,4.791.526,7.923,1.9C52,4.227,55.24,6.515,56.228,9.082a5.9,5.9,0,0,1-.992,5.686.422.422,0,0,0,.168.624c4.219,1.956,8,3.875,9.845,6.146a10.4,10.4,0,0,1,1.726,3.355,3.81,3.81,0,0,1-.34,3.413c-1.249,1.644-4.08,1.558-7.84.47a.422.422,0,0,0-.451.661A43.891,43.891,0,0,0,73.431,41.829ZM41.206,1.1c-1.75-.109-2.767,1.022-2.319,2.516,1.281,4.272,7.821,7.791,14.592,10.891l.365.167a.422.422,0,0,0,.519-.138c1.368-1.9,2.039-4.59,1.372-6.187C53.826,3.773,43.123,1.181,41.206,1.1Z"
                               transform="translate(2.321 0)"
                               stroke="#1b1e22"
-                              stroke-miterlimit="10"
-                              stroke-width="1"
+                              strokeMiterlimit="10"
+                              strokeWidth="1"
                             ></path>{" "}
                             <path
                               id="Path_13"
@@ -82,7 +78,7 @@ const Header = () => {
                               d="M63.165,7.642a18.043,18.043,0,0,1-4.05.4c-9.462-.1-18.265-2.077-26.778-3.986C25.8,2.6,19.634,1.213,13.849.873a36.059,36.059,0,0,0-13.84,1.9C-.3,2.863,7.395-.351,13.9.032c5.854.344,12.056,1.734,18.622,3.207,8.471,1.9,17.23,3.863,26.6,3.966a27.136,27.136,0,0,0,3.92-.4c4.312-.623,9.68-1.4,14.421,1.857C77.656,8.8,73,5.436,63.165,7.642Z"
                               transform="translate(0 26.983)"
                               stroke="#1b1e22"
-                              stroke-width="1"
+                              strokeWidth="1"
                             ></path>{" "}
                             <ellipse
                               id="Ellipse_1"
@@ -108,11 +104,7 @@ const Header = () => {
               </div>
               <ul className="menu align-right">
                 <li className="menu__item menu-mobile-logo">
-                  <a
-                    className="header-logo__link"
-                    href="https://steadyrabbit.in/"
-                    rel="home"
-                  >
+                  <a className="header-logo__link" href="/" rel="home">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="110.698"
@@ -142,7 +134,7 @@ const Header = () => {
                           data-name="Path 95637"
                           d="M13.731-4.807a4.579,4.579,0,0,1-.724,2.53A4.946,4.946,0,0,1,10.9-.495,7.6,7.6,0,0,1,7.613.161,8.032,8.032,0,0,1,2.795-1.208,5.041,5.041,0,0,1,.736-5.221H6.164q.115,1.4,1.242,1.4a.938.938,0,0,0,.633-.207.744.744,0,0,0,.241-.6,1.013,1.013,0,0,0-.587-.909A11.536,11.536,0,0,0,5.8-6.3,17.683,17.683,0,0,1,3.232-7.337,5.133,5.133,0,0,1,1.449-8.9,4.44,4.44,0,0,1,.69-11.592a4.45,4.45,0,0,1,.817-2.7,5.042,5.042,0,0,1,2.231-1.691,8.393,8.393,0,0,1,3.186-.575A7.314,7.314,0,0,1,11.569-15.2a5.118,5.118,0,0,1,1.886,3.91h-5.5Q7.843-12.581,6.9-12.581a.739.739,0,0,0-.529.2.77.77,0,0,0-.207.587.984.984,0,0,0,.587.862,12.063,12.063,0,0,0,1.829.771,19.624,19.624,0,0,1,2.588,1.092,5.311,5.311,0,0,1,1.794,1.587A4.4,4.4,0,0,1,13.731-4.807ZM31.993-16.284v4.048H27.669V0H22.563V-12.236H18.285v-4.048Zm10.166,4.048v2.024h5.06v3.841h-5.06v2.3h5.75V0H37.053V-16.284H47.909v4.048Zm21.8,9.775H58.535L57.73,0H52.371l5.957-16.284h5.888L70.15,0H64.768ZM62.721-6.3l-1.472-4.531L59.777-6.3ZM90.229-8.188A8.472,8.472,0,0,1,89.194-4a7.45,7.45,0,0,1-2.955,2.933A9.044,9.044,0,0,1,81.765,0H74.98V-16.284h6.785a9.288,9.288,0,0,1,4.474,1.035,7.265,7.265,0,0,1,2.955,2.875A8.39,8.39,0,0,1,90.229-8.188ZM81.305-4.554A3.855,3.855,0,0,0,84.042-5.5a3.5,3.5,0,0,0,1.012-2.691,3.5,3.5,0,0,0-1.012-2.691,3.855,3.855,0,0,0-2.737-.943H80.086v7.268Zm30.084-11.73L105.547-4.945V0h-5.106V-4.945L94.6-16.284h5.842l2.6,5.773,2.6-5.773Z"
                           transform="translate(140 84.784)"
-                          fill="#f11b27"
+                          fill="#0075FF"
                         ></path>{" "}
                         <g
                           id="Group_61392"
@@ -174,8 +166,8 @@ const Header = () => {
                                   d="M73.431,41.829c-.1-.039-.23-.088-.4-.149A39.531,39.531,0,0,1,54.464,27.171h0a.422.422,0,0,1,.5-.637h0c3.417,1.38,9.389,3.379,11,1.261.977-1.286.02-3.915-1.377-5.735-1.767-2.18-5.6-4.088-9.858-6.053a.426.426,0,0,0-.51.124c-1.944,2.407-4.821,3.49-8.765,3.3-3.674-.172-7.666-1.38-11.527-2.549-3.736-1.131-7.264-2.2-9.675-1.989-5.1.443-6.09,4.388-7.133,8.565a21.685,21.685,0,0,1-2.075,5.885C10.443,37.015.428,37.661,0,37.685c-.231.012,9.949-1.492,14.318-8.772a21.1,21.1,0,0,0,1.98-5.655c1.069-4.28,2.174-8.706,7.878-9.2,2.572-.223,6.176.867,9.992,2.022,7.1,2.149,15.1,4.572,19.271-.334.217-.278.17-.243-.085-.368-4.272-1.956-8.719-3.973-11.772-6.4C38.549,6.564,37.03,4.406,37.5,2.111A2.53,2.53,0,0,1,39.214.186c2.143-.656,4.791.526,7.923,1.9C52,4.227,55.24,6.515,56.228,9.082a5.9,5.9,0,0,1-.992,5.686.422.422,0,0,0,.168.624c4.219,1.956,8,3.875,9.845,6.146a10.4,10.4,0,0,1,1.726,3.355,3.81,3.81,0,0,1-.34,3.413c-1.249,1.644-4.08,1.558-7.84.47a.422.422,0,0,0-.451.661A43.891,43.891,0,0,0,73.431,41.829ZM41.206,1.1c-1.75-.109-2.767,1.022-2.319,2.516,1.281,4.272,7.821,7.791,14.592,10.891l.365.167a.422.422,0,0,0,.519-.138c1.368-1.9,2.039-4.59,1.372-6.187C53.826,3.773,43.123,1.181,41.206,1.1Z"
                                   transform="translate(2.321 0)"
                                   stroke="#1b1e22"
-                                  stroke-miterlimit="10"
-                                  stroke-width="1"
+                                  strokeMiterlimit="10"
+                                  strokeWidth="1"
                                 ></path>{" "}
                                 <path
                                   id="Path_13"
@@ -183,7 +175,7 @@ const Header = () => {
                                   d="M63.165,7.642a18.043,18.043,0,0,1-4.05.4c-9.462-.1-18.265-2.077-26.778-3.986C25.8,2.6,19.634,1.213,13.849.873a36.059,36.059,0,0,0-13.84,1.9C-.3,2.863,7.395-.351,13.9.032c5.854.344,12.056,1.734,18.622,3.207,8.471,1.9,17.23,3.863,26.6,3.966a27.136,27.136,0,0,0,3.92-.4c4.312-.623,9.68-1.4,14.421,1.857C77.656,8.8,73,5.436,63.165,7.642Z"
                                   transform="translate(0 26.983)"
                                   stroke="#1b1e22"
-                                  stroke-width="1"
+                                  strokeWidth="1"
                                 ></path>{" "}
                                 <ellipse
                                   id="Ellipse_1"
@@ -203,66 +195,35 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                  <a
-                    className="menu__link"
-                    href="https://steadyrabbit.in/application-development-services/"
-                    target="_self"
-                  >
+                  <a className="menu__link" href="/services" target="_self">
                     Services
                   </a>
                   <ul className="submenu">
                     <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
                       <a
                         className="submenu__link"
-                        href="https://steadyrabbit.in/product-engineering-services/"
+                        href="/services/mobile-application-development"
                         target="_self"
                       >
-                        Product Engineering
+                        Mobile Application Development
                       </a>
                     </li>
                     <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
                       <a
                         className="submenu__link"
-                        href="https://steadyrabbit.in/custom-mobile-application-development/"
+                        href="/services/devops-solution-and-services"
                         target="_self"
                       >
-                        Mobility
+                        DevOps Solutions & Services
                       </a>
                     </li>
                     <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
                       <a
                         className="submenu__link"
-                        href="https://steadyrabbit.in/cloud-management-and-devops-services/"
+                        href="/services/product-re-engineering"
                         target="_self"
                       >
-                        Cloud and DevOps
-                      </a>
-                    </li>
-                    <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                      <a
-                        className="submenu__link"
-                        href="https://steadyrabbit.in/migration-upgrade-and-product-re-engineering/"
-                        target="_self"
-                      >
-                        Product Re-engineering
-                      </a>
-                    </li>
-                    <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                      <a
-                        className="submenu__link"
-                        href="https://steadyrabbit.in/business-analytics-services/"
-                        target="_self"
-                      >
-                        Analytics
-                      </a>
-                    </li>
-                    <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                      <a
-                        className="submenu__link"
-                        href="https://steadyrabbit.in/mobile-web-application-testing-services/"
-                        target="_self"
-                      >
-                        Testing
+                        Product Re-Engineering
                       </a>
                     </li>
                   </ul>
@@ -270,31 +231,23 @@ const Header = () => {
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
                   <a
                     className="menu__link"
-                    href="https://steadyrabbit.in/success-story/"
+                    href="/success-stories"
                     target="_self"
                   >
                     Success Stories
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a
-                    className="menu__link"
-                    href="https://steadyrabbit.in/why-us/"
-                    target="_self"
-                  >
+                  <a className="menu__link" href="/about-us" target="_self">
                     About Us
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a
-                    className="menu__link"
-                    href="https://steadyrabbit.in/contact-us/"
-                    target="_self"
-                  >
+                  <a className="menu__link" href="/contact-us" target="_self">
                     <p
                       style={{
                         padding: "4px 7px",
-                        border: "1px solid #f11b27",
+                        border: "1px solid #0075FF",
                         fontSize: "14px",
                       }}
                     >
@@ -303,11 +256,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a
-                    className="menu__link"
-                    href="https://steadyrabbit.in/blog/"
-                    target="_self"
-                  >
+                  <a className="menu__link" href="/blog" target="_self">
                     Blog
                   </a>
                 </li>

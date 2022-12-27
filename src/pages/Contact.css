@@ -1,0 +1,61 @@
+/* used in testimonial section */
+
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .slick-dots
+  li
+  button {
+  background: #cccccc;
+}
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .slick-dots
+  li.slick-active
+  button {
+  background: #f11b27;
+}
+#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-prev,
+#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-next {
+  background: #777777;
+  border: 0px solid #777777;
+  color: #ffffff;
+}
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .slick-prev:hover,
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .slick-next:hover {
+  background: #f11b27;
+  border-color: #f11b27;
+  color: #ffffff;
+}
+#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section {
+  padding: 0 50px;
+}
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .tfree-client-rating {
+  color: #ffb900;
+}
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .tfree-client-designation {
+  color: #ffffff;
+}
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .tfree-client-name {
+  color: #ffffff;
+}
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .tfree-client-testimonial {
+  color: #ffffff;
+}
+#sp-testimonial-free-wrapper-3455
+  .sp-testimonial-free-section
+  .tfree-testimonial-title
+  h3 {
+  color: #ffffff;
+}
