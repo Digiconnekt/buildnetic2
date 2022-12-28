@@ -31,7 +31,10 @@ const SuccessStories = () => {
                   <div class="container">
                     <div class="main-1-item__inner align-left">
                       <h2 class="main-1-item__title">
-                        <span class="main-1-item__title_part_1">
+                        <span
+                          class="main-1-item__title_part_1"
+                          style={{ color: "#0a0039" }}
+                        >
                           The Mores of our Journey
                         </span>
                         <span class="theme-color main-1-item__title_part_2">
@@ -71,7 +74,10 @@ const SuccessStories = () => {
                   <div class="container">
                     <div class="main-1-item__inner align-left">
                       <h2 class="main-1-item__title">
-                        <span class="main-1-item__title_part_1">
+                        <span
+                          class="main-1-item__title_part_1"
+                          style={{ color: "#0a0039" }}
+                        >
                           The Mores of our Journey
                         </span>
                         <span class="theme-color main-1-item__title_part_2">
@@ -90,7 +96,7 @@ const SuccessStories = () => {
 
           {/* success stories start */}
           <section
-            class="section section-white section-2 pb-0 pt-0 pb-0"
+            class="section section-white section-2 pt-0"
             id="success story"
           >
             <div class="container align-left">
@@ -1110,22 +1116,28 @@ const SuccessStories = () => {
           </section>
           {/* success stories end */}
 
-          {/* dont settle start */}
-          <div class="section section-white section-2 cta" id="cta">
-            <div class="align-left">
-              <div class="s-get-it-2">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 align-middle">
-                      <h5 class="s-get-it-2__title">Don't Settle for Less!</h5>
+          {/* get in touch start */}
+          <div className="section pt-0 pb-0" id="cta">
+            <div className="align-left">
+              <div className="s-get-it-2">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xs-12 col-sm-12 col-md-8 align-middle">
+                      <h5 className="s-get-it-2__title">
+                        Get In Touch <br /> Be a part of the solution!
+                      </h5>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 align-middle">
+                    <div className="col-xs-12 col-sm-12 col-md-4 align-middle">
                       <a
-                        href="../contact-us/index.htm"
+                        href="contact-us/index.htm"
                         target="_blank"
-                        class="btn-a btn-a_fill_theme"
+                        className="btn-a btn-a_fill_theme"
+                        style={{
+                          borderRadius: "5px",
+                          borderColor: "#0075ff",
+                        }}
                       >
-                        Schedule a call today!
+                        Get quote
                       </a>
                     </div>
                   </div>
@@ -1133,13 +1145,10 @@ const SuccessStories = () => {
               </div>
             </div>
           </div>
-          {/* dont settle end */}
+          {/* get in touch end */}
 
           {/* why us start */}
-          <section
-            class="section section-white section-2 pt-0 pb-0"
-            id="Why us"
-          >
+          <section class="section section-white section-2 pb-0" id="Why us">
             <div class="container align-left">
               <div class="row">
                 <div class="col-xs-12 col-sm-12">
@@ -1165,7 +1174,7 @@ const SuccessStories = () => {
                   </noscript>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                  <div class="info-box-3" style={{}}>
+                  <div class="info-box-3">
                     <div class="info-box-3-item">
                       <img
                         alt=""
@@ -1180,12 +1189,20 @@ const SuccessStories = () => {
                           alt=""
                         />
                       </noscript>
-
-                      <span class="info-box-3-item__title">
+                      <span
+                        class="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
                         Specialist of Scalable Apps
                       </span>
                       <div class="info-box-3-item__description">
-                        <p style={{ paddingLeft: "10px", marginTop: "-25px" }}>
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
                           Managed 500,000 concurrent users.
                         </p>
                       </div>
@@ -1205,11 +1222,20 @@ const SuccessStories = () => {
                         />
                       </noscript>
 
-                      <span class="info-box-3-item__title">
+                      <span
+                        class="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
                         Your journey partner
                       </span>
                       <div class="info-box-3-item__description">
-                        <p style={{ paddingLeft: "10px", marginTop: "-25px" }}>
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
                           Help build technology &amp; businesses.
                         </p>
                       </div>
@@ -1229,11 +1255,20 @@ const SuccessStories = () => {
                         />
                       </noscript>
 
-                      <span class="info-box-3-item__title">
+                      <span
+                        class="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
                         Deliver on time
                       </span>
                       <div class="info-box-3-item__description">
-                        <p style={{ paddingLeft: "10px", marginTop: "-25px" }}>
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
                           We promise. We deliver.
                         </p>
                       </div>
@@ -1253,20 +1288,30 @@ const SuccessStories = () => {
                         />
                       </noscript>
 
-                      <span class="info-box-3-item__title">
+                      <span
+                        class="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
                         Humanize designs
                       </span>
                       <div class="info-box-3-item__description">
-                        <p style={{ paddingLeft: "10px", marginTop: "-25px" }}>
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
                           Focus on user acquisition and retention.
                         </p>
                       </div>
                     </div>
                     <div class="info-box-3-item">
                       <a
-                        href="../contact-us/index.htm"
+                        href="#"
                         target="_blank"
-                        class="btn-a btn-a_color_theme btn-a_size_small"
+                        class="btn-a btn-a_fill_theme"
+                        style={{ borderRadius: "5px" }}
                       >
                         Talk to our Technical Expert
                       </a>
@@ -1305,6 +1350,10 @@ const SuccessStories = () => {
                             href="../contact-us/index.htm"
                             target="_blank"
                             class="btn-a btn-a_color_black btn-a_size_large"
+                            style={{
+                              borderRadius: "5px",
+                              transition: "all 0.25s ease",
+                            }}
                           >
                             Schedule a call today!
                           </a>
@@ -1352,6 +1401,10 @@ const SuccessStories = () => {
                               href="../contact-us/index.htm"
                               target="_blank"
                               class="btn-a btn-a_color_black btn-a_size_large"
+                              style={{
+                                borderRadius: "5px",
+                                transition: "all 0.25s ease",
+                              }}
                             >
                               Schedule a call today!
                             </a>
@@ -1365,135 +1418,6 @@ const SuccessStories = () => {
             </div>
           </div>
           {/* Question our Competence end */}
-
-          {/* awards start */}
-          <section class="section section-lightgray section-2 pb-0" id="awards">
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title">Awards &amp; Recognitions</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-3 equal-cols no-padding">
-                  <p>
-                    <a
-                      href="https://clutch.co/profile/steady-rabbit-technology"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <img
-                        alt=""
-                        width="250"
-                        height="150"
-                        data-src="./assets/wp-content/uploads/2021/03/Cluth2.png"
-                        class="aligncenter size-full wp-image-5092 lazyload"
-                        src="./assets/wp-content/uploads/2021/03/Cluth2.png"
-                      />
-                      <noscript>
-                        <img
-                          class="aligncenter size-full wp-image-5092"
-                          src="../assets/wp-content/uploads/2021/03/Cluth2.png"
-                          alt=""
-                          width="250"
-                          height="150"
-                        />
-                      </noscript>
-                    </a>
-                  </p>
-                  <p>
-                    <img
-                      alt=""
-                      width="250"
-                      height="150"
-                      data-src="./assets/wp-content/uploads/2021/03/ManiestwebDev.png"
-                      class="aligncenter size-full wp-image-5094 lazyload"
-                      src="./assets/wp-content/uploads/2021/03/ManiestwebDev.png"
-                    />
-                    <noscript>
-                      <img
-                        class="aligncenter size-full wp-image-5094"
-                        src="../assets/wp-content/uploads/2021/03/ManiestwebDev.png"
-                        alt=""
-                        width="250"
-                        height="150"
-                      />
-                    </noscript>
-                  </p>
-                </div>
-                <div class="col-xs-12 col-sm-3 equal-cols no-padding">
-                  <p>
-                    <a
-                      href="https://www.goodfirms.co/company/steady-rabbit-technology-pvt-ltd"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <img
-                        alt=""
-                        width="250"
-                        height="150"
-                        data-src="./assets/wp-content/uploads/2021/03/GoodFirm.png"
-                        class="aligncenter size-full wp-image-5093 lazyload"
-                        src="./assets/wp-content/uploads/2021/03/GoodFirm.png"
-                      />
-                      <noscript>
-                        <img
-                          class="aligncenter size-full wp-image-5093"
-                          src="../assets/wp-content/uploads/2021/03/GoodFirm.png"
-                          alt=""
-                          width="250"
-                          height="150"
-                        />
-                      </noscript>
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href="https://twitter.com/letsventurein/status/1141241616516075520?lang=en"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <img
-                        alt=""
-                        width="250"
-                        height="150"
-                        data-src="./assets/wp-content/uploads/2021/03/LetsVenture.png"
-                        class="aligncenter size-full wp-image-5095 lazyload"
-                        src="./assets/wp-content/uploads/2021/03/LetsVenture.png"
-                      />
-                      <noscript>
-                        <img
-                          class="aligncenter size-full wp-image-5095"
-                          src="../assets/wp-content/uploads/2021/03/LetsVenture.png"
-                          alt=""
-                          width="250"
-                          height="150"
-                        />
-                      </noscript>
-                    </a>
-                  </p>
-                </div>
-                <div class="col-xs-12 col-sm-6 equal-cols no-padding">
-                  <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/Awards-Recognitions.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Awards-Recognitions.png"
-                    class="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  />
-                  <noscript>
-                    <img
-                      src="../assets/wp-content/uploads/2021/09/Awards-Recognitions.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Awards-Recognitions.png"
-                    />
-                  </noscript>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* awards end */}
         </div>
       </div>
     </>

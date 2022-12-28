@@ -4645,7 +4645,7 @@ section {
 .menu-toggle:hover .menu-toggle__inner,
 .menu-toggle:hover .menu-toggle__inner:after,
 .menu-toggle:hover .menu-toggle__inner:before {
-  background-color: #555555;
+  background-color: #0075ff;
 }
 .p-asidemenupage.menu-mobile .row {
   margin-left: auto;
@@ -4920,13 +4920,13 @@ section {
   font-size: 6vmin;
   text-transform: none;
   margin-top: 15%;
-  color: #555555;
+  color: #0075ff;
   font-weight: 700;
 }
 .main-1-item__title_thin {
   font-weight: 700;
   margin-left: -9px;
-  color: #555555;
+  color: #0075ff;
 }
 .main-1-item__title_part_1 {
   display: block;
@@ -4939,7 +4939,7 @@ section {
   font-weight: 600;
   font-size: 24px;
   font-size: 2.6vmin;
-  color: #555555;
+  color: #0075ff;
 }
 @media (max-width: 767px) {
   .main-1-item__subtitle {
@@ -5920,13 +5920,13 @@ section {
 .s-get-it__title {
   font-size: 36px;
   margin-bottom: 16px;
-  color: #555555;
+  color: #0075ff;
   text-align: center;
 }
 .s-get-it-2 {
   position: relative;
   padding: 50px 0 20px;
-  background: #555555 !important;
+  background: #0a0039 !important;
 }
 .s-get-it-2__title {
   font-size: 28px;
@@ -6360,7 +6360,7 @@ section {
 .counters.section-lightgray .counters-item,
 .counters.section-white .counters-item {
   color: #333;
-  border-color: #f6f6f6;
+  border-color: #caecff;
 }
 .counters.section-lightgray .counters-item__description,
 .counters.section-white .counters-item__description {
@@ -6573,7 +6573,7 @@ section {
   transform: scale(1.15);
 }
 .info-box-3-item__title {
-  color: #555555;
+  color: #0075ff;
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 600;
@@ -6581,7 +6581,7 @@ section {
 }
 .info-box-3-item__description {
   padding-left: 70px;
-  color: #555555;
+  color: #0075ff;
   font-size: 16px;
   font-weight: 300;
 }
@@ -7502,7 +7502,7 @@ section {
   width: 80px;
 }
 .section-white .section__title {
-  color: #555555;
+  color: #0075ff;
 }
 .section-white .section__title:after {
   background: #000;
@@ -7511,7 +7511,7 @@ section {
   color: #000;
 }
 .section-lightgray {
-  background: #f6f6f6;
+  background: #caecff;
 }
 .section-lightgray .section__title {
   color: #212121;
@@ -7862,8 +7862,8 @@ section {
   font-weight: 400;
 }
 .btn-a_color_black {
-  color: #555555;
-  border-color: #555555;
+  color: #0075ff;
+  border-color: #0075ff;
   text-transform: none;
 }
 .btn-a_color_black:focus,
@@ -8525,7 +8525,7 @@ section {
   left: 0;
   width: 100px;
   padding: 40px 10px;
-  background: #555555 !important;
+  background: #0075ff !important;
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
@@ -11126,7 +11126,7 @@ button.pswp__button--zoom:hover {
   width: 50%;
 }
 .woocommerce-cart-aside {
-  background: #f6f6f6;
+  background: #caecff;
 }
 .woocommerce-cart-aside h2 {
   position: relative;

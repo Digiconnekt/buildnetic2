@@ -38,7 +38,10 @@ const About = () => {
                     <div className="container">
                       <div className="main-1-item__inner align-left">
                         <h2 className="main-1-item__title">
-                          <span className="main-1-item__title_part_1">
+                          <span
+                            className="main-1-item__title_part_1"
+                            style={{ color: "#0a0039" }}
+                          >
                             Limitless are the possibilities
                           </span>{" "}
                           <span className="theme-color main-1-item__title_part_2">
@@ -84,7 +87,10 @@ const About = () => {
                     <div className="container">
                       <div className="main-1-item__inner align-left">
                         <h2 className="main-1-item__title">
-                          <span className="main-1-item__title_part_1">
+                          <span
+                            className="main-1-item__title_part_1"
+                            style={{ color: "#0a0039" }}
+                          >
                             Limitless are the possibilities
                           </span>{" "}
                           <span className="theme-color main-1-item__title_part_2">
@@ -105,13 +111,15 @@ const About = () => {
 
           {/* who we start */}
           <section
-            className="section section-white section-2 features-2 pt-0 pb-0"
+            className="section section-white section-2 features-2 pt-0"
             id="Who we are"
           >
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Who we are</h3>
+                  <h3 className="section__title" style={{ color: "#0075ff" }}>
+                    Who we are
+                  </h3>
                 </div>
               </div>
             </div>
@@ -136,7 +144,7 @@ const About = () => {
                     <i
                       className="fa fa-circle"
                       style={{
-                        color: "#555555",
+                        color: "#0a0039",
                         marginLeft: "5px",
                         fontSize: "10px",
                       }}
@@ -151,7 +159,7 @@ const About = () => {
                     <i
                       className="fa fa-circle"
                       style={{
-                        color: "#555555",
+                        color: "#0a0039",
                         marginLeft: "5px",
                         fontSize: "10px",
                       }}
@@ -168,7 +176,7 @@ const About = () => {
                     <i
                       className="fa fa-circle"
                       style={{
-                        color: "#555555",
+                        color: "#0a0039",
                         marginLeft: "5px",
                         fontSize: "10px",
                       }}
@@ -183,7 +191,7 @@ const About = () => {
                     <i
                       className="fa fa-circle"
                       style={{
-                        color: "#555555",
+                        color: "#0a0039",
                         marginLeft: "5px",
                         fontSize: "10px",
                       }}
@@ -198,7 +206,7 @@ const About = () => {
                     <i
                       className="fa fa-circle"
                       style={{
-                        color: "#555555",
+                        color: "#0a0039",
                         marginLeft: "5px",
                         fontSize: "10px",
                       }}
@@ -231,7 +239,9 @@ const About = () => {
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Why Choose us</h3>
+                  <h3 className="section__title" style={{ color: "#0075ff" }}>
+                    Why Choose us
+                  </h3>
                 </div>
               </div>
             </div>
@@ -258,7 +268,7 @@ const About = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -275,7 +285,7 @@ const About = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -291,7 +301,7 @@ const About = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -308,7 +318,7 @@ const About = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -324,7 +334,7 @@ const About = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -343,24 +353,32 @@ const About = () => {
           </section>
           {/* why us end */}
 
-          {/* dont settle start */}
-          <div className="section section-white section-2 pt-0 pb-0" id="cta">
-            <div className=" align-left">
-              <div className="s-get-it-2">
+          {/* get in touch start */}
+          <div className="section pt-0 pb-0" id="cta">
+            <div className="align-left">
+              <div className="s-get-it-2" style={{ paddingBottom: "35px" }}>
                 <div className="container">
                   <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-8 align-middle">
                       <h5 className="s-get-it-2__title">
-                        Don't Settle for Less!
+                        Get In Touch <br />{" "}
+                        <span style={{ color: "#0075ff" }}>
+                          {" "}
+                          Be a part of the solution!
+                        </span>
                       </h5>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-4 align-middle">
                       <a
-                        href="/contact-us/"
+                        href="contact-us/index.htm"
                         target="_blank"
                         className="btn-a btn-a_fill_theme"
+                        style={{
+                          borderRadius: "5px",
+                          borderColor: "#0075ff",
+                        }}
                       >
-                        Schedule a call today!
+                        Get quote
                       </a>
                     </div>
                   </div>
@@ -368,14 +386,16 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* dont settle end */}
+          {/* get in touch end */}
 
           {/* our team start */}
           <section className="section section-white section-2 pb-0" id="Team">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Our Team</h3>
+                  <h3 className="section__title" style={{ color: "#0075ff" }}>
+                    Our Team
+                  </h3>
                 </div>
               </div>
             </div>
@@ -490,11 +510,18 @@ const About = () => {
           {/* our team end */}
 
           {/* FAQ start */}
-          <section className="section section-white section-2 pb-0" id="faq">
+          <section className="section section-white section-2" id="FAQs">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Frequently Asked Questions</h3>
+                  <h3
+                    className="section__title"
+                    style={{
+                      color: "#0075ff",
+                    }}
+                  >
+                    Frequently Asked Questions
+                  </h3>
                 </div>
               </div>
             </div>
@@ -507,75 +534,26 @@ const About = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
-                    Share some of the services that you offer for which clients
-                    approach you the most for?
+                    How can Steady Rabbit’s staff augmentation services help my
+                    business?
                   </div>
                   <div className="accordion__content">
                     <p>
-                      Our key{" "}
-                      <a
-                        href="/application-development-services/"
-                        target="_blank"
-                      >
-                        Application Development services
-                      </a>{" "}
-                      include{" "}
-                      <a href="/product-engineering-services/" target="_blank">
-                        Product Engineering
-                      </a>
-                      ,{" "}
-                      <a
-                        href="/custom-mobile-application-development/"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        Mobility
-                      </a>
-                      ,{" "}
-                      <a
-                        href="/cloud-management-and-devops-services/"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        DevOps
-                      </a>
-                      ,{" "}
-                      <a
-                        href="/business-analytics-services/"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        Analytics
-                      </a>
-                      ,{" "}
-                      <a
-                        href="/migration-upgrade-and-product-re-engineering/"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        Product re-engineering
-                      </a>{" "}
-                      and{" "}
-                      <a
-                        href="/mobile-web-application-testing-services/"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        Testing
-                      </a>
-                      . We offer both Web and{" "}
-                      <a
-                        href="/custom-mobile-application-development/"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        Mobile Application
-                      </a>{" "}
-                      development as well as custom application development. We
-                      are best suited for the Small and Medium Enterprise
-                      clients including Start-ups who are looking for timely
-                      delivery within specified budgets.
+                      Lack of access to good talent can often be a hindrance to
+                      the growth of your business. With Steady Rabbit’s staff
+                      augmentation services, you can tap into our large pool of
+                      highly experienced developers. Further, staff augmentation
+                      is especially suitable for technology startups seeking to
+                      scale up quickly, in addition to being a flexible option
+                      for supplementing your team for short-term projects.
+                      Through staff augmentation, it is possible for you to
+                      access the best talent at significantly lower costs and
+                      complete the recruitment process in a much shorter time
+                      period compared to direct hiring.
                     </p>
                   </div>
                   <div
@@ -583,27 +561,24 @@ const About = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
-                    How to choose an application development services company?
+                    What kind of professional experience do your developers
+                    have?
                   </div>
                   <div className="accordion__content">
                     <p>
-                      Choosing the{" "}
-                      <a href="/" rel="noopener" target="_blank">
-                        right application development services company
-                      </a>{" "}
-                      for your project or idea is like choosing a crew to go
-                      sailing. Before making any decisions, double check the
-                      contractor with whom you will work with over the next few
-                      months, or sometimes even years, and more importantly, may
-                      decide on your future success. The key is to find out
-                      details of one of the most critical project that the
-                      company has delivered. This will give you a fair idea of
-                      the company’s capability. Another important point is
-                      professionalism, you want to have a reliable relationship
-                      with the application development services firm. Now that
-                      your shortlist becomes shorter, proceed to the next step
-                      in your verification process.
+                      Our developers have an average experience of more than 5
+                      years which allows you to leverage their competence,
+                      skills and knowledge. Our engineering team has worked on
+                      several complex projects of all business sizes and types.
+                      Our engineers always keep themselves updated with the
+                      latest technology trends and build advanced business
+                      solutions. Due to this, you can be assured of always
+                      getting timely deliverables without compromising the
+                      quality of the work.
                     </p>
                   </div>
                   <div
@@ -611,19 +586,19 @@ const About = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
-                    What are the biggest benefits of outsourcing to an
-                    application development services company?
+                    How long does it take to on-board a team?
                   </div>
                   <div className="accordion__content">
                     <p>
-                      Outsourcing application development can be a part of
-                      corporate strategy. Adopt planning directed to your core
-                      business, but that seek more agility, quality, and
-                      specialization in all processes. Besides the economies of
-                      scale, time, and cost control, you can optimize time for
-                      managers and professionals and expand your business in a
-                      structured way.
+                      Due to our exceptional bench strength, we are able to
+                      mobilise resources in a short span of time. Typically 15 –
+                      30 days, it may vary based on your requirements. – and We
+                      ensure that your team starts contributing to your business
+                      as quickly as possible.
                     </p>
                   </div>
                   <div
@@ -631,25 +606,20 @@ const About = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
-                    How to reduce application development cost?
+                    How long is the ramp down period?
                   </div>
                   <div className="accordion__content">
                     <p>
-                      Application development cost can be greatly optimised by
-                      following Agile methodology. Not only saving costs but
-                      improving the quality of work can be done by, using
-                      planning techniques prevents teams from getting lost due
-                      to unclear requirements and wrong assumptions, focusing on
-                      deliverables in the context of impacts they are supposed
-                      to achieve. It helps to reduce waste by preventing
-                      over-engineered solutions.
-                    </p>
-                    <p>
-                      Agile project management is necessary due to the
-                      complexity of various application projects. Agile
-                      principles focus on improving its teams, processes, and
-                      product.
+                      As a project nears completion, there is an expected
+                      decline in workload and this phase is known as the ramp
+                      down period. At Steady Rabbit, we provide flexibility by
+                      offering shorter ramp down times, typically lasting
+                      between 30-60 days, depending on the kind of staff
+                      augmentation services you choose to avail.
                     </p>
                   </div>
                   <div
@@ -657,20 +627,123 @@ const About = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
-                    What are your company’s business model–in-house team or
-                    third party vendors/ outsourcing?
+                    What are the approximate costs of your staff augmentation
+                    services?
                   </div>
                   <div className="accordion__content">
                     <p>
-                      We have an in-house team. It allows us to work cohesively
-                      as a single group. Each team member is well versed with
-                      the agile methodology, which helps to cater to the most
-                      demanding situation of a business. Further, we believe in
-                      delivering quick and effective solutions. Having an in
-                      house team makes our business and technical processes
-                      seamless, both in terms of intra and inter team
-                      collaboration.
+                      Our goal at Steady Rabbit is to provide your business with
+                      the best of talent at competitive prices. The hourly rates
+                      starting as low as $15. Junior developer will cost you
+                      around $2,400/month. For an experienced resource with 4
+                      years + ex, will cost $3000 per month. We assure you
+                      minimum 50% savings – in some cases, even up to 60% – on
+                      hiring costs relative to developers of similar calibre in
+                      the USA. Contact us with your requirements and we will get
+                      back to you with a detailed quote within 24 hours.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    How does the hiring process work?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      The hiring process of our staff augmentation services is
+                      divided into three stages.
+                      <br />
+                      <i
+                        className="fa fa-circle"
+                        style={{ fontSize: "10px", color: "#55555" }}
+                      ></i>
+                       In the first stage, the client needs to establish the
+                      level of experience, abilities and qualifications of the
+                      developers required, as well as the number of developers
+                      needed. This stage can be considered similar to creating a
+                      comprehensive job description.
+                      <br />
+                      <i
+                        className="fa fa-circle"
+                        style={{ fontSize: "10px", color: "#55555" }}
+                      ></i>
+                       The second stage involves combing through our database
+                      for developers that match the skills and profile that the
+                      client is looking for. We create and share a shortlist of
+                      candidates that suits your requirements.
+                      <br />
+                      <i
+                        className="fa fa-circle"
+                        style={{ fontSize: "10px", color: "#55555" }}
+                      ></i>
+                       The final stage involves interviews with the candidates
+                      and after the approval of the client, the recruitment
+                      process is finalized. After completion of contractual
+                      formalities, the hired engineers start working with you as
+                      per the mutual agreed date.
+                    </p>
+                    <p>
+                      In rare cases if in case you are not satisfied with a
+                      specific engineer, we provide replacement flexibility
+                      within a period of 45 days. The hiring process can be
+                      completed in 15-30 days, providing an advantage over
+                      on-site company hiring which often takes several months.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    What are the key technology stacks that you serve?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Our engineers specialize in Frontend and UX ( React.js ,
+                      React Native, Vue, Angular, Flutter, Android , iOS etc.),
+                      Backend ( Java , Python , Node.js , PHP), Cloud &amp;
+                      DevOps (AWS, Jenkins, Docker etc.) and more. Thus, Steady
+                      Rabbit’s staff augmentation services help you customize
+                      your team based on your business requirements.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    How will I manage a remote team based in India?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Remote management across different time zones can seem
+                      like a daunting task but at Steady Rabbit, we dedicate
+                      ourselves to making sure that the process is as smooth and
+                      efficient. We ensure that our team of developers has an
+                      overlapping hours so you can have a daily scrum meeting.
+                      You can keep tabs on deliverables through regular
+                      performance monitoring. All the developers are fluent in
+                      English so you will have no trouble in communication.
+                      Further, we provide you with 24x7 support services to look
+                      into any issues you might be facing with utmost immediacy.
                     </p>
                   </div>
                 </div>
@@ -680,18 +753,20 @@ const About = () => {
           {/* FAQ end */}
 
           {/* awards start */}
-          <section class="section section-lightgray section-2 pb-0" id="awards">
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title">Awards &amp; Recognitions</h3>
+          <section className="section section-lightgray section-2" id="awards">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12">
+                  <h3 className="section__title" style={{ color: "#0075ff" }}>
+                    Awards &amp; Recognitions
+                  </h3>
                 </div>
               </div>
             </div>
 
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-3 equal-cols no-padding">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-3 equal-cols no-padding">
                   <p>
                     <a
                       href="https://clutch.co/profile/steady-rabbit-technology"
@@ -702,14 +777,14 @@ const About = () => {
                         alt=""
                         width="250"
                         height="150"
-                        data-src="./assets/wp-content/uploads/2021/03/Cluth2.png"
-                        class="aligncenter size-full wp-image-5092 lazyload"
-                        src="./assets/wp-content/uploads/2021/03/Cluth2.png"
+                        data-src="/assets/wp-content/uploads/2021/03/Cluth2.png"
+                        className="aligncenter size-full wp-image-5092 lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          class="aligncenter size-full wp-image-5092"
-                          src="../assets/wp-content/uploads/2021/03/Cluth2.png"
+                          className="aligncenter size-full wp-image-5092"
+                          src="./assets/wp-content/uploads/2021/03/Cluth2.png"
                           alt=""
                           width="250"
                           height="150"
@@ -722,14 +797,14 @@ const About = () => {
                       alt=""
                       width="250"
                       height="150"
-                      data-src="./assets/wp-content/uploads/2021/03/ManiestwebDev.png"
-                      class="aligncenter size-full wp-image-5094 lazyload"
-                      src="./assets/wp-content/uploads/2021/03/ManiestwebDev.png"
+                      data-src="/assets/wp-content/uploads/2021/03/ManiestwebDev.png"
+                      className="aligncenter size-full wp-image-5094 lazyload"
+                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     />
                     <noscript>
                       <img
-                        class="aligncenter size-full wp-image-5094"
-                        src="../assets/wp-content/uploads/2021/03/ManiestwebDev.png"
+                        className="aligncenter size-full wp-image-5094"
+                        src="./assets/wp-content/uploads/2021/03/ManiestwebDev.png"
                         alt=""
                         width="250"
                         height="150"
@@ -737,7 +812,7 @@ const About = () => {
                     </noscript>
                   </p>
                 </div>
-                <div class="col-xs-12 col-sm-3 equal-cols no-padding">
+                <div className="col-xs-12 col-sm-3 equal-cols no-padding">
                   <p>
                     <a
                       href="https://www.goodfirms.co/company/steady-rabbit-technology-pvt-ltd"
@@ -748,14 +823,14 @@ const About = () => {
                         alt=""
                         width="250"
                         height="150"
-                        data-src="./assets/wp-content/uploads/2021/03/GoodFirm.png"
-                        class="aligncenter size-full wp-image-5093 lazyload"
-                        src="./assets/wp-content/uploads/2021/03/GoodFirm.png"
+                        data-src="/assets/wp-content/uploads/2021/03/GoodFirm.png"
+                        className="aligncenter size-full wp-image-5093 lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          class="aligncenter size-full wp-image-5093"
-                          src="../assets/wp-content/uploads/2021/03/GoodFirm.png"
+                          className="aligncenter size-full wp-image-5093"
+                          src="./assets/wp-content/uploads/2021/03/GoodFirm.png"
                           alt=""
                           width="250"
                           height="150"
@@ -773,14 +848,14 @@ const About = () => {
                         alt=""
                         width="250"
                         height="150"
-                        data-src="./assets/wp-content/uploads/2021/03/LetsVenture.png"
-                        class="aligncenter size-full wp-image-5095 lazyload"
-                        src="./assets/wp-content/uploads/2021/03/LetsVenture.png"
+                        data-src="https://steadyrabbit.in/wp-content/uploads/2021/03/LetsVenture.png"
+                        className="aligncenter size-full wp-image-5095 lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          class="aligncenter size-full wp-image-5095"
-                          src="../assets/wp-content/uploads/2021/03/LetsVenture.png"
+                          className="aligncenter size-full wp-image-5095"
+                          src="./assets/wp-content/uploads/2021/03/LetsVenture.png"
                           alt=""
                           width="250"
                           height="150"
@@ -789,17 +864,17 @@ const About = () => {
                     </a>
                   </p>
                 </div>
-                <div class="col-xs-12 col-sm-6 equal-cols no-padding">
+                <div className="col-xs-12 col-sm-6 equal-cols no-padding">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/Awards-Recognitions.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Awards-Recognitions.png"
-                    class="lazyload"
+                    alt="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
+                    data-src="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
+                    className="lazyload"
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                   />
                   <noscript>
                     <img
-                      src="../assets/wp-content/uploads/2021/09/Awards-Recognitions.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Awards-Recognitions.png"
+                      src="wp-content/uploads/2022/03/Awards-Recognitions.png"
+                      alt="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
                     />
                   </noscript>
                 </div>

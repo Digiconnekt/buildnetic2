@@ -31,7 +31,7 @@ const Home = () => {
                       </span> */}
                       <span
                         className="theme-color main-1-item__title_part_1"
-                        style={{ color: "#000" }}
+                        style={{ color: "#0a0039 " }}
                       >
                         Compiling your ideas to
                       </span>
@@ -120,7 +120,7 @@ const Home = () => {
 
           {/* we provide start */}
           <div
-            className="section section-lightgray section-2 pb-0"
+            className="section section-lightgray section-2"
             id="ENGINEERING TEAM"
           >
             <div className="container align-left">
@@ -131,6 +131,8 @@ const Home = () => {
                       fontSize: "36px",
                       textTransform: "unset",
                       fontWeight: "bold",
+                      color: "#0075ff",
+                      textAlign: "center",
                     }}
                   >
                     We provide a team of technocrats for your organization
@@ -138,7 +140,6 @@ const Home = () => {
                   <hr
                     style={{
                       width: "140px",
-                      float: "left",
                       color: "#0075FF",
                       height: "3px",
                       backgroundColor: "#0075FF",
@@ -168,7 +169,12 @@ const Home = () => {
                             />
                           </noscript>
                         </p>
-                        <h5 className="features-item__title">Experts</h5>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Experts
+                        </h5>
                         <div className="features-item__text">
                           <p>
                             Work with our certified experts, who have a wide
@@ -198,7 +204,10 @@ const Home = () => {
                             />
                           </noscript>
                         </p>
-                        <h5 className="features-item__title">
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
                           Pocket-Friendly
                         </h5>
                         <div className="features-item__text">
@@ -231,7 +240,12 @@ const Home = () => {
                             />
                           </noscript>
                         </p>
-                        <h5 className="features-item__title">Transparency</h5>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Transparency
+                        </h5>
                         <div className="features-item__text">
                           <p>
                             Creating a competitive advantage from better
@@ -263,7 +277,12 @@ const Home = () => {
                             />
                           </noscript>
                         </p>
-                        <h5 className="features-item__title">Availability</h5>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Availability
+                        </h5>
                         <div className="features-item__text">
                           <p>
                             To ensure a quicker ramp-up and our capacity to meet
@@ -279,101 +298,9 @@ const Home = () => {
           </div>
           {/* we provide end */}
 
-          {/* share requirement start */}
-          <div className="section pt-0 pb-0" id="cta">
-            <div className="align-left">
-              <div className="s-get-it-2" style={{ paddingBottom: "50px" }}>
-                <div className="container" style={{ textAlign: "center" }}>
-                  <h5 className="s-get-it-2__title">
-                    Build a website to help your businesses to grow wiser,
-                    stronger, and faster.
-                  </h5>
-                  <h5
-                    className="s-get-it-2__title"
-                    style={{ color: "#0075ff" }}
-                  >
-                    Choose Buildnetic Choose Revolution.
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* share requirement end */}
-
-          {/* our clients start */}
-          <div
-            className="section section-white section-2 pb-0"
-            id="Our Client"
-            style={{
-              backgroundImage:
-                "url(./assets/wp-content/uploads/2022/06/Background.png)",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <div className="container align-center">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <h1
-                    style={{
-                      fontSize: "36px",
-                      textTransform: "unset",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
-                    Our Clients
-                  </h1>
-                  <hr
-                    style={{
-                      width: "140px",
-                      float: "center",
-                      color: "#0075FF",
-                      height: "3px",
-                      backgroundColor: "#0075FF",
-                      borderWidth: "0px",
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div className="row">
-                <div className="col-xs-12 col-sm-6">
-                  <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2022/06/USA-UK-clients-1.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2022/06/USA-UK-clients-1.png"
-                    className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  />
-                  <noscript>
-                    <img
-                      src="wp-content/uploads/2022/06/USA-UK-clients-1.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2022/06/USA-UK-clients-1.png"
-                    />
-                  </noscript>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2022/06/Indian-Clients-1.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2022/06/Indian-Clients-1.png"
-                    className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  />
-                  <noscript>
-                    <img
-                      src="wp-content/uploads/2022/06/Indian-Clients-1.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2022/06/Indian-Clients-1.png"
-                    />
-                  </noscript>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* our clients end */}
-
           {/* choose the right start */}
           <div
-            className="section section-white section-2 pb-0"
+            className="section section-white section-2"
             id="engagement model"
           >
             <div className="container align-center">
@@ -385,6 +312,7 @@ const Home = () => {
                       textAlign: "center",
                       fontSize: "36px",
                       fontWeight: "bold",
+                      color: "#0075FF",
                     }}
                   >
                     Choose the right engagement model
@@ -408,12 +336,23 @@ const Home = () => {
                     <table>
                       <tbody style={{ color: "#000" }}>
                         <tr>
-                          <td width="20%"> </td>
                           <td
                             style={{
                               textAlign: "center",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                            }}
+                            width="20%"
+                          >
+                             
+                          </td>
+                          <td
+                            style={{
+                              textAlign: "center",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
                             }}
                             width="20%"
                           >
@@ -422,8 +361,9 @@ const Home = () => {
                           <td
                             style={{
                               textAlign: "center",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
                             }}
                             width="20%"
                           >
@@ -432,8 +372,9 @@ const Home = () => {
                           <td
                             style={{
                               textAlign: "center",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
                             }}
                             width="30%"
                           >
@@ -444,8 +385,9 @@ const Home = () => {
                           <td
                             style={{
                               textAlign: "center",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
                             }}
                             width="25%"
                           >
@@ -474,8 +416,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -505,8 +449,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -526,8 +472,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -542,8 +490,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -563,8 +513,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -584,8 +536,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -605,8 +559,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -626,8 +582,10 @@ const Home = () => {
                           <td
                             style={{
                               fontSize: "inherit",
-                              background: "#000",
-                              color: "#fff",
+                              background: "#caecff",
+                              color: "#0a0039",
+                              fontWeight: "bold",
+                              textAlign: "center",
                             }}
                             width="25%"
                           >
@@ -646,11 +604,34 @@ const Home = () => {
           </div>
           {/* choose the right end */}
 
+          {/* two liner start */}
+          <div className="section pt-0 pb-0" id="cta">
+            <div className="align-left">
+              <div
+                className="s-get-it-2"
+                style={{
+                  paddingBottom: "50px",
+                }}
+              >
+                <div className="container" style={{ textAlign: "center" }}>
+                  <h5 className="s-get-it-2__title">
+                    Build a website to help your businesses to grow wiser,
+                    stronger, and faster.
+                  </h5>
+                  <h5
+                    className="s-get-it-2__title"
+                    style={{ color: "#0075ff" }}
+                  >
+                    Choose Buildnetic Choose Revolution.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* two liner end */}
+
           {/* tech we excel start */}
-          <div
-            className="section section-white section-2 pb-0"
-            id="technologies "
-          >
+          <div className="section section-white section-2" id="technologies ">
             <div className="container align-center">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -660,6 +641,7 @@ const Home = () => {
                       textTransform: "unset",
                       fontWeight: "bold",
                       textAlign: "center",
+                      color: "#0075FF",
                     }}
                   >
                     Technologies we excel at
@@ -674,7 +656,14 @@ const Home = () => {
                       borderWidth: "0px",
                     }}
                   />
-                  <p style={{ textAlign: "center", fontSize: "30px" }}>
+                  <p
+                    style={{
+                      textAlign: "center",
+                      fontSize: "30px",
+                      color: "#0a0039",
+                      fontWeight: "bold",
+                    }}
+                  >
                     Web Development
                   </p>
                 </div>
@@ -684,7 +673,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-6">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="Frontend"
@@ -703,24 +695,26 @@ const Home = () => {
                         <h5 className="features-item__title">Frontend</h5>
                         <div className="features-item__text">
                           <p>
-                            <strong>Languages</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Languages
+                            </strong>
+                          </p>
+                          <p>Java, HTML, CSS and JavaScript</p>
+                          <p>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Framework &amp; Library
+                            </strong>
                           </p>
                           <p>
-                            <a href="custom-java-application-development/index.htm">
-                              Java
-                            </a>
-                            , HTML, CSS and JavaScript
-                          </p>
-                          <p>
-                            <strong>Framework &amp; Library</strong>
-                          </p>
-                          <p>
-                            <a href="angular/index.htm">AngularJS</a>,
-                            <a href="custom-react-application-development/index.htm">
-                              ReactJS
-                            </a>
-                            ,<a href="react-native/index.htm">React Native</a>,
-                            JQuery and Ionic
+                            AngularJS, ReactJS, React Native, JQuery and Ionic
                           </p>
                         </div>
                       </div>
@@ -730,7 +724,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-6">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="backendend"
@@ -749,20 +746,25 @@ const Home = () => {
                         <h5 className="features-item__title">Backend</h5>
                         <div className="features-item__text">
                           <p>
-                            <strong>Languages</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Languages
+                            </strong>
                           </p>
                           <p>
-                            PHP, Ruby, C#, C++,
-                            <a href="custom-python-application-development/index.htm">
-                              Python
-                            </a>
-                            , JavaScript and
-                            <a href="custom-nodejs-application-development/index.htm">
-                              Node.js
-                            </a>
+                            PHP, Ruby, C#, C++, Python, JavaScript and Node.js
                           </p>
                           <p>
-                            <strong>Framework &amp; Library</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Framework &amp; Library
+                            </strong>
                           </p>
                           <p>
                             Django, Ruby on Rails, Springboot, Flask, Laravel,
@@ -778,14 +780,26 @@ const Home = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="fw-divider-line">
-                    <hr />
+                    <hr
+                      style={{
+                        border: "1px solid #caecff",
+                        background: "#caecff",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
 
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <p style={{ textAlign: "center", fontSize: "30px" }}>
+                  <p
+                    style={{
+                      textAlign: "center",
+                      fontSize: "30px",
+                      color: "#0a0039",
+                      fontWeight: "bold",
+                    }}
+                  >
                     Mob Development
                   </p>
                 </div>
@@ -795,7 +809,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="iOS"
@@ -818,17 +835,35 @@ const Home = () => {
                         </h5>
                         <div className="features-item__text">
                           <p>
-                            <strong>Languages</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Languages
+                            </strong>
                           </p>
                           <p>Swift, Objective C and Swift UI</p>
                           <p>
-                            <strong>Framework &amp; Library</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Framework &amp; Library
+                            </strong>
                           </p>
                           <p>
                             Cocoa Pods, ReactJS, Firebase, Cloudkit and Mapkit
                           </p>
                           <p>
-                            <strong>Software</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Software
+                            </strong>
                           </p>
                           <p>Xcode</p>
                         </div>
@@ -839,7 +874,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="Andriod"
@@ -862,18 +900,36 @@ const Home = () => {
                         </h5>
                         <div className="features-item__text">
                           <p>
-                            <strong>Languages</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Languages
+                            </strong>
                           </p>
                           <p>Kotlin and Java</p>
                           <p>
-                            <strong>Framework &amp; Library</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Framework &amp; Library
+                            </strong>
                           </p>
                           <p>
                             Spring Rest Templates, Sencha Touch and Appcelerator
                             Titanium
                           </p>
                           <p>
-                            <strong>Software</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Software
+                            </strong>
                           </p>
                           <p>
                             Andriod Studio, Greenrobot, Eventbus and Sweet Alert
@@ -887,7 +943,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="Cross platform"
@@ -906,17 +965,25 @@ const Home = () => {
                         <h5 className="features-item__title">Cross Platform</h5>
                         <div className="features-item__text">
                           <p>
-                            <strong>Languages</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Languages
+                            </strong>
                           </p>
                           <p>Dart and JS/TS</p>
                           <p>
-                            <strong>Framework &amp; Library</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Framework &amp; Library
+                            </strong>
                           </p>
-                          <p>
-                            Flutter, Ionic,
-                            <a href="react-native/index.htm">React Native</a>
-                            and Xamarin
-                          </p>
+                          <p>Flutter, Ionic, React Native and Xamarin</p>
                         </div>
                       </div>
                     </div>
@@ -927,7 +994,12 @@ const Home = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="fw-divider-line">
-                    <hr />
+                    <hr
+                      style={{
+                        border: "1px solid #caecff",
+                        background: "#caecff",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -936,7 +1008,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="AI ML"
@@ -966,7 +1041,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="Database"
@@ -996,7 +1074,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="DevOps"
@@ -1027,7 +1108,12 @@ const Home = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="fw-divider-line">
-                    <hr />
+                    <hr
+                      style={{
+                        border: "1px solid #caecff",
+                        background: "#caecff",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -1036,7 +1122,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="/assets/wp-content/uploads/2022/06/Testing-Automation.png"
@@ -1055,11 +1144,23 @@ const Home = () => {
                         <h5 className="features-item__title">Testing</h5>
                         <div className="features-item__text">
                           <p>
-                            <strong>Automation</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Automation
+                            </strong>
                           </p>
                           <p>Appium, selenium and Mocha</p>
                           <p>
-                            <strong>Manual</strong>
+                            <strong
+                              style={{
+                                color: "#0a0039",
+                              }}
+                            >
+                              Manual
+                            </strong>
                           </p>
                           <p>Black box testing and White box testing</p>
                         </div>
@@ -1070,7 +1171,10 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div className="features-item align-left">
+                      <div
+                        className="features-item"
+                        style={{ textAlign: "center" }}
+                      >
                         <p>
                           <img
                             alt="Tools"
@@ -1103,7 +1207,7 @@ const Home = () => {
           </div>
           {/* tech we excel end */}
 
-          {/* share requirement start */}
+          {/* get in touch start */}
           <div className="section pt-0 pb-0" id="cta">
             <div className="align-left">
               <div className="s-get-it-2">
@@ -1119,6 +1223,10 @@ const Home = () => {
                         href="contact-us/index.htm"
                         target="_blank"
                         className="btn-a btn-a_fill_theme"
+                        style={{
+                          borderRadius: "5px",
+                          borderColor: "#0075ff",
+                        }}
                       >
                         Get quote
                       </a>
@@ -1128,9 +1236,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* share requirement end */}
+          {/* get in touch end */}
 
-          {/* onboarding process start */}
+          {/* how to start?? start */}
           <div className="section section-white section-2" id="Onboarding">
             <div className="align-center">
               <div className="row">
@@ -1143,6 +1251,7 @@ const Home = () => {
                           textTransform: "unset",
                           fontWeight: "bold",
                           textAlign: "center",
+                          color: "#0075ff",
                         }}
                       >
                         How to start?
@@ -1162,6 +1271,7 @@ const Home = () => {
                           textAlign: "center",
                           fontWeight: "bold",
                           fontSize: "20px",
+                          color: "#0a0039",
                         }}
                       >
                         Just three simple steps!
@@ -1181,6 +1291,9 @@ const Home = () => {
                         className="tabs__link tabs__link_active"
                         role="tab"
                         aria-controls="tab-0"
+                        style={{
+                          color: "#0075FF",
+                        }}
                       >
                         Demand
                       </a>
@@ -1191,6 +1304,9 @@ const Home = () => {
                         className="tabs__link"
                         role="tab"
                         aria-controls="tab-1"
+                        style={{
+                          color: "#0075FF",
+                        }}
                       >
                         Solution
                       </a>
@@ -1201,6 +1317,9 @@ const Home = () => {
                         className="tabs__link"
                         role="tab"
                         aria-controls="tab-2"
+                        style={{
+                          color: "#0075FF",
+                        }}
                       >
                         Launch
                       </a>
@@ -1251,7 +1370,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* onboarding process end */}
+          {/* how to start?? end */}
 
           {/* testimonial start */}
           <section
@@ -1263,7 +1382,15 @@ const Home = () => {
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Testimonials</h3>
+                  <h3
+                    className="section__title"
+                    style={{
+                      color: "#0075ff",
+                      textTransform: "capitalize",
+                    }}
+                  >
+                    Testimonials
+                  </h3>
                 </div>
               </div>
             </div>
@@ -1302,7 +1429,15 @@ const Home = () => {
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">SUCCESS STORIES</h3>
+                  <h3
+                    className="section__title"
+                    style={{
+                      color: "#0075ff",
+                      textTransform: "capitalize",
+                    }}
+                  >
+                    Success Stories
+                  </h3>
                 </div>
               </div>
             </div>
@@ -1372,7 +1507,10 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
                         Mobile Gaming Platform
                       </div>
                       <div className="team-item-details__position">
@@ -1444,7 +1582,10 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
                         Event Creative Platform
                       </div>
                       <div className="team-item-details__position">
@@ -1516,7 +1657,10 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
                         Group Shopping App
                       </div>
                       <div className="team-item-details__position">
@@ -1588,7 +1732,10 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
                         Real Estate App
                       </div>
                       <div className="team-item-details__position">
@@ -1603,11 +1750,19 @@ const Home = () => {
           {/* success stories end */}
 
           {/* FAQ start */}
-          <section className="section section-white section-2 pb-0" id="FAQs">
+          <section className="section section-white section-2" id="FAQs">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Frequently Asked Questions</h3>
+                  <h3
+                    className="section__title"
+                    style={{
+                      color: "#0075ff",
+                      textTransform: "capitalize",
+                    }}
+                  >
+                    Frequently Asked Questions
+                  </h3>
                 </div>
               </div>
             </div>
@@ -1620,6 +1775,9 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     How can Steady Rabbit’s staff augmentation services help my
                     business?
@@ -1630,21 +1788,13 @@ const Home = () => {
                       the growth of your business. With Steady Rabbit’s staff
                       augmentation services, you can tap into our large pool of
                       highly experienced developers. Further, staff augmentation
-                      is especially suitable for
-                      <a
-                        href="application-development-technology-offerings/index.htm"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        technology
-                      </a>
-                      startups seeking to scale up quickly, in addition to being
-                      a flexible option for supplementing your team for
-                      short-term projects. Through staff augmentation, it is
-                      possible for you to access the best talent at
-                      significantly lower costs and complete the recruitment
-                      process in a much shorter time period compared to direct
-                      hiring.
+                      is especially suitable for technology startups seeking to
+                      scale up quickly, in addition to being a flexible option
+                      for supplementing your team for short-term projects.
+                      Through staff augmentation, it is possible for you to
+                      access the best talent at significantly lower costs and
+                      complete the recruitment process in a much shorter time
+                      period compared to direct hiring.
                     </p>
                   </div>
                   <div
@@ -1652,6 +1802,9 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     What kind of professional experience do your developers
                     have?
@@ -1674,6 +1827,9 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     How long does it take to on-board a team?
                   </div>
@@ -1691,6 +1847,9 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     How long is the ramp down period?
                   </div>
@@ -1701,15 +1860,7 @@ const Home = () => {
                       down period. At Steady Rabbit, we provide flexibility by
                       offering shorter ramp down times, typically lasting
                       between 30-60 days, depending on the kind of staff
-                      augmentation
-                      <a
-                        href="application-development-services/index.htm"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        services
-                      </a>
-                      you choose to avail.
+                      augmentation services you choose to avail.
                     </p>
                   </div>
                   <div
@@ -1717,6 +1868,9 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     What are the approximate costs of your staff augmentation
                     services?
@@ -1730,16 +1884,8 @@ const Home = () => {
                       years + ex, will cost $3000 per month. We assure you
                       minimum 50% savings – in some cases, even up to 60% – on
                       hiring costs relative to developers of similar calibre in
-                      the USA.
-                      <a
-                        href="contact-us/index.htm"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        Contact us
-                      </a>
-                      with your requirements and we will get back to you with a
-                      detailed quote within 24 hours.
+                      the USA. Contact us with your requirements and we will get
+                      back to you with a detailed quote within 24 hours.
                     </p>
                   </div>
                   <div
@@ -1747,6 +1893,9 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     How does the hiring process work?
                   </div>
@@ -1797,41 +1946,18 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     What are the key technology stacks that you serve?
                   </div>
                   <div className="accordion__content">
                     <p>
-                      Our engineers specialize in Frontend and UX (
-                      <a href="custom-react-application-development/index.htm">
-                        React.js
-                      </a>
-                      , <a href="react-native/index.htm">React Native</a>, Vue,
-                      Angular, Flutter,
-                      <a href="android-custom-application-development/index.htm">
-                        Android
-                      </a>
-                      ,
-                      <a href="custom-ios-application-development/index.htm">
-                        iOS
-                      </a>
-                      etc.), Backend (
-                      <a href="custom-java-application-development/index.htm">
-                        Java
-                      </a>
-                      ,
-                      <a href="custom-python-application-development/index.htm">
-                        Python
-                      </a>
-                      ,
-                      <a href="custom-nodejs-application-development/index.htm">
-                        Node.js
-                      </a>
-                      , PHP),
-                      <a href="cloud-management-and-devops-services/index.htm">
-                        Cloud &amp; DevOps
-                      </a>
-                      (AWS, Jenkins, Docker etc.) and more. Thus, Steady
+                      Our engineers specialize in Frontend and UX ( React.js ,
+                      React Native, Vue, Angular, Flutter, Android , iOS etc.),
+                      Backend ( Java , Python , Node.js , PHP), Cloud &amp;
+                      DevOps (AWS, Jenkins, Docker etc.) and more. Thus, Steady
                       Rabbit’s staff augmentation services help you customize
                       your team based on your business requirements.
                     </p>
@@ -1841,6 +1967,9 @@ const Home = () => {
                     data-animation-name="fadeInUp"
                     data-animation-duration=".8s"
                     data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
                   >
                     How will I manage a remote team based in India?
                   </div>
@@ -1865,14 +1994,16 @@ const Home = () => {
           {/* FAQ end */}
 
           {/* awards start */}
-          <section
-            className="section section-lightgray section-2 pb-0"
-            id="awards"
-          >
+          <section className="section section-lightgray section-2" id="awards">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Awards &amp; Recognitions</h3>
+                  <h3
+                    className="section__title"
+                    style={{ color: "#0075ff", textTransform: "capitalize" }}
+                  >
+                    Awards &amp; Recognitions
+                  </h3>
                 </div>
               </div>
             </div>
@@ -1995,6 +2126,339 @@ const Home = () => {
             </div>
           </section>
           {/* awards end */}
+
+          {/* our clients start */}
+          <div className="section  section-2" id="ENGINEERING TEAM">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12">
+                  <h1
+                    style={{
+                      fontSize: "36px",
+                      textTransform: "unset",
+                      fontWeight: "bold",
+                      color: "#0075ff",
+                      textAlign: "center",
+                    }}
+                  >
+                    Our Clients
+                  </h1>
+                  <hr
+                    style={{
+                      width: "140px",
+                      color: "#0075FF",
+                      height: "3px",
+                      backgroundColor: "#0075FF",
+                      borderWidth: "0px",
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 1
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 2
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 3
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 4
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 5
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 6
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 7
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 8
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 9
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 10
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 11
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-2">
+                  <div className="features-item align-left">
+                    <div className="features-item__text">
+                      <div className="features-item align-center">
+                        <p>
+                          <img
+                            alt="Product Engineering"
+                            data-src="/assets/wp-content/uploads/2022/06/Technical-Expertise.png"
+                            className="features-item__icon lazyload"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                          />
+                        </p>
+                        <h5
+                          className="features-item__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Client 12
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* our clients end */}
+
+          {/* get in touch start */}
+          <div className="section pt-0 pb-0" id="cta">
+            <div className="align-left">
+              <div className="s-get-it-2" style={{ paddingBottom: "35px" }}>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xs-12 col-sm-12 col-md-8 align-middle">
+                      <h5 className="s-get-it-2__title">
+                        Get In Touch <br />{" "}
+                        <span style={{ color: "#0075ff" }}>
+                          {" "}
+                          Be a part of the solution!
+                        </span>
+                      </h5>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-4 align-middle">
+                      <a
+                        href="contact-us/index.htm"
+                        target="_blank"
+                        className="btn-a btn-a_fill_theme"
+                        style={{
+                          borderRadius: "5px",
+                          borderColor: "#0075ff",
+                        }}
+                      >
+                        Get quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* get in touch end */}
         </div>
       </div>
     </>

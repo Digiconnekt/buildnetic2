@@ -34,7 +34,10 @@ const Services = () => {
                     <div class="container">
                       <div class="main-1-item__inner align-left">
                         <h2 class="main-1-item__title">
-                          <span class="main-1-item__title_part_1">
+                          <span
+                            class="main-1-item__title_part_1"
+                            style={{ color: "#0a0039 " }}
+                          >
                             Expect More from us!
                           </span>{" "}
                           <span class="theme-color main-1-item__title_part_2">
@@ -80,7 +83,10 @@ const Services = () => {
                     <div class="container">
                       <div class="main-1-item__inner align-left">
                         <h2 class="main-1-item__title">
-                          <span class="main-1-item__title_part_1">
+                          <span
+                            class="main-1-item__title_part_1"
+                            style={{ color: "#0a0039 " }}
+                          >
                             Expect More from us!
                           </span>{" "}
                           <span class="theme-color main-1-item__title_part_2">
@@ -100,10 +106,7 @@ const Services = () => {
           {/* title end */}
 
           {/* services offering start */}
-          <section
-            class="section section-white section-2 pt-0 pb-0"
-            id="service111"
-          >
+          <section class="section section-white section-2 pt-0" id="service111">
             <div class="container align-left">
               <div class="row">
                 <div class="col-xs-12 col-sm-12">
@@ -118,7 +121,7 @@ const Services = () => {
                   class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 equal-cols"
                   // style={{ height: "221px" }}
                 >
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Product Engineering"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61485.png"
@@ -139,11 +142,12 @@ const Services = () => {
                           href="/product-engineering-services/"
                           target="_blank"
                           rel="noopener"
+                          style={{ color: "#0a0039 " }}
                         >
                           SEO
                         </a>
                       </h5>
-                      <p style={{ marginBottom: "5%" }}>
+                      <p style={{ marginBottom: "5%", textAlign: "justify" }}>
                         SEO is definitely an important ingredient for making a
                         perfect website!! A great SEO strategy will result in
                         making the company’s website at the top of the Google
@@ -154,7 +158,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Mobility"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61486.png"
@@ -175,11 +179,12 @@ const Services = () => {
                           href="/custom-mobile-application-development/"
                           target="_blank"
                           rel="noopener"
+                          style={{ color: "#0a0039 " }}
                         >
                           Content Marketing
                         </a>
                       </h5>
-                      <p style={{ marginBottom: "5%" }}>
+                      <p style={{ marginBottom: "5%", textAlign: "justify" }}>
                         Content marketing helps you to portray your business’s
                         voice. Creating the right content while keeping in mind
                         the market needs might take time to show results but
@@ -189,7 +194,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Analytics"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61487.png"
@@ -210,11 +215,12 @@ const Services = () => {
                           href="/business-analytics-services/"
                           target="_blank"
                           rel="noopener"
+                          style={{ color: "#0a0039 " }}
                         >
                           SMO
                         </a>
                       </h5>
-                      <p style={{ marginBottom: "5%" }}>
+                      <p style={{ marginBottom: "5%", textAlign: "justify" }}>
                         Optimization of social media not only portrays a
                         positive image of your brand but has a direct impact on
                         SEO as it eases the usability of the site which will
@@ -225,7 +231,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Cloud And Devops"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61488.png"
@@ -246,11 +252,12 @@ const Services = () => {
                           href="/cloud-management-and-devops-services/"
                           target="_blank"
                           rel="noopener"
+                          style={{ color: "#0a0039 " }}
                         >
                           App Development
                         </a>
                       </h5>
-                      <p style={{ marginBottom: "5%" }}>
+                      <p style={{ marginBottom: "5%", textAlign: "justify" }}>
                         Convert your ideas into a working model. Yes, we help
                         you to cater to your needs into a working solution
                         inculcating new ideologies, technologies, and of course
@@ -260,7 +267,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Re-Engineering"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61489.png"
@@ -281,11 +288,12 @@ const Services = () => {
                           href="/migration-upgrade-and-product-re-engineering/"
                           target="_blank"
                           rel="noopener"
+                          style={{ color: "#0a0039 " }}
                         >
                           Web Development
                         </a>
                       </h5>
-                      <p style={{ marginBottom: "5%" }}>
+                      <p style={{ marginBottom: "5%", textAlign: "justify" }}>
                         Pour your solutions into one portfolio. Our team of
                         experts helps you design and build your website in a way
                         that catches client engagement and increases conversion
@@ -295,7 +303,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Testing"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61490.png"
@@ -316,11 +324,12 @@ const Services = () => {
                           href="/mobile-web-application-testing-services/"
                           target="_blank"
                           rel="noopener"
+                          style={{ color: "#0a0039 " }}
                         >
                           PPC Advertising
                         </a>
                       </h5>
-                      <p style={{ marginBottom: "5%" }}>
+                      <p style={{ marginBottom: "5%", textAlign: "justify" }}>
                         Pay-per-click advertising has the ability to show a
                         targeted ad at the right time. PPC campaigning increases
                         sales generates leads and promotes brand awareness.
@@ -435,7 +444,14 @@ const Services = () => {
                     style={{ backgroundColor: "#f6f6f6" }}
                   >
                     <div class="info-box-item__inner">
-                      <h5 class="info-box__title">Technical Expertise</h5>
+                      <h5
+                        class="info-box__title"
+                        style={{
+                          color: "#0075FF",
+                        }}
+                      >
+                        Technical Expertise
+                      </h5>
                       <div class="info-box__description">
                         <p>
                           Building scalable secure web applications by
@@ -474,50 +490,16 @@ const Services = () => {
                           </noscript>
                         </noscript>
 
-                        <span class="info-box-2-subitem__title">
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
                           Frontend &amp; UX
                         </span>
                         <div class="info-box-2-subitem__description">
                           <p>
-                            <a
-                              href="../custom-react-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              React.js
-                            </a>
-                            ,
-                            <a
-                              href="../angular/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              AngularJS
-                            </a>
-                            , VueJS,
-                            <a
-                              href="../react-native/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              React Native
-                            </a>
-                            , Flutter,
-                            <a
-                              href="../android-custom-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Android
-                            </a>
-                            ,
-                            <a
-                              href="../custom-ios-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              iOS
-                            </a>
+                            React.js, AngularJS, VueJS, React Native, Flutter,
+                            Android, iOS
                           </p>
                         </div>
                       </div>
@@ -544,30 +526,14 @@ const Services = () => {
                           </noscript>
                         </noscript>
 
-                        <span class="info-box-2-subitem__title">Backend</span>
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Backend
+                        </span>
                         <div class="info-box-2-subitem__description">
-                          <p>
-                            <a
-                              href="../custom-java-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Java
-                            </a>
-                            ,
-                            <a href="../custom-python-application-development/index.htm">
-                              Python
-                            </a>
-                            ,
-                            <a
-                              href="../custom-nodejs-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Node.Js
-                            </a>
-                            , PHP
-                          </p>
+                          <p>Java, Python, Node.Js, PHP</p>
                         </div>
                       </div>
                       <div class="info-box-2-subitem">
@@ -592,8 +558,12 @@ const Services = () => {
                             />
                           </noscript>
                         </noscript>
-
-                        <span class="info-box-2-subitem__title">Database</span>
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Database
+                        </span>
                         <div class="info-box-2-subitem__description">
                           <p>MongoDB, SQL, Redis</p>
                         </div>
@@ -620,18 +590,13 @@ const Services = () => {
                             />
                           </noscript>
                         </noscript>
-
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Analytics
+                        </span>
                         <div class="info-box-2-subitem__description">
-                          <p>
-                            <a
-                              style={{ marginLeft: "0px" }}
-                              href="../business-analytics-services/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              <strong>Analytics</strong>
-                            </a>
-                          </p>
                           <p>Panda, R, Hadoop, Hive</p>
                         </div>
                       </div>
@@ -657,18 +622,13 @@ const Services = () => {
                             />
                           </noscript>
                         </noscript>
-
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Cloud And Devops
+                        </span>
                         <div class="info-box-2-subitem__description">
-                          <p>
-                            <a
-                              style={{ marginLeft: "0px" }}
-                              href="../cloud-management-and-devops-services/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              <strong>Cloud And Devops</strong>
-                            </a>
-                          </p>
                           <p>AWS, Jenkins, Docker, Kubernet</p>
                         </div>
                       </div>
@@ -701,7 +661,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            class="section hidden-sm hidden-md hidden-lg section-2 pb-0 pt-0 pb-0"
+            class="section hidden-sm hidden-md hidden-lg section-2 pt-0 pb-0"
             id="Technology-Mob"
             style={{ backgroundColor: "#f6f6f6" }}
           >
@@ -752,50 +712,16 @@ const Services = () => {
                             </noscript>
                           </noscript>
 
-                          <span class="info-box-2-subitem__title">
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
                             Frontend &amp; UX
                           </span>
                           <div class="info-box-2-subitem__description">
                             <p>
-                              <a
-                                href="../custom-react-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                React.js
-                              </a>
-                              ,
-                              <a
-                                href="../angular/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                AngularJS
-                              </a>
-                              , VueJS,
-                              <a
-                                href="../react-native/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                React Native
-                              </a>
-                              , Flutter,
-                              <a
-                                href="../android-custom-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Android
-                              </a>
-                              ,
-                              <a
-                                href="../custom-ios-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                iOS
-                              </a>
+                              React.js , AngularJS , VueJS, React Native ,
+                              Flutter, Android , iOS
                             </p>
                           </div>
                         </div>
@@ -822,30 +748,14 @@ const Services = () => {
                             </noscript>
                           </noscript>
 
-                          <span class="info-box-2-subitem__title">Backend</span>
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Backend
+                          </span>
                           <div class="info-box-2-subitem__description">
-                            <p>
-                              <a
-                                href="../custom-java-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Java
-                              </a>
-                              ,
-                              <a href="../custom-python-application-development/index.htm">
-                                Python
-                              </a>
-                              ,
-                              <a
-                                href="../custom-nodejs-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Node.Js
-                              </a>
-                              , PHP
-                            </p>
+                            <p>Java, Python, Node.Js, PHP</p>
                           </div>
                         </div>
                         <div class="info-box-2-subitem">
@@ -871,7 +781,10 @@ const Services = () => {
                             </noscript>
                           </noscript>
 
-                          <span class="info-box-2-subitem__title">
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
                             Database
                           </span>
                           <div class="info-box-2-subitem__description">
@@ -900,18 +813,13 @@ const Services = () => {
                               />
                             </noscript>
                           </noscript>
-
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Analytics
+                          </span>
                           <div class="info-box-2-subitem__description">
-                            <p>
-                              <a
-                                style={{ marginLeft: "0px" }}
-                                href="../business-analytics-services/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Analytics
-                              </a>
-                            </p>
                             <p>Panda, R, Hadoop, Hive</p>
                           </div>
                         </div>
@@ -937,18 +845,13 @@ const Services = () => {
                               />
                             </noscript>
                           </noscript>
-
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Cloud And Devops
+                          </span>
                           <div class="info-box-2-subitem__description">
-                            <p>
-                              <a
-                                style={{ marginLeft: "0px" }}
-                                href="../cloud-management-and-devops-services/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Cloud And Devops
-                              </a>
-                            </p>
                             <p>AWS, Jenkins, Docker, Kubernet</p>
                           </div>
                         </div>
@@ -982,36 +885,8 @@ const Services = () => {
           </div>
           {/* tech expert end */}
 
-          {/* dont settle start */}
-          <div class="section section-white section-2 pt-0 pb-0" id="cta">
-            <div class=" align-left">
-              <div class="s-get-it-2">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 align-middle">
-                      <h5 class="s-get-it-2__title">Don't Settle for Less!</h5>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 align-middle">
-                      <a
-                        href="/contact-us/"
-                        target="_blank"
-                        class="btn-a btn-a_fill_theme"
-                      >
-                        Schedule a call today!
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* dont settle end */}
-
           {/* success stories start */}
-          <section
-            class="section section-white section-2 pb-0 pt-0 pb-0"
-            id="success story"
-          >
+          <section class="section section-white section-2" id="success story">
             <div class="container align-left">
               <div class="row">
                 <div class="col-xs-12 col-sm-12">
@@ -1471,15 +1346,45 @@ const Services = () => {
           </section>
           {/* success stories end */}
 
+          {/* get in touch start */}
+          <div className="section pt-0 pb-0" id="cta">
+            <div className="align-left">
+              <div className="s-get-it-2">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xs-12 col-sm-12 col-md-8 align-middle">
+                      <h5 className="s-get-it-2__title">
+                        Get In Touch <br /> Be a part of the solution!
+                      </h5>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-4 align-middle">
+                      <a
+                        href="contact-us/index.htm"
+                        target="_blank"
+                        className="btn-a btn-a_fill_theme"
+                        style={{
+                          borderRadius: "5px",
+                          borderColor: "#0075ff",
+                        }}
+                      >
+                        Get quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* get in touch end */}
+
           {/* why us start */}
-          <section
-            className="section section-white section-2 pt-0 pb-0"
-            id="Why us"
-          >
+          <section className="section section-white section-2 pb-0" id="Why us">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Why Choose us</h3>
+                  <h3 className="section__title" style={{ color: "#0075ff" }}>
+                    Why Choose us
+                  </h3>
                 </div>
               </div>
             </div>
@@ -1506,7 +1411,7 @@ const Services = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -1523,7 +1428,7 @@ const Services = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -1539,7 +1444,7 @@ const Services = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -1556,7 +1461,7 @@ const Services = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -1572,7 +1477,7 @@ const Services = () => {
                       <i
                         className="fa fa-circle"
                         style={{
-                          color: "#555555",
+                          color: "#0a0039",
                           marginLeft: "5px",
                           fontSize: "10px",
                         }}
@@ -1595,6 +1500,9 @@ const Services = () => {
           <section
             class="section hidden-xs section-lightgray section-2 pb-0"
             id="process"
+            style={{
+              background: "rgb(246, 246, 246)",
+            }}
           >
             <div class="container align-left">
               <div class="row">
@@ -2098,400 +2006,6 @@ const Services = () => {
             </div>
           </section>
           {/* testimonial end */}
-
-          {/* FAQ start */}
-          <section className="section section-white section-2 pb-0" id="FAQs">
-            <div className="container align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Frequently Asked Questions</h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="container align-left">
-              <div className="row accordion">
-                <div className="col-xs-12 col-sm-12">
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    How can Steady Rabbit’s staff augmentation services help my
-                    business?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Lack of access to good talent can often be a hindrance to
-                      the growth of your business. With Steady Rabbit’s staff
-                      augmentation services, you can tap into our large pool of
-                      highly experienced developers. Further, staff augmentation
-                      is especially suitable for
-                      <a
-                        href="application-development-technology-offerings/index.htm"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        technology
-                      </a>
-                      startups seeking to scale up quickly, in addition to being
-                      a flexible option for supplementing your team for
-                      short-term projects. Through staff augmentation, it is
-                      possible for you to access the best talent at
-                      significantly lower costs and complete the recruitment
-                      process in a much shorter time period compared to direct
-                      hiring.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    What kind of professional experience do your developers
-                    have?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Our developers have an average experience of more than 5
-                      years which allows you to leverage their competence,
-                      skills and knowledge. Our engineering team has worked on
-                      several complex projects of all business sizes and types.
-                      Our engineers always keep themselves updated with the
-                      latest technology trends and build advanced business
-                      solutions. Due to this, you can be assured of always
-                      getting timely deliverables without compromising the
-                      quality of the work.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    How long does it take to on-board a team?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Due to our exceptional bench strength, we are able to
-                      mobilise resources in a short span of time. Typically 15 –
-                      30 days, it may vary based on your requirements. – and We
-                      ensure that your team starts contributing to your business
-                      as quickly as possible.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    How long is the ramp down period?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      As a project nears completion, there is an expected
-                      decline in workload and this phase is known as the ramp
-                      down period. At Steady Rabbit, we provide flexibility by
-                      offering shorter ramp down times, typically lasting
-                      between 30-60 days, depending on the kind of staff
-                      augmentation
-                      <a
-                        href="application-development-services/index.htm"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        services
-                      </a>
-                      you choose to avail.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    What are the approximate costs of your staff augmentation
-                    services?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Our goal at Steady Rabbit is to provide your business with
-                      the best of talent at competitive prices. The hourly rates
-                      starting as low as $15. Junior developer will cost you
-                      around $2,400/month. For an experienced resource with 4
-                      years + ex, will cost $3000 per month. We assure you
-                      minimum 50% savings – in some cases, even up to 60% – on
-                      hiring costs relative to developers of similar calibre in
-                      the USA.
-                      <a
-                        href="contact-us/index.htm"
-                        rel="noopener"
-                        target="_blank"
-                      >
-                        Contact us
-                      </a>
-                      with your requirements and we will get back to you with a
-                      detailed quote within 24 hours.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    How does the hiring process work?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      The hiring process of our staff augmentation services is
-                      divided into three stages.
-                      <br />
-                      <i
-                        className="fa fa-circle"
-                        style={{ fontSize: "10px", color: "#55555" }}
-                      ></i>
-                       In the first stage, the client needs to establish the
-                      level of experience, abilities and qualifications of the
-                      developers required, as well as the number of developers
-                      needed. This stage can be considered similar to creating a
-                      comprehensive job description.
-                      <br />
-                      <i
-                        className="fa fa-circle"
-                        style={{ fontSize: "10px", color: "#55555" }}
-                      ></i>
-                       The second stage involves combing through our database
-                      for developers that match the skills and profile that the
-                      client is looking for. We create and share a shortlist of
-                      candidates that suits your requirements.
-                      <br />
-                      <i
-                        className="fa fa-circle"
-                        style={{ fontSize: "10px", color: "#55555" }}
-                      ></i>
-                       The final stage involves interviews with the candidates
-                      and after the approval of the client, the recruitment
-                      process is finalized. After completion of contractual
-                      formalities, the hired engineers start working with you as
-                      per the mutual agreed date.
-                    </p>
-                    <p>
-                      In rare cases if in case you are not satisfied with a
-                      specific engineer, we provide replacement flexibility
-                      within a period of 45 days. The hiring process can be
-                      completed in 15-30 days, providing an advantage over
-                      on-site company hiring which often takes several months.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    What are the key technology stacks that you serve?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Our engineers specialize in Frontend and UX (
-                      <a href="custom-react-application-development/index.htm">
-                        React.js
-                      </a>
-                      , <a href="react-native/index.htm">React Native</a>, Vue,
-                      Angular, Flutter,
-                      <a href="android-custom-application-development/index.htm">
-                        Android
-                      </a>
-                      ,
-                      <a href="custom-ios-application-development/index.htm">
-                        iOS
-                      </a>
-                      etc.), Backend (
-                      <a href="custom-java-application-development/index.htm">
-                        Java
-                      </a>
-                      ,
-                      <a href="custom-python-application-development/index.htm">
-                        Python
-                      </a>
-                      ,
-                      <a href="custom-nodejs-application-development/index.htm">
-                        Node.js
-                      </a>
-                      , PHP),
-                      <a href="cloud-management-and-devops-services/index.htm">
-                        Cloud &amp; DevOps
-                      </a>
-                      (AWS, Jenkins, Docker etc.) and more. Thus, Steady
-                      Rabbit’s staff augmentation services help you customize
-                      your team based on your business requirements.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                  >
-                    How will I manage a remote team based in India?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Remote management across different time zones can seem
-                      like a daunting task but at Steady Rabbit, we dedicate
-                      ourselves to making sure that the process is as smooth and
-                      efficient. We ensure that our team of developers has an
-                      overlapping hours so you can have a daily scrum meeting.
-                      You can keep tabs on deliverables through regular
-                      performance monitoring. All the developers are fluent in
-                      English so you will have no trouble in communication.
-                      Further, we provide you with 24x7 support services to look
-                      into any issues you might be facing with utmost immediacy.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* FAQ end */}
-
-          {/* awards start */}
-          <section
-            className="section section-lightgray section-2 pb-0"
-            id="awards"
-          >
-            <div className="container align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Awards &amp; Recognitions</h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="container align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-3 equal-cols no-padding">
-                  <p>
-                    <a
-                      href="https://clutch.co/profile/steady-rabbit-technology"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <img
-                        alt=""
-                        width="250"
-                        height="150"
-                        data-src="/assets/wp-content/uploads/2021/03/Cluth2.png"
-                        className="aligncenter size-full wp-image-5092 lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                      />
-                      <noscript>
-                        <img
-                          className="aligncenter size-full wp-image-5092"
-                          src="./assets/wp-content/uploads/2021/03/Cluth2.png"
-                          alt=""
-                          width="250"
-                          height="150"
-                        />
-                      </noscript>
-                    </a>
-                  </p>
-                  <p>
-                    <img
-                      alt=""
-                      width="250"
-                      height="150"
-                      data-src="/assets/wp-content/uploads/2021/03/ManiestwebDev.png"
-                      className="aligncenter size-full wp-image-5094 lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    />
-                    <noscript>
-                      <img
-                        className="aligncenter size-full wp-image-5094"
-                        src="./assets/wp-content/uploads/2021/03/ManiestwebDev.png"
-                        alt=""
-                        width="250"
-                        height="150"
-                      />
-                    </noscript>
-                  </p>
-                </div>
-                <div className="col-xs-12 col-sm-3 equal-cols no-padding">
-                  <p>
-                    <a
-                      href="https://www.goodfirms.co/company/steady-rabbit-technology-pvt-ltd"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <img
-                        alt=""
-                        width="250"
-                        height="150"
-                        data-src="/assets/wp-content/uploads/2021/03/GoodFirm.png"
-                        className="aligncenter size-full wp-image-5093 lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                      />
-                      <noscript>
-                        <img
-                          className="aligncenter size-full wp-image-5093"
-                          src="./assets/wp-content/uploads/2021/03/GoodFirm.png"
-                          alt=""
-                          width="250"
-                          height="150"
-                        />
-                      </noscript>
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href="https://twitter.com/letsventurein/status/1141241616516075520?lang=en"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <img
-                        alt=""
-                        width="250"
-                        height="150"
-                        data-src="https://steadyrabbit.in/wp-content/uploads/2021/03/LetsVenture.png"
-                        className="aligncenter size-full wp-image-5095 lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                      />
-                      <noscript>
-                        <img
-                          className="aligncenter size-full wp-image-5095"
-                          src="./assets/wp-content/uploads/2021/03/LetsVenture.png"
-                          alt=""
-                          width="250"
-                          height="150"
-                        />
-                      </noscript>
-                    </a>
-                  </p>
-                </div>
-                <div className="col-xs-12 col-sm-6 equal-cols no-padding">
-                  <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
-                    className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  />
-                  <noscript>
-                    <img
-                      src="wp-content/uploads/2022/03/Awards-Recognitions.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
-                    />
-                  </noscript>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* awards end */}
         </div>
       </div>
     </>
