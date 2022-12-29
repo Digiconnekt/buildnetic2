@@ -1,0 +1,30 @@
+.hero {
+  background: #fafafa;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.hero-section .left-block {
+  margin: 0 1%;
+  text-align: center;
+}
+
+.hero-section .right-block {
+  margin: 0 1%;
+  max-width: 600px;
+}
+
+.hero-section .right-block img {
+  width: 100%;
+}
+
+@media (max-width: 766px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+}

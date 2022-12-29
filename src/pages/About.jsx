@@ -6,7 +6,31 @@ const About = () => {
       <div className="wrapper-content" style={{ marginBottom: "527.6px" }}>
         <div className="fw-page-builder-content">
           {/* title start */}
-          <div
+          <div className="section section-2 pb-0">
+            <div className="hero">
+              <div className="container hero-section">
+                <div className="left-block">
+                  <h2 className="main-1-item__title">
+                    <span
+                      className="main-1-item__title_part_1"
+                      style={{ color: "#0a0039" }}
+                    >
+                      Limitless Are The Possibilities
+                    </span>{" "}
+                    <span className="theme-color main-1-item__title_part_2">
+                      Take The First Step
+                    </span>{" "}
+                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                  </h2>
+                </div>
+                <div className="right-block">
+                  <img src="./assets/images/about.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div
             className="section hidden-xs section-white section-2"
             id="slider"
             style={{ height: "650px" }}
@@ -22,8 +46,7 @@ const About = () => {
                     <div
                       className="parallax"
                       style={{
-                        backgroundImage:
-                          "url(https://steadyrabbit.in/wp-content/uploads/2021/09/WhyUsBanner.jpg)",
+                        backgroundImage: "url(./assets/images/home3.png)",
                         backgroundSize: "cover",
                         backgroundAttachment: "local",
                         backgroundRepeat: "no-repeat",
@@ -106,7 +129,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* title end */}
 
           {/* who we start */}

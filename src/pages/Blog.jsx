@@ -4,36 +4,33 @@ const Blog = () => {
   return (
     <>
       <div class="wrapper-content">
-        <section class="section main-simple" style={{ height: "300px" }}>
-          <div
-            class="parallax"
-            style={{
-              backgroundImage:
-                "url(../assets/wp-content/uploads/2022/04/blog_banner.jpg)",
-              backgroundSize: "cover",
-              backgroundAttachment: "scroll",
-              backgroundRepeat: "no-repeat",
-            }}
-            data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
-          ></div>
-          <div class="container">
-            <h2
-              class="main-simple__title fx"
-              data-animation-name="fadeInUp"
-              data-animation-duration="1s"
-            >
-              Steady Rabbit
-            </h2>
-            <p
-              class="main-simple__subtitle fx"
-              data-animation-name="fadeInDown"
-              data-animation-duration="1s"
-            >
-              Insight
-            </p>
+        {/* title start */}
+        <div className="section section-2 pb-0">
+          <div className="hero">
+            <div className="container hero-section">
+              <div className="left-block">
+                <h2 className="main-1-item__title">
+                  <span
+                    className="main-1-item__title_part_1"
+                    style={{ color: "#0a0039" }}
+                  >
+                    {/* The Mores Of Our Journey */}
+                  </span>{" "}
+                  <span className="theme-color main-1-item__title_part_2">
+                    Blog
+                  </span>{" "}
+                  <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                </h2>
+              </div>
+              <div className="right-block">
+                <img src="./assets/images/about.png" alt="" />
+              </div>
+            </div>
           </div>
-        </section>
+        </div>
+        {/* title end */}
 
+        {/* blog start */}
         <div class="blog-wrapper">
           <div class="container">
             <div class="row">
@@ -85,6 +82,7 @@ const Blog = () => {
                             class="post-title"
                             href="how-to-choose-a-sms-gateway-provider/index.htm"
                             rel="bookmark"
+                            style={{ color: "#0a0039" }}
                           >
                             How to choose a SMS Gateway Provider
                           </a>
@@ -170,6 +168,7 @@ const Blog = () => {
                             class="post-title"
                             href="a-definitive-guide-on-how-to-choose-between-native-vs-hybrid-mobile-apps/index.htm"
                             rel="bookmark"
+                            style={{ color: "#0a0039" }}
                           >
                             A definitive guide on how to choose between Native
                             Vs. Hybrid Mobile Apps
@@ -253,6 +252,7 @@ const Blog = () => {
                             class="post-title"
                             href="why-should-you-use-time-and-material-model-for-your-projects/index.htm"
                             rel="bookmark"
+                            style={{ color: "#0a0039" }}
                           >
                             Why should you use the Time and Material model for
                             your projects?
@@ -332,6 +332,7 @@ const Blog = () => {
                             class="post-title"
                             href="all-you-need-to-know-about-software-delivery/index.htm"
                             rel="bookmark"
+                            style={{ color: "#0a0039" }}
                           >
                             All you need to know about Software Delivery
                           </a>
@@ -366,22 +367,23 @@ const Blog = () => {
                   <span class="page-numbers current">
                     <span class="blog-nav__page-number">1</span>
                   </span>
-                  <a class="page-numbers" href="page/2/index.htm">
+                  <a class="page-numbers" href="#">
                     <span class="blog-nav__page-number">2</span>
                   </a>
-                  <a class="page-numbers" href="page/3/index.htm">
+                  <a class="page-numbers" href="#">
                     <span class="blog-nav__page-number">3</span>
                   </a>
                   <span class="page-numbers dots">&hellip;</span>
-                  <a class="page-numbers" href="page/5/index.htm">
+                  <a class="page-numbers" href="#">
                     <span class="blog-nav__page-number">5</span>
                   </a>
-                  <a class="next page-numbers" href="page/2/index.htm"></a>
+                  <a class="next page-numbers" href="#"></a>
                 </nav>
               </main>
             </div>
           </div>
         </div>
+        {/* blog end */}
       </div>
     </>
   );

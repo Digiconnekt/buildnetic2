@@ -7,7 +7,31 @@ const Contact = () => {
       <div class="wrapper-content">
         <div class="fw-page-builder-content">
           {/* title start */}
-          <div
+          <div className="section section-2 pb-0">
+            <div className="hero">
+              <div className="container hero-section">
+                <div className="left-block">
+                  <h2 className="main-1-item__title">
+                    <span
+                      className="main-1-item__title_part_1"
+                      style={{ color: "#0a0039" }}
+                    >
+                      Just A Call Away
+                    </span>{" "}
+                    <span className="theme-color main-1-item__title_part_2">
+                      Let Us Discuss Your Requirement
+                    </span>{" "}
+                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                  </h2>
+                </div>
+                <div className="right-block">
+                  <img src="./assets/images/about.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div
             class="section hidden-xs section-white section-2"
             id="slider"
             style={{ height: "650px" }}
@@ -92,7 +116,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* title end */}
 
           {/* contact us start */}

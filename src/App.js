@@ -11,6 +11,7 @@ import Blog from "./pages/Blog";
 import MobileAppDevelopment from "./pages/services/MobileAppDevelopment";
 import DevopsServices from "./pages/services/DevopsServices";
 import ProductReEngineering from "./pages/services/ProductReEngineering";
+import StickyWhatsapp from "./components/StickyWhatsapp";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
+      <StickyWhatsapp />
     </>
   );
 };

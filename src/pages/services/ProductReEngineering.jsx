@@ -31,7 +31,10 @@ const ProductReEngineering = () => {
                   <div class="container">
                     <div class="main-1-item__inner align-left">
                       <h2 class="main-1-item__title">
-                        <span class="main-1-item__title_part_1">
+                        <span
+                          class="main-1-item__title_part_1"
+                          style={{ color: "#0a0039 " }}
+                        >
                           Re-engineering Next Gen
                         </span>
                         <span class="theme-color main-1-item__title_part_2">
@@ -71,7 +74,10 @@ const ProductReEngineering = () => {
                   <div class="container">
                     <div class="main-1-item__inner align-left">
                       <h2 class="main-1-item__title">
-                        <span class="main-1-item__title_part_1">
+                        <span
+                          class="main-1-item__title_part_1"
+                          style={{ color: "#0a0039 " }}
+                        >
                           Re-engineering Next Gen
                         </span>
                         <span class="theme-color main-1-item__title_part_2">
@@ -88,9 +94,9 @@ const ProductReEngineering = () => {
           </div>
           {/* title end */}
 
-          {/* mobile app develop start */}
+          {/* product re-engg develop start */}
           <div
-            class="section section-2 nodejs pt-0 pb-0"
+            class="section section-2 nodejs "
             id="intro"
             style={{ backgroundColor: "#f6f6f6" }}
           >
@@ -117,7 +123,16 @@ const ProductReEngineering = () => {
                   >
                     <div class="info-box-item__inner">
                       <div class="info-box__description">
-                        <h1 class="info-box__title">Product Re-Engineering</h1>
+                        <h1
+                          class="info-box__title"
+                          style={{
+                            color: "#0075FF",
+                            textTransform: "uppercase",
+                            fontWeight: "bold",
+                          }}
+                        >
+                          Product Re-Engineering
+                        </h1>
                         <p>
                           Update your current technology platform to reflect the
                           newest developments. New features can be added in
@@ -139,7 +154,7 @@ const ProductReEngineering = () => {
                           <p>
                             <i
                               class="fa fa-check"
-                              style={{ color: "#f11b27", marginLeft: "-28px" }}
+                              style={{ color: "#0a0039", marginLeft: "-28px" }}
                               aria-hidden="true"
                             ></i>
                              
@@ -155,7 +170,7 @@ const ProductReEngineering = () => {
                           <p>
                             <i
                               class="fa fa-check"
-                              style={{ color: "#f11b27", marginLeft: "-28px" }}
+                              style={{ color: "#0a0039", marginLeft: "-28px" }}
                               aria-hidden="true"
                             ></i>
                              
@@ -171,7 +186,7 @@ const ProductReEngineering = () => {
                           <p>
                             <i
                               class="fa fa-check"
-                              style={{ color: "#f11b27", marginLeft: "-28px" }}
+                              style={{ color: "#0a0039", marginLeft: "-28px" }}
                               aria-hidden="true"
                             ></i>
                              
@@ -187,7 +202,7 @@ const ProductReEngineering = () => {
                           <p>
                             <i
                               class="fa fa-check"
-                              style={{ color: "#f11b27", marginLeft: "-28px" }}
+                              style={{ color: "#0a0039", marginLeft: "-28px" }}
                               aria-hidden="true"
                             ></i>
                              
@@ -203,14 +218,14 @@ const ProductReEngineering = () => {
               </div>
             </div>
           </div>
-          {/* mobile app develop end */}
+          {/* product re-engg develop end */}
 
           {/* services offer start */}
-          <section class="section section-white section-2 pb-0" id="pesdetails">
+          <section class="section section-white section-2" id="pesdetails">
             <div class="container align-left">
               <div class="row">
                 <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title">Services we offer:</h3>
+                  <h3 class="section__title">Services we offer</h3>
                 </div>
               </div>
             </div>
@@ -218,7 +233,7 @@ const ProductReEngineering = () => {
             <div class="container align-left">
               <div class="row">
                 <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Experience Design"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Experience-Design.jpg"
@@ -233,7 +248,12 @@ const ProductReEngineering = () => {
                       />
                     </noscript>
 
-                    <h5 class="features-item__title">Experience Design</h5>
+                    <h5
+                      class="features-item__title"
+                      style={{ color: "#0a0039" }}
+                    >
+                      Experience Design
+                    </h5>
                     <div class="features-item__text">
                       <p>
                         You may ensure increased client acquisition and
@@ -245,7 +265,7 @@ const ProductReEngineering = () => {
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Web Development"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Node.js-Web-Development.jpg"
@@ -260,7 +280,12 @@ const ProductReEngineering = () => {
                       />
                     </noscript>
 
-                    <h5 class="features-item__title">Web Development</h5>
+                    <h5
+                      class="features-item__title"
+                      style={{ color: "#0a0039" }}
+                    >
+                      Web Development
+                    </h5>
                     <div class="features-item__text">
                       <p>
                         We want to create a web platform that is focused on the
@@ -272,7 +297,7 @@ const ProductReEngineering = () => {
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Mobility"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61486.png"
@@ -287,7 +312,12 @@ const ProductReEngineering = () => {
                       />
                     </noscript>
 
-                    <h5 class="features-item__title">Mobility</h5>
+                    <h5
+                      class="features-item__title"
+                      style={{ color: "#0a0039" }}
+                    >
+                      Mobility
+                    </h5>
                     <div class="features-item__text">
                       <p>
                         Utilizing the technology of your choice, develop
@@ -299,7 +329,7 @@ const ProductReEngineering = () => {
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item align-left">
+                  <div class="features-item" style={{ textAlign: "center" }}>
                     <img
                       alt="Testing"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61490.png"
@@ -314,7 +344,10 @@ const ProductReEngineering = () => {
                       />
                     </noscript>
 
-                    <h5 class="features-item__title">
+                    <h5
+                      class="features-item__title"
+                      style={{ color: "#0a0039" }}
+                    >
                       Quality Testing and Engineering
                     </h5>
                     <div class="features-item__text">
@@ -332,32 +365,7 @@ const ProductReEngineering = () => {
           </section>
           {/* services offer end */}
 
-          {/* dont settle start */}
-          <div class="section section-white section-2 pt-0 pb-0" id="cta">
-            <div class="align-left">
-              <div class="s-get-it-2">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 align-middle">
-                      <h5 class="s-get-it-2__title">Don't Settle for Less!</h5>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 align-middle">
-                      <a
-                        href="../contact-us/index.htm"
-                        target="_blank"
-                        class="btn-a btn-a_fill_theme"
-                      >
-                        Talk to Product Engineering Experts
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* dont settle end */}
-
-          {/* technical expertise start */}
+          {/* tech expert start */}
           <div
             class="section hidden-xs section-2 pt-0 pb-0"
             id="Technology"
@@ -371,7 +379,13 @@ const ProductReEngineering = () => {
                     style={{ backgroundColor: "#f6f6f6" }}
                   >
                     <div class="info-box-item__inner">
-                      <h5 class="info-box__title">
+                      <h5
+                        class="info-box__title"
+                        style={{
+                          color: "#0075FF",
+                          textTransform: "uppercase",
+                        }}
+                      >
                         Web Development Technical Expertise
                       </h5>
                     </div>
@@ -406,50 +420,16 @@ const ProductReEngineering = () => {
                           </noscript>
                         </noscript>
 
-                        <span class="info-box-2-subitem__title">
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
                           Frontend &amp; UX
                         </span>
                         <div class="info-box-2-subitem__description">
                           <p>
-                            <a
-                              href="../custom-react-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              React.js
-                            </a>
-                            ,
-                            <a
-                              href="../angular/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              AngularJS
-                            </a>
-                            , VueJS,
-                            <a
-                              href="../react-native/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              React Native
-                            </a>
-                            , Flutter,
-                            <a
-                              href="../android-custom-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Android
-                            </a>
-                            ,
-                            <a
-                              href="../custom-ios-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              iOS
-                            </a>
+                            React.js, AngularJS, VueJS, React Native, Flutter,
+                            Android, iOS
                           </p>
                         </div>
                       </div>
@@ -476,30 +456,14 @@ const ProductReEngineering = () => {
                           </noscript>
                         </noscript>
 
-                        <span class="info-box-2-subitem__title">Backend</span>
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Backend
+                        </span>
                         <div class="info-box-2-subitem__description">
-                          <p>
-                            <a
-                              href="../custom-java-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Java
-                            </a>
-                            ,
-                            <a href="../custom-python-application-development/index.htm">
-                              Python
-                            </a>
-                            ,
-                            <a
-                              href="../custom-nodejs-application-development/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Node.Js
-                            </a>
-                            , PHP
-                          </p>
+                          <p>Java, Python, Node.Js, PHP</p>
                         </div>
                       </div>
                       <div class="info-box-2-subitem">
@@ -524,8 +488,12 @@ const ProductReEngineering = () => {
                             />
                           </noscript>
                         </noscript>
-
-                        <span class="info-box-2-subitem__title">Database</span>
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Database
+                        </span>
                         <div class="info-box-2-subitem__description">
                           <p>MongoDB, SQL, Redis</p>
                         </div>
@@ -552,18 +520,13 @@ const ProductReEngineering = () => {
                             />
                           </noscript>
                         </noscript>
-
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Analytics
+                        </span>
                         <div class="info-box-2-subitem__description">
-                          <p>
-                            <a
-                              style={{ marginLeft: "0px" }}
-                              href="../business-analytics-services/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              <strong>Analytics</strong>
-                            </a>
-                          </p>
                           <p>Panda, R, Hadoop, Hive</p>
                         </div>
                       </div>
@@ -589,18 +552,13 @@ const ProductReEngineering = () => {
                             />
                           </noscript>
                         </noscript>
-
+                        <span
+                          class="info-box-2-subitem__title"
+                          style={{ color: "#0a0039" }}
+                        >
+                          Cloud And Devops
+                        </span>
                         <div class="info-box-2-subitem__description">
-                          <p>
-                            <a
-                              style={{ marginLeft: "0px" }}
-                              href="../cloud-management-and-devops-services/index.htm"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              <strong>Cloud And Devops</strong>
-                            </a>
-                          </p>
                           <p>AWS, Jenkins, Docker, Kubernet</p>
                         </div>
                       </div>
@@ -633,7 +591,7 @@ const ProductReEngineering = () => {
             </div>
           </div>
           <div
-            class="section hidden-sm hidden-md hidden-lg section-2 pb-0 pt-0 pb-0"
+            class="section hidden-sm hidden-md hidden-lg section-2 pt-0 pb-0"
             id="Technology-Mob"
             style={{ backgroundColor: "#f6f6f6" }}
           >
@@ -646,7 +604,13 @@ const ProductReEngineering = () => {
                       style={{ backgroundColor: "#f6f6f6" }}
                     >
                       <div class="info-box-item__inner">
-                        <h5 class="info-box__title">
+                        <h5
+                          class="info-box__title"
+                          style={{
+                            color: "#0075FF",
+                            textTransform: "uppercase",
+                          }}
+                        >
                           Web Development Technical Expertise
                         </h5>
                       </div>
@@ -680,50 +644,16 @@ const ProductReEngineering = () => {
                             </noscript>
                           </noscript>
 
-                          <span class="info-box-2-subitem__title">
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
                             Frontend &amp; UX
                           </span>
                           <div class="info-box-2-subitem__description">
                             <p>
-                              <a
-                                href="../custom-react-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                React.js
-                              </a>
-                              ,
-                              <a
-                                href="../angular/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                AngularJS
-                              </a>
-                              , VueJS,
-                              <a
-                                href="../react-native/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                React Native
-                              </a>
-                              , Flutter,
-                              <a
-                                href="../android-custom-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Android
-                              </a>
-                              ,
-                              <a
-                                href="../custom-ios-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                iOS
-                              </a>
+                              React.js , AngularJS , VueJS, React Native ,
+                              Flutter, Android , iOS
                             </p>
                           </div>
                         </div>
@@ -750,30 +680,14 @@ const ProductReEngineering = () => {
                             </noscript>
                           </noscript>
 
-                          <span class="info-box-2-subitem__title">Backend</span>
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Backend
+                          </span>
                           <div class="info-box-2-subitem__description">
-                            <p>
-                              <a
-                                href="../custom-java-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Java
-                              </a>
-                              ,
-                              <a href="../custom-python-application-development/index.htm">
-                                Python
-                              </a>
-                              ,
-                              <a
-                                href="../custom-nodejs-application-development/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Node.Js
-                              </a>
-                              , PHP
-                            </p>
+                            <p>Java, Python, Node.Js, PHP</p>
                           </div>
                         </div>
                         <div class="info-box-2-subitem">
@@ -799,7 +713,10 @@ const ProductReEngineering = () => {
                             </noscript>
                           </noscript>
 
-                          <span class="info-box-2-subitem__title">
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
                             Database
                           </span>
                           <div class="info-box-2-subitem__description">
@@ -828,18 +745,13 @@ const ProductReEngineering = () => {
                               />
                             </noscript>
                           </noscript>
-
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Analytics
+                          </span>
                           <div class="info-box-2-subitem__description">
-                            <p>
-                              <a
-                                style={{ marginLeft: "0px" }}
-                                href="../business-analytics-services/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Analytics
-                              </a>
-                            </p>
                             <p>Panda, R, Hadoop, Hive</p>
                           </div>
                         </div>
@@ -865,18 +777,13 @@ const ProductReEngineering = () => {
                               />
                             </noscript>
                           </noscript>
-
+                          <span
+                            class="info-box-2-subitem__title"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Cloud And Devops
+                          </span>
                           <div class="info-box-2-subitem__description">
-                            <p>
-                              <a
-                                style={{ marginLeft: "0px" }}
-                                href="../cloud-management-and-devops-services/index.htm"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Cloud And Devops
-                              </a>
-                            </p>
                             <p>AWS, Jenkins, Docker, Kubernet</p>
                           </div>
                         </div>
@@ -908,76 +815,81 @@ const ProductReEngineering = () => {
               </div>
             </div>
           </div>
-          {/* technical expertise end */}
+          {/* tech expert end */}
 
           {/* success stories start */}
-          <section
-            class="section section-white section-2 pb-0"
-            id="success story"
-          >
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title">SUCCESS STORIES</h3>
+          <section className="section section-white section-2 pb-0">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12">
+                  <h3
+                    className="section__title"
+                    style={{
+                      color: "#0075ff",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Success Stories
+                  </h3>
                 </div>
               </div>
             </div>
 
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-3">
-                  <div class="team-item">
-                    <div class="team-item__wrap">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-3 equal-cols">
+                  <div className="team-item">
+                    <div className="team-item__wrap">
                       <img
                         alt="OneAD"
                         data-src="//steadyrabbit.in/wp-content/uploads/2021/01/Group-63109.jpg"
-                        class="team-item__img lazyload"
+                        className="team-item__img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-63109.jpg"
+                          src="wp-content/uploads/2021/01/Group-63109.jpg"
                           alt="OneAD"
-                          class="team-item__img"
+                          className="team-item__img"
                         />
                       </noscript>
-                      <div class="team-item-social">
+                      <div className="team-item-social">
                         <a
-                          class="team-item-social__link"
+                          className="team-item-social__link"
                           target="_blank"
-                          href="../onead/index.htm"
+                          href="onead/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                            class="team-item-social__icon lazyload"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                            className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                              class="team-item-social__icon lazyload"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                              className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                class="team-item-social__icon lazyload"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                  class="team-item-social__icon lazyload"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                  className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
-                                    src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                    class="team-item-social__icon"
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
                                   />
                                 </noscript>
@@ -987,69 +899,72 @@ const ProductReEngineering = () => {
                         </a>
                       </div>
                     </div>
-                    <div class="team-item-details">
-                      <div class="team-item-details__name">
+                    <div className="team-item-details">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
                         Mobile Gaming Platform
                       </div>
-                      <div class="team-item-details__position">
+                      <div className="team-item-details__position">
                         App loved by 30 Mn users
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-3">
-                  <div class="team-item">
-                    <div class="team-item__wrap">
+                <div className="col-xs-12 col-sm-3 equal-cols">
+                  <div className="team-item">
+                    <div className="team-item__wrap">
                       <img
-                        alt="OneMall"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/01/Group-63112.jpg"
-                        class="team-item__img lazyload"
+                        alt="Event Creative Platform"
+                        data-src="//steadyrabbit.in/wp-content/uploads/2022/01/Yogems.png"
+                        className="team-item__img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-63112.jpg"
-                          alt="OneMall"
-                          class="team-item__img"
+                          src="wp-content/uploads/2022/01/Yogems.png"
+                          alt="Event Creative Platform"
+                          className="team-item__img"
                         />
                       </noscript>
-                      <div class="team-item-social">
+                      <div className="team-item-social">
                         <a
-                          class="team-item-social__link"
+                          className="team-item-social__link"
                           target="_blank"
-                          href="../onemall/index.htm"
+                          href="yogems/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                            class="team-item-social__icon lazyload"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                            className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                              class="team-item-social__icon lazyload"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                              className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                class="team-item-social__icon lazyload"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                  class="team-item-social__icon lazyload"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                  className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
-                                    src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                    class="team-item-social__icon"
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
                                   />
                                 </noscript>
@@ -1059,67 +974,72 @@ const ProductReEngineering = () => {
                         </a>
                       </div>
                     </div>
-                    <div class="team-item-details">
-                      <div class="team-item-details__name">Ecommerce App</div>
-                      <div class="team-item-details__position">
-                        Targeting Next Billion Users
+                    <div className="team-item-details">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Event Creative Platform
+                      </div>
+                      <div className="team-item-details__position">
+                        Arts, Craft, Photography &amp; Music
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-3">
-                  <div class="team-item">
-                    <div class="team-item__wrap">
+                <div className="col-xs-12 col-sm-3 equal-cols">
+                  <div className="team-item">
+                    <div className="team-item__wrap">
                       <img
-                        alt="BS"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/01/Group-63110.jpg"
-                        class="team-item__img lazyload"
+                        alt="Group Shopping App"
+                        data-src="//steadyrabbit.in/wp-content/uploads/2022/01/MALL91.png"
+                        className="team-item__img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-63110.jpg"
-                          alt="BS"
-                          class="team-item__img"
+                          src="wp-content/uploads/2022/01/MALL91.png"
+                          alt="Group Shopping App"
+                          className="team-item__img"
                         />
                       </noscript>
-                      <div class="team-item-social">
+                      <div className="team-item-social">
                         <a
-                          class="team-item-social__link"
+                          className="team-item-social__link"
                           target="_blank"
-                          href="../brain-shaper/index.htm"
+                          href="mall91/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                            class="team-item-social__icon lazyload"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                            className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                              class="team-item-social__icon lazyload"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                              className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                class="team-item-social__icon lazyload"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                  class="team-item-social__icon lazyload"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                  className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
-                                    src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                    class="team-item-social__icon"
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
                                   />
                                 </noscript>
@@ -1129,69 +1049,72 @@ const ProductReEngineering = () => {
                         </a>
                       </div>
                     </div>
-                    <div class="team-item-details">
-                      <div class="team-item-details__name">
-                        Franchise Management
+                    <div className="team-item-details">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Group Shopping App
                       </div>
-                      <div class="team-item-details__position">
-                        Registered 23% increase in Revenue
+                      <div className="team-item-details__position">
+                        Built for the next 100 Cr. Indian users
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-3">
-                  <div class="team-item">
-                    <div class="team-item__wrap">
+                <div className="col-xs-12 col-sm-3 equal-cols">
+                  <div className="team-item">
+                    <div className="team-item__wrap">
                       <img
-                        alt="Aone"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/01/Group-62967-1.jpg"
-                        class="team-item__img lazyload"
+                        alt="Real Estate App"
+                        data-src="//steadyrabbit.in/wp-content/uploads/2022/01/UAV-Real-Estate.png"
+                        className="team-item__img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-62967-1.jpg"
-                          alt="Aone"
-                          class="team-item__img"
+                          src="wp-content/uploads/2022/01/UAV-Real-Estate.png"
+                          alt="Real Estate App"
+                          className="team-item__img"
                         />
                       </noscript>
-                      <div class="team-item-social">
+                      <div className="team-item-social">
                         <a
-                          class="team-item-social__link"
+                          className="team-item-social__link"
                           target="_blank"
-                          href="../a-one-software/index.htm"
+                          href="uav-real-estate/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                            class="team-item-social__icon lazyload"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                            className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                              class="team-item-social__icon lazyload"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                              className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                class="team-item-social__icon lazyload"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                  class="team-item-social__icon lazyload"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
+                                  className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
-                                    src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                    class="team-item-social__icon"
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
                                   />
                                 </noscript>
@@ -1201,10 +1124,15 @@ const ProductReEngineering = () => {
                         </a>
                       </div>
                     </div>
-                    <div class="team-item-details">
-                      <div class="team-item-details__name">Website Builder</div>
-                      <div class="team-item-details__position">
-                        Reduced Delivery Time by 60%
+                    <div className="team-item-details">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Real Estate App
+                      </div>
+                      <div className="team-item-details__position">
+                        Search homes remotely
                       </div>
                     </div>
                   </div>
@@ -1214,88 +1142,37 @@ const ProductReEngineering = () => {
           </section>
           {/* success stories end */}
 
-          {/* ask for more start */}
-          <div class="section section-white section-2 pb-0 pt-0 pb-0" id="cta">
-            <div class="align-left">
-              <div class="s-get-it-2">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 align-middle">
-                      <h5 class="s-get-it-2__title">Ask for more!</h5>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 align-middle">
-                      <a
-                        href="../contact-us/index.htm"
-                        target="_blank"
-                        class="btn-a btn-a_fill_theme"
-                      >
-                        Talk to our Product Engineering Expert!
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* ask for more end */}
-
           {/* development process start */}
           <section
             class="section hidden-xs section-lightgray section-2 pb-0"
             id="process"
+            style={{
+              background: "rgb(246, 246, 246)",
+            }}
           >
             <div class="container align-left">
               <div class="row">
                 <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title">Development Process</h3>
+                  <h3 class="section__title" style={{ color: "#0075FF" }}>
+                    Development Process
+                  </h3>
                 </div>
               </div>
             </div>
 
             <div class="container align-left">
               <div class="row">
-                <div class="col-xs-12 col-sm-12">
+                <div class=" col-xs-12 col-sm-12">
                   <img
                     alt="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
-                    data-src="../assets/wp-content/uploads/2021/09/development-process.jpg"
-                    class="lazyload"
-                    src="../assets/wp-content/uploads/2021/09/development-process.jpg"
+                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
+                    class=" ls-is-cached lazyloaded"
+                    src="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
                   />
                   <noscript>
                     <img
-                      src="../assets/wp-content/uploads/2021/09/development-process.jpg"
-                      alt="../assets/wp-content/uploads/2021/09/development-process.jpg"
-                    />
-                  </noscript>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section
-            class="section hidden-sm hidden-md hidden-lg section-lightgray section-2 pb-0"
-            id="process-mob"
-          >
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title">Development Process</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2022/04/DEVELOPMENT-PROCESS.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2022/04/DEVELOPMENT-PROCESS.png"
-                    class="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  />
-                  <noscript>
-                    <img
-                      src="../wp-content/uploads/2022/04/DEVELOPMENT-PROCESS.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2022/04/DEVELOPMENT-PROCESS.png"
+                      src="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
+                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
                     />
                   </noscript>
                 </div>
@@ -1303,6 +1180,37 @@ const ProductReEngineering = () => {
             </div>
           </section>
           {/* development process end */}
+
+          {/* get in touch start */}
+          <div className="section pt-0 pb-0" id="cta">
+            <div className="align-left">
+              <div className="s-get-it-2">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xs-12 col-sm-12 col-md-8 align-middle">
+                      <h5 className="s-get-it-2__title">
+                        Get In Touch <br /> Be a part of the solution!
+                      </h5>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-4 align-middle">
+                      <a
+                        href="contact-us/index.htm"
+                        target="_blank"
+                        className="btn-a btn-a_fill_theme"
+                        style={{
+                          borderRadius: "5px",
+                          borderColor: "#0075ff",
+                        }}
+                      >
+                        Get quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* get in touch end */}
         </div>
       </div>
     </>

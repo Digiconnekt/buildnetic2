@@ -1,4 +1,5 @@
 import React from "react";
+import "./HeroSection.css";
 
 const Home = () => {
   return (
@@ -6,116 +7,130 @@ const Home = () => {
       <div className="wrapper-content">
         <div className="fw-page-builder-content">
           {/* hero section start */}
-          <div className="section hidden-xs section-white" id="slider">
-            <div className="align-center">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12"></div>
-              </div>
-
-              <div className="row">
-                <div className="col-xs-12 col-sm-12"></div>
-              </div>
-
-              <div className="row">
-                <div
-                  className="col-xs-12 col-sm-6 no-padding"
-                  style={{ verticalAlign: "middle" }}
-                >
-                  <div className="main-1-item__inner align-left">
-                    <h2 className="main-1-item__title">
-                      {/* <span
-                        className="main-1-item__title_part_3"
-                        style={{ fontSize: "20px", fontWeight: "500" }}
-                      >
-                        Your focus:
-                      </span> */}
-                      <span
-                        className="theme-color main-1-item__title_part_1"
-                        style={{ color: "#0a0039 " }}
-                      >
-                        Compiling your ideas to
-                      </span>
-                    </h2>
-                  </div>
+          <div className="section section-2 pb-0">
+            <div className="hero">
+              <div className="container hero-section">
+                <div className="left-block">
+                  <h2 className="main-1-item__title">
+                    <span
+                      className="main-1-item__title_part_1"
+                      style={{ color: "#0a0039" }}
+                    >
+                      Compiling Your Ideas <br /> To
+                    </span>{" "}
+                    <span className="theme-color main-1-item__title_part_2">
+                      Generate Desired Solutions
+                    </span>{" "}
+                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                  </h2>
                 </div>
-                <div
-                  className="col-xs-12 col-sm-6 no-padding"
-                  style={{ verticalAlign: "middle" }}
-                >
-                  <div className="main-1-item__inner align-right">
-                    <h2 className="main-1-item__title">
-                      {/* <span
-                        className="main-1-item__title_part_3"
-                        style={{
-                          color: "#0075FF",
-                          fontSize: "20px",
-                          fontWeight: "500",
-                        }}
-                      >
-                        Our focus:
-                      </span> */}
-                      <span
-                        className="theme-color main-1-item__title_part_1"
-                        style={{ color: "#0075FF" }}
-                      >
-                        Generate desired solutions
-                      </span>
-                    </h2>
-                  </div>
+                <div className="right-block">
+                  <img src="./assets/images/about.png" alt="" />
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2022/06/banner1.jpg"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2022/06/banner1.jpg"
-                    className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  />
-                  <noscript>
-                    <img
-                      src="wp-content/uploads/2022/06/banner1.jpg"
-                      alt="//steadyrabbit.in/wp-content/uploads/2022/06/banner1.jpg"
-                    />
-                  </noscript>
+          {/* <div
+            className="section hidden-xs section-white section-2"
+            id="slider"
+            style={{ height: "650px" }}
+          >
+            <div className=" align-left">
+              <div
+                className="main-1 main-1-slider slide-like-a-pro"
+                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
+                style={{ height: "450px" }}
+              >
+                <div className="pro-items">
+                  <div className="main-1-item parallax-wrapper pro-item pro-item_active">
+                    <div
+                      className="parallax"
+                      style={{
+                        backgroundImage: "url(./assets/images/home3.png)",
+                        backgroundSize: "cover",
+                        backgroundAttachment: "local",
+                        backgroundRepeat: "no-repeat",
+                        height: "600px",
+                        transform:
+                          "translate3d(0px, -14px, 0px) scale3d(1, 1, 1)",
+                      }}
+                      data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
+                      data-w="1920"
+                      data-h="600"
+                    ></div>
+                    <div className="container">
+                      <div className="main-1-item__inner align-left">
+                        <h2 className="main-1-item__title">
+                          <span
+                            className="main-1-item__title_part_1"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Compiling your ideas to
+                          </span>{" "}
+                          <span className="theme-color main-1-item__title_part_2">
+                            Generate desired solutions
+                          </span>{" "}
+                          <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                        </h2>
+                        <p className="main-1-item__subtitle"></p>
+                      </div>
+                    </div>
+                    <div className="pro-item__timeline"></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="section hidden-sm hidden-md hidden-lg section-white"
+            className="section hidden-sm hidden-md hidden-lg section-white section-2"
             id="slider-mob"
+            style={{ height: "650px" }}
           >
-            <div className="align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12"></div>
-              </div>
-
-              <div className="row">
-                <div className="col-xs-12 col-sm-12"></div>
-              </div>
-
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2022/06/Home-banner-mob.jpg"
-                    height="500"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2022/06/Home-banner-mob.jpg"
-                    className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  />
-                  <noscript>
-                    <img
-                      src="wp-content/uploads/2022/06/Home-banner-mob.jpg"
-                      alt="//steadyrabbit.in/wp-content/uploads/2022/06/Home-banner-mob.jpg"
-                      height="500"
-                    />
-                  </noscript>
+            <div className=" align-left">
+              <div
+                className="main-1 main-1-slider slide-like-a-pro"
+                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
+                style={{ height: "450px" }}
+              >
+                <div className="pro-items">
+                  <div className="main-1-item parallax-wrapper pro-item pro-item_active">
+                    <div
+                      className="parallax"
+                      style={{
+                        backgroundImage:
+                          "url(https://steadyrabbit.in/wp-content/uploads/2022/04/why-mob.jpg)",
+                        backgroundSize: "cover",
+                        backgroundAttachment: "local",
+                        backgroundRepeat: "no-repeat",
+                      }}
+                      data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
+                      data-w="1920"
+                      data-h="600"
+                    ></div>
+                    <div className="container">
+                      <div className="main-1-item__inner align-left">
+                        <h2 className="main-1-item__title">
+                          <span
+                            className="main-1-item__title_part_1"
+                            style={{ color: "#0a0039" }}
+                          >
+                            Compiling your ideas to
+                          </span>{" "}
+                          <span className="theme-color main-1-item__title_part_2">
+                            Generate desired solutions
+                          </span>{" "}
+                          <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                        </h2>
+                        <p className="main-1-item__subtitle"></p>
+                      </div>
+                    </div>
+                    <div className="pro-item__timeline"></div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* hero section end */}
 
           {/* we provide start */}
@@ -129,13 +144,13 @@ const Home = () => {
                   <h1
                     style={{
                       fontSize: "36px",
-                      textTransform: "unset",
+                      textTransform: "uppercase",
                       fontWeight: "bold",
                       color: "#0075ff",
                       textAlign: "center",
                     }}
                   >
-                    We provide a team of technocrats for your organization
+                    We provide a team of Technocrats for your Organization
                   </h1>
                   <hr
                     style={{
@@ -308,7 +323,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-12">
                   <h3
                     style={{
-                      textTransform: "none",
+                      textTransform: "uppercase",
                       textAlign: "center",
                       fontSize: "36px",
                       fontWeight: "bold",
@@ -638,7 +653,7 @@ const Home = () => {
                   <h1
                     style={{
                       fontSize: "36px",
-                      textTransform: "unset",
+                      textTransform: "uppercase",
                       fontWeight: "bold",
                       textAlign: "center",
                       color: "#0075FF",
@@ -1248,7 +1263,7 @@ const Home = () => {
                       <h1
                         style={{
                           fontSize: "36px",
-                          textTransform: "unset",
+                          textTransform: "uppercase",
                           fontWeight: "bold",
                           textAlign: "center",
                           color: "#0075ff",
@@ -1386,7 +1401,7 @@ const Home = () => {
                     className="section__title"
                     style={{
                       color: "#0075ff",
-                      textTransform: "capitalize",
+                      textTransform: "uppercase",
                     }}
                   >
                     Testimonials
@@ -1433,7 +1448,7 @@ const Home = () => {
                     className="section__title"
                     style={{
                       color: "#0075ff",
-                      textTransform: "capitalize",
+                      textTransform: "uppercase",
                     }}
                   >
                     Success Stories
@@ -1758,7 +1773,7 @@ const Home = () => {
                     className="section__title"
                     style={{
                       color: "#0075ff",
-                      textTransform: "capitalize",
+                      textTransform: "uppercase",
                     }}
                   >
                     Frequently Asked Questions
@@ -1994,13 +2009,16 @@ const Home = () => {
           {/* FAQ end */}
 
           {/* awards start */}
-          <section className="section section-lightgray section-2" id="awards">
+          <section
+            className="section section-lightgray section-2 pb-0"
+            id="awards"
+          >
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
                   <h3
                     className="section__title"
-                    style={{ color: "#0075ff", textTransform: "capitalize" }}
+                    style={{ color: "#0075ff", textTransform: "uppercase" }}
                   >
                     Awards &amp; Recognitions
                   </h3>
@@ -2135,7 +2153,7 @@ const Home = () => {
                   <h1
                     style={{
                       fontSize: "36px",
-                      textTransform: "unset",
+                      textTransform: "uppercase",
                       fontWeight: "bold",
                       color: "#0075ff",
                       textAlign: "center",
