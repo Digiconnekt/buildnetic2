@@ -10,21 +10,28 @@ const SuccessStories = () => {
             <div className="hero">
               <div className="container hero-section">
                 <div className="left-block">
-                  <h2 className="main-1-item__title">
-                    <span
-                      className="main-1-item__title_part_1"
-                      style={{ color: "#0a0039" }}
-                    >
+                  <h1
+                    style={{
+                      fontSize: "36px",
+                      fontWeight: "bold",
+                      color: "rgb(0, 117, 255)",
+                      textAlign: "center",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    <span style={{ color: "#0a0039" }}>
+                      {" "}
                       The Mores Of Our Journey
                     </span>{" "}
-                    <span className="theme-color main-1-item__title_part_2">
-                      Milestones Of Our Success
-                    </span>{" "}
-                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                  </h2>
+                    <br />
+                    Milestones Of Our Success
+                  </h1>
                 </div>
                 <div className="right-block">
-                  <img src="./assets/images/about.png" alt="" />
+                  <img
+                    src="./assets/images/success-stories/success-stories.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -120,7 +127,7 @@ const SuccessStories = () => {
 
           {/* success stories start */}
           <section
-            className="section section-white section-2 pt-0"
+            className="section section-white section-2"
             id="success story"
           >
             <div className="container align-left">
@@ -1035,95 +1042,29 @@ const SuccessStories = () => {
           {/* success stories end */}
 
           {/* Question our Competence start */}
-          <div
-            className="section hidden-xs section-lightgray pb-0"
-            id="cta"
-            style={{
-              backgroundImage:
-                "url(../assets/wp-content/uploads/2021/09/QC.png)",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <div className="container align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-6"></div>
-                <div className="col-xs-12 col-sm-6">
-                  <div className="s-get-it">
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-xs-12 col-sm-12">
-                          <h5 className="s-get-it__title">
-                            Question our Competence
-                          </h5>
-
-                          <a
-                            href="../contact-us/index.htm"
-                            target="_blank"
-                            className="btn-a btn-a_color_black btn-a_size_large"
-                            style={{
-                              borderRadius: "5px",
-                              transition: "all 0.25s ease",
-                            }}
-                          >
-                            Schedule a call today!
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+          <div className="section section-lightgray section-2 pt-0 pb-0">
+            <div className="">
+              <div className="container hero-section">
+                <div className="left-block">
+                  <img
+                    src="./assets/images/success-stories/question.png"
+                    alt=""
+                  />
                 </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="section hidden-sm hidden-md hidden-lg section-lightgray pb-0 pt-0 pb-0"
-            id="cta_mob"
-          >
-            <div className="container-middle">
-              <div className="container align-center">
-                <div className="row">
-                  <div className="col-xs-12 col-sm-12 no-padding">
-                    <img
-                      alt="https://steadyrabbit.in/wp-content/uploads/2022/04/QC_new-300x200.png"
-                      width="300"
-                      height="200"
-                      data-src="https://steadyrabbit.in/wp-content/uploads/2022/04/QC_new-300x200.png"
-                      className="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    />
-                    <noscript>
-                      <img
-                        src="../assets/wp-content/uploads/2022/04/QC_new-300x200.png"
-                        alt="https://steadyrabbit.in/wp-content/uploads/2022/04/QC_new-300x200.png"
-                        width="300"
-                        height="200"
-                      />
-                    </noscript>
-                    <div className="s-get-it">
-                      <div className="container">
-                        <div className="row">
-                          <div className="col-xs-12 col-sm-12">
-                            <h5 className="s-get-it__title">
-                              Question our Competence
-                            </h5>
+                <div className="right-block">
+                  <h5 className="s-get-it__title">Question our Competence</h5>
 
-                            <a
-                              href="../contact-us/index.htm"
-                              target="_blank"
-                              className="btn-a btn-a_color_black btn-a_size_large"
-                              style={{
-                                borderRadius: "5px",
-                                transition: "all 0.25s ease",
-                              }}
-                            >
-                              Schedule a call today!
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <a
+                    href="#"
+                    target="_blank"
+                    className="btn-a btn-a_color_black btn-a_size_large"
+                    style={{
+                      borderRadius: "5px",
+                      transition: "all 0.25s ease",
+                    }}
+                  >
+                    Schedule a call today!
+                  </a>
                 </div>
               </div>
             </div>
@@ -1144,10 +1085,10 @@ const SuccessStories = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-6">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
+                    alt="Why Us"
+                    data-src="./assets/images/success-stories/whyUs.png"
                     className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="./assets/images/success-stories/whyUs.png"
                   />
                   <noscript>
                     <img

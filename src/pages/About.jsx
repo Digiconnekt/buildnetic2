@@ -10,21 +10,25 @@ const About = () => {
             <div className="hero">
               <div className="container hero-section">
                 <div className="left-block">
-                  <h2 className="main-1-item__title">
-                    <span
-                      className="main-1-item__title_part_1"
-                      style={{ color: "#0a0039" }}
-                    >
+                  <h1
+                    style={{
+                      fontSize: "36px",
+                      fontWeight: "bold",
+                      color: "rgb(0, 117, 255)",
+                      textAlign: "center",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    <span style={{ color: "#0a0039" }}>
+                      {" "}
                       Limitless Are The Possibilities
                     </span>{" "}
-                    <span className="theme-color main-1-item__title_part_2">
-                      Take The First Step
-                    </span>{" "}
-                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                  </h2>
+                    <br />
+                    Take The First Step
+                  </h1>
                 </div>
                 <div className="right-block">
-                  <img src="./assets/images/about.png" alt="" />
+                  <img src="./assets/images/about/about.png" alt="About Us" />
                 </div>
               </div>
             </div>
@@ -134,7 +138,7 @@ const About = () => {
 
           {/* who we start */}
           <section
-            className="section section-white section-2 features-2 pt-0"
+            className="section section-white section-2 features-2"
             id="Who we are"
           >
             <div className="container align-left">
@@ -273,10 +277,10 @@ const About = () => {
               <div className="row">
                 <div className=" col-xs-12 col-sm-6">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
+                    alt="Why Choose Us"
+                    data-src="./assets/images/about.png"
                     className=" ls-is-cached lazyloaded"
-                    src="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
+                    src="./assets/images/about/whyChooseUs.png"
                   />
                   <noscript>
                     <img

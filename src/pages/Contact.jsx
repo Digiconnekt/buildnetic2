@@ -11,21 +11,22 @@ const Contact = () => {
             <div className="hero">
               <div className="container hero-section">
                 <div className="left-block">
-                  <h2 className="main-1-item__title">
-                    <span
-                      className="main-1-item__title_part_1"
-                      style={{ color: "#0a0039" }}
-                    >
-                      Just A Call Away
-                    </span>{" "}
-                    <span className="theme-color main-1-item__title_part_2">
-                      Let Us Discuss Your Requirement
-                    </span>{" "}
-                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                  </h2>
+                  <h1
+                    style={{
+                      fontSize: "36px",
+                      fontWeight: "bold",
+                      color: "rgb(0, 117, 255)",
+                      textAlign: "center",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    <span style={{ color: "#0a0039" }}> Just A Call Away</span>{" "}
+                    <br />
+                    Let Us Discuss Your Requirement
+                  </h1>
                 </div>
                 <div className="right-block">
-                  <img src="./assets/images/about.png" alt="" />
+                  <img src="./assets/images/contact/contact.png" alt="" />
                 </div>
               </div>
             </div>

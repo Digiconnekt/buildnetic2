@@ -10,133 +10,34 @@ const Services = () => {
             <div className="hero">
               <div className="container hero-section">
                 <div className="left-block">
-                  <h2 className="main-1-item__title">
-                    <span
-                      className="main-1-item__title_part_1"
-                      style={{ color: "#0a0039" }}
-                    >
+                  <h1
+                    style={{
+                      fontSize: "36px",
+                      fontWeight: "bold",
+                      color: "rgb(0, 117, 255)",
+                      textAlign: "center",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    <span style={{ color: "#0a0039" }}>
+                      {" "}
                       Expect More From Us!
                     </span>{" "}
-                    <span className="theme-color main-1-item__title_part_2">
-                      Services
-                    </span>{" "}
-                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                  </h2>
+                    <br />
+                    Services
+                  </h1>
                 </div>
                 <div className="right-block">
-                  <img src="./assets/images/about.png" alt="" />
+                  <img src="./assets/images/services/service.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
 
-          {/* <div
-            className="section hidden-xs section-2"
-            style={{ height: "650px" }}
-          >
-            <div className=" align-left">
-              <div
-                className="main-1 main-1-slider slide-like-a-pro"
-                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
-                style={{ height: "450px" }}
-              >
-                <div className="pro-items">
-                  <div className="main-1-item parallax-wrapper pro-item pro-item_active">
-                    <div
-                      className="parallax"
-                      style={{
-                        backgroundImage:
-                          "url(https://steadyrabbit.in/wp-content/uploads/2021/09/ServicesBanner.jpg)",
-                        backgroundSize: "cover",
-                        backgroundAttachment: "local",
-                        backgroundRepeat: "no-repeat",
-                        height: "600px",
-                        transform:
-                          "translate3d(0px, -14px, 0px) scale3d(1, 1, 1)",
-                      }}
-                      data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
-                      data-w="1920"
-                      data-h="600"
-                    ></div>
-                    <div className="container">
-                      <div className="main-1-item__inner align-left">
-                        <h2 className="main-1-item__title">
-                          <span
-                            className="main-1-item__title_part_1"
-                            style={{ color: "#0a0039 " }}
-                          >
-                            Expect More from us!
-                          </span>{" "}
-                          <span className="theme-color main-1-item__title_part_2">
-                            Services
-                          </span>{" "}
-                          <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                        </h2>
-                        <p className="main-1-item__subtitle"></p>
-                      </div>
-                    </div>
-                    <div className="pro-item__timeline"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="section hidden-sm hidden-md hidden-lg section-2"
-            id="slider-mob"
-            style={{ height: "650px" }}
-          >
-            <div className=" align-left">
-              <div
-                className="main-1 main-1-slider slide-like-a-pro"
-                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
-                style={{ height: "450px" }}
-              >
-                <div className="pro-items">
-                  <div className="main-1-item parallax-wrapper pro-item pro-item_active">
-                    <div
-                      className="parallax"
-                      style={{
-                        backgroundImage:
-                          "url(./assets/wp-content/uploads/2022/04/Services-mob.jpg)",
-                        backgroundSize: "cover",
-                        backgroundAttachment: "local",
-                        backgroundRepeat: "no-repeat",
-                      }}
-                      data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
-                      data-w="1920"
-                      data-h="600"
-                    ></div>
-                    <div className="container">
-                      <div className="main-1-item__inner align-left">
-                        <h2 className="main-1-item__title">
-                          <span
-                            className="main-1-item__title_part_1"
-                            style={{ color: "#0a0039 " }}
-                          >
-                            Expect More from us!
-                          </span>{" "}
-                          <span className="theme-color main-1-item__title_part_2">
-                            Services
-                          </span>{" "}
-                          <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                        </h2>
-                        <p className="main-1-item__subtitle"></p>
-                      </div>
-                    </div>
-                    <div className="pro-item__timeline"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           {/* title end */}
 
           {/* services offering start */}
-          <section
-            className="section section-white section-2 pt-0"
-            id="service111"
-          >
+          <section className="section section-white section-2" id="service111">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -148,7 +49,7 @@ const Services = () => {
             <div className="container align-left">
               <div className="row equal-cols-container">
                 <div
-                  className=" col-xs-12 col-sm-6 col-md-4 col-lg-4 equal-cols"
+                  className=" col-xs-12 col-sm-4 col-md-4 col-lg-4 equal-cols"
                   // style={{ height: "221px" }}
                 >
                   <div
@@ -423,7 +324,7 @@ const Services = () => {
 
           {/* tech expert start */}
           <div
-            className="section hidden-xs section-2 pt-0 pb-0"
+            className="section hidden-xs section-2 pb-0"
             id="Technology"
             style={{ backgroundColor: "#f6f6f6" }}
           >
@@ -629,22 +530,22 @@ const Services = () => {
                 </div>
                 <div className="col-xs-12 col-sm-4 equal-cols no-padding">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                    alt="Technical Expertise"
+                    data-src="./assets/images/services/technicalExpertise.png"
                     className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="./assets/images/services/technicalExpertise.png"
                   />
                   <noscript>
                     <img
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                      alt="Technical Expertise"
+                      data-src="./assets/images/services/technicalExpertise.png"
                       className="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      src="./assets/images/services/technicalExpertise.png"
                     />
                     <noscript>
                       <img
-                        src="../wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                        alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                        src="./assets/images/services/technicalExpertise.png"
+                        alt="Technical Expertise"
                       />
                     </noscript>
                   </noscript>
@@ -859,22 +760,22 @@ const Services = () => {
                     </div>
 
                     <img
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                      alt="Technical Expertise"
+                      data-src="./assets/images/services/technicalExpertise.png"
                       className="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      src="./assets/images/services/technicalExpertise.png"
                     />
                     <noscript>
                       <img
-                        alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                        alt="Technical Expertise"
+                        data-src="./assets/images/services/technicalExpertise.png"
                         className="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        src="./assets/images/services/technicalExpertise.png"
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                          alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                          src="./assets/images/services/technicalExpertise.png"
+                          alt="Technical Expertise"
                         />
                       </noscript>
                     </noscript>
@@ -886,21 +787,26 @@ const Services = () => {
           {/* tech expert end */}
 
           {/* success stories start */}
-          <section
-            className="section section-white section-2"
-            id="success story"
-          >
+          <section className="section section-white section-2">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">SUCCESS STORIES</h3>
+                  <h3
+                    className="section__title"
+                    style={{
+                      color: "#0075ff",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Success Stories
+                  </h3>
                 </div>
               </div>
             </div>
 
             <div className="container align-left">
               <div className="row">
-                <div className="col-xs-12 col-sm-3">
+                <div className="col-xs-12 col-sm-3 equal-cols">
                   <div className="team-item">
                     <div className="team-item__wrap">
                       <img
@@ -911,7 +817,7 @@ const Services = () => {
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-63109.jpg"
+                          src="wp-content/uploads/2021/01/Group-63109.jpg"
                           alt="OneAD"
                           className="team-item__img"
                         />
@@ -920,81 +826,41 @@ const Services = () => {
                         <a
                           className="team-item-social__link"
                           target="_blank"
-                          href="../onead/index.htm"
+                          href="onead/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                             className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                               className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                 className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                   className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
-                                    data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                    className="team-item-social__icon lazyload"
-                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                   />
-                                  <noscript>
-                                    <img
-                                      alt="readmore"
-                                      data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                      className="team-item-social__icon lazyload"
-                                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    />
-                                    <noscript>
-                                      <img
-                                        alt="readmore"
-                                        data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                        className="team-item-social__icon lazyload"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                      />
-                                      <noscript>
-                                        <img
-                                          alt="readmore"
-                                          data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                          className="team-item-social__icon lazyload"
-                                          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        />
-                                        <noscript>
-                                          <img
-                                            alt="readmore"
-                                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                            className="team-item-social__icon lazyload"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                          />
-                                          <noscript>
-                                            <img
-                                              src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                              className="team-item-social__icon"
-                                              alt="readmore"
-                                            />
-                                          </noscript>
-                                        </noscript>
-                                      </noscript>
-                                    </noscript>
-                                  </noscript>
                                 </noscript>
                               </noscript>
                             </noscript>
@@ -1003,7 +869,10 @@ const Services = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
                         Mobile Gaming Platform
                       </div>
                       <div className="team-item-details__position">
@@ -1012,19 +881,19 @@ const Services = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-3">
+                <div className="col-xs-12 col-sm-3 equal-cols">
                   <div className="team-item">
                     <div className="team-item__wrap">
                       <img
-                        alt="OneMall"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/01/Group-63112.jpg"
+                        alt="Event Creative Platform"
+                        data-src="//steadyrabbit.in/wp-content/uploads/2022/01/Yogems.png"
                         className="team-item__img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-63112.jpg"
-                          alt="OneMall"
+                          src="wp-content/uploads/2022/01/Yogems.png"
+                          alt="Event Creative Platform"
                           className="team-item__img"
                         />
                       </noscript>
@@ -1032,81 +901,41 @@ const Services = () => {
                         <a
                           className="team-item-social__link"
                           target="_blank"
-                          href="../onemall/index.htm"
+                          href="yogems/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                             className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                               className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                 className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                   className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
-                                    data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                    className="team-item-social__icon lazyload"
-                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                   />
-                                  <noscript>
-                                    <img
-                                      alt="readmore"
-                                      data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                      className="team-item-social__icon lazyload"
-                                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    />
-                                    <noscript>
-                                      <img
-                                        alt="readmore"
-                                        data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                        className="team-item-social__icon lazyload"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                      />
-                                      <noscript>
-                                        <img
-                                          alt="readmore"
-                                          data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                          className="team-item-social__icon lazyload"
-                                          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        />
-                                        <noscript>
-                                          <img
-                                            alt="readmore"
-                                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                            className="team-item-social__icon lazyload"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                          />
-                                          <noscript>
-                                            <img
-                                              src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                              className="team-item-social__icon"
-                                              alt="readmore"
-                                            />
-                                          </noscript>
-                                        </noscript>
-                                      </noscript>
-                                    </noscript>
-                                  </noscript>
                                 </noscript>
                               </noscript>
                             </noscript>
@@ -1115,28 +944,31 @@ const Services = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
-                        Ecommerce App
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Event Creative Platform
                       </div>
                       <div className="team-item-details__position">
-                        Targeting Next Billion Users
+                        Arts, Craft, Photography &amp; Music
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-3">
+                <div className="col-xs-12 col-sm-3 equal-cols">
                   <div className="team-item">
                     <div className="team-item__wrap">
                       <img
-                        alt="BS"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/01/Group-63110.jpg"
+                        alt="Group Shopping App"
+                        data-src="//steadyrabbit.in/wp-content/uploads/2022/01/MALL91.png"
                         className="team-item__img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-63110.jpg"
-                          alt="BS"
+                          src="wp-content/uploads/2022/01/MALL91.png"
+                          alt="Group Shopping App"
                           className="team-item__img"
                         />
                       </noscript>
@@ -1144,81 +976,41 @@ const Services = () => {
                         <a
                           className="team-item-social__link"
                           target="_blank"
-                          href="../brain-shaper/index.htm"
+                          href="mall91/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                             className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                               className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                 className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                   className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
-                                    data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                    className="team-item-social__icon lazyload"
-                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                   />
-                                  <noscript>
-                                    <img
-                                      alt="readmore"
-                                      data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                      className="team-item-social__icon lazyload"
-                                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    />
-                                    <noscript>
-                                      <img
-                                        alt="readmore"
-                                        data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                        className="team-item-social__icon lazyload"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                      />
-                                      <noscript>
-                                        <img
-                                          alt="readmore"
-                                          data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                          className="team-item-social__icon lazyload"
-                                          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        />
-                                        <noscript>
-                                          <img
-                                            alt="readmore"
-                                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                            className="team-item-social__icon lazyload"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                          />
-                                          <noscript>
-                                            <img
-                                              src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                              className="team-item-social__icon"
-                                              alt="readmore"
-                                            />
-                                          </noscript>
-                                        </noscript>
-                                      </noscript>
-                                    </noscript>
-                                  </noscript>
                                 </noscript>
                               </noscript>
                             </noscript>
@@ -1227,28 +1019,31 @@ const Services = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
-                        Franchise Management
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Group Shopping App
                       </div>
                       <div className="team-item-details__position">
-                        Registered 23% increase in Revenue
+                        Built for the next 100 Cr. Indian users
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-3">
+                <div className="col-xs-12 col-sm-3 equal-cols">
                   <div className="team-item">
                     <div className="team-item__wrap">
                       <img
-                        alt="Aone"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/01/Group-62967-1.jpg"
+                        alt="Real Estate App"
+                        data-src="//steadyrabbit.in/wp-content/uploads/2022/01/UAV-Real-Estate.png"
                         className="team-item__img lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/01/Group-62967-1.jpg"
-                          alt="Aone"
+                          src="wp-content/uploads/2022/01/UAV-Real-Estate.png"
+                          alt="Real Estate App"
                           className="team-item__img"
                         />
                       </noscript>
@@ -1256,81 +1051,41 @@ const Services = () => {
                         <a
                           className="team-item-social__link"
                           target="_blank"
-                          href="../a-one-software/index.htm"
+                          href="uav-real-estate/index.htm"
                         >
                           <img
                             alt="readmore"
-                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                            data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                             className="team-item-social__icon lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt="readmore"
-                              data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                              data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                               className="team-item-social__icon lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 alt="readmore"
-                                data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                 className="team-item-social__icon lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                               />
                               <noscript>
                                 <img
                                   alt="readmore"
-                                  data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
+                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/readmore.png"
                                   className="team-item-social__icon lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 />
                                 <noscript>
                                   <img
+                                    src="wp-content/uploads/2021/01/readmore.png"
+                                    className="team-item-social__icon"
                                     alt="readmore"
-                                    data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                    className="team-item-social__icon lazyload"
-                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                   />
-                                  <noscript>
-                                    <img
-                                      alt="readmore"
-                                      data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                      className="team-item-social__icon lazyload"
-                                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    />
-                                    <noscript>
-                                      <img
-                                        alt="readmore"
-                                        data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                        className="team-item-social__icon lazyload"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                      />
-                                      <noscript>
-                                        <img
-                                          alt="readmore"
-                                          data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                          className="team-item-social__icon lazyload"
-                                          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        />
-                                        <noscript>
-                                          <img
-                                            alt="readmore"
-                                            data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/readmore.png"
-                                            className="team-item-social__icon lazyload"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                          />
-                                          <noscript>
-                                            <img
-                                              src="../sr/wp-content/uploads/2021/01/readmore.png"
-                                              className="team-item-social__icon"
-                                              alt="readmore"
-                                            />
-                                          </noscript>
-                                        </noscript>
-                                      </noscript>
-                                    </noscript>
-                                  </noscript>
                                 </noscript>
                               </noscript>
                             </noscript>
@@ -1339,11 +1094,14 @@ const Services = () => {
                       </div>
                     </div>
                     <div className="team-item-details">
-                      <div className="team-item-details__name">
-                        Website Builder
+                      <div
+                        className="team-item-details__name"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Real Estate App
                       </div>
                       <div className="team-item-details__position">
-                        Reduced Delivery Time by 60%
+                        Search homes remotely
                       </div>
                     </div>
                   </div>
@@ -1353,206 +1111,201 @@ const Services = () => {
           </section>
           {/* success stories end */}
 
-          {/* question our competence start */}
-          <div
-            className="section hidden-xs section-lightgray"
-            id="cta"
-            style={{
-              backgroundImage:
-                "url(https://steadyrabbit.in/wp-content/uploads/2021/09/QC.png)",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <div className="container align-left">
-              <div className="row">
-                <div className=" col-xs-12 col-sm-6"></div>
-                <div className=" col-xs-12 col-sm-6">
-                  <div className="s-get-it">
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-xs-12 col-sm-12">
-                          <h5 className="s-get-it__title">
-                            Question our Competence
-                          </h5>
+          {/* Question our Competence start */}
+          <div className="section section-lightgray section-2 pt-0 pb-0">
+            <div className="">
+              <div className="container hero-section">
+                <div className="left-block">
+                  <img
+                    src="./assets/images/success-stories/question.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  className="right-block"
+                  style={{
+                    paddingBottom: "30px",
+                  }}
+                >
+                  <h5 className="s-get-it__title">Question our Competence</h5>
 
-                          <a
-                            href="/contact-us/"
-                            target="_self"
-                            className="btn-a btn-a_color_black btn-a_size_large"
-                          >
-                            Schedule a call today!
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <a
+                    href="#"
+                    target="_blank"
+                    className="btn-a btn-a_color_black btn-a_size_large"
+                    style={{
+                      borderRadius: "5px",
+                      transition: "all 0.25s ease",
+                    }}
+                  >
+                    Schedule a call today!
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="section hidden-sm hidden-md hidden-lg section-lightgray pt-0 pb-0"
-            id="cta_mob"
-          >
-            <div className=" container-middle">
-              <div className=" align-center">
-                <div className="row">
-                  <div className=" col-xs-12 col-sm-12">
-                    <img
-                      alt="https://steadyrabbit.in/wp-content/uploads/2022/04/QC_new-300x200.png"
-                      width="300"
-                      height="200"
-                      data-src="https://steadyrabbit.in/wp-content/uploads/2022/04/QC_new-300x200.png"
-                      className="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    />
-                    <noscript>
-                      <img
-                        src="https://steadyrabbit.in/wp-content/uploads/2022/04/QC_new-300x200.png"
-                        alt="https://steadyrabbit.in/wp-content/uploads/2022/04/QC_new-300x200.png"
-                        width="300"
-                        height="200"
-                      />
-                    </noscript>
-                    <div className="s-get-it">
-                      <div className="container">
-                        <div className="row">
-                          <div className="col-xs-12 col-sm-12">
-                            <h5 className="s-get-it__title">
-                              Question our Competence
-                            </h5>
-
-                            <a
-                              href="/contact-us/"
-                              target="_self"
-                              className="btn-a btn-a_color_black btn-a_size_large"
-                            >
-                              Schedule a call today!
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* question our competence end */}
+          {/* Question our Competence end */}
 
           {/* why us start */}
           <section className="section section-white section-2 pb-0" id="Why us">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title" style={{ color: "#0075ff" }}>
-                    Why Choose us
-                  </h3>
+                  <h3 className="section__title">Why us</h3>
                 </div>
               </div>
             </div>
 
             <div className="container align-left">
               <div className="row">
-                <div className=" col-xs-12 col-sm-6">
+                <div className="col-xs-12 col-sm-6">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
-                    className=" ls-is-cached lazyloaded"
-                    src="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
+                    alt="Why Us"
+                    data-src="./assets/images/success-stories/whyUs.png"
+                    className="lazyload"
+                    src="./assets/images/success-stories/whyUs.png"
                   />
                   <noscript>
                     <img
-                      src="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
+                      src="../wp-content/uploads/2021/09/WHY-US.png"
                       alt="//steadyrabbit.in/wp-content/uploads/2021/09/WHY-US.png"
                     />
                   </noscript>
                 </div>
-                <div className=" col-xs-12 col-sm-6">
-                  <div className="info-box-3 " style={{}}>
-                    <p style={{ lineHeight: "1.7" }}>
-                      <i
-                        className="fa fa-circle"
-                        style={{
-                          color: "#0a0039",
-                          marginLeft: "5px",
-                          fontSize: "10px",
-                        }}
-                        aria-hidden="true"
-                      ></i>{" "}
-                      &nbsp;
-                    </p>
-                    <p style={{ marginLeft: "24px", marginTop: "-24px" }}>
-                      &nbsp;We leverage secure & scalable solutions with the
-                      integration of technologies to develop solutions to
-                      translate your visionary ideas into reality.
-                    </p>
-                    <p style={{ lineHeight: "1.7" }}>
-                      <i
-                        className="fa fa-circle"
-                        style={{
-                          color: "#0a0039",
-                          marginLeft: "5px",
-                          fontSize: "10px",
-                        }}
-                        aria-hidden="true"
-                      ></i>{" "}
-                      &nbsp;
-                    </p>
-                    <p style={{ marginLeft: "24px", marginTop: "-24px" }}>
-                      &nbsp;We aim to deliver marketing-led business solutions
-                      that define bold ambitions.
-                    </p>
-                    <p style={{ lineHeight: "1.7" }}>
-                      <i
-                        className="fa fa-circle"
-                        style={{
-                          color: "#0a0039",
-                          marginLeft: "5px",
-                          fontSize: "10px",
-                        }}
-                        aria-hidden="true"
-                      ></i>{" "}
-                      &nbsp;
-                    </p>
-                    <p style={{ marginLeft: "24px", marginTop: "-24px" }}>
-                      &nbsp;We are hell-bent on creating the best digital world
-                      by creating better knowledge on insights, market
-                      intelligence, and data analysis
-                    </p>
-                    <p style={{ lineHeight: "1.7" }}>
-                      <i
-                        className="fa fa-circle"
-                        style={{
-                          color: "#0a0039",
-                          marginLeft: "5px",
-                          fontSize: "10px",
-                        }}
-                        aria-hidden="true"
-                      ></i>{" "}
-                      &nbsp;
-                    </p>
-                    <p style={{ marginLeft: "24px", marginTop: "-24px" }}>
-                      &nbsp;Our experts help organizations nurture strong and
-                      deliver effective and outstanding customer experiences
-                    </p>
-                    <p style={{ lineHeight: "1.7" }}>
-                      <i
-                        className="fa fa-circle"
-                        style={{
-                          color: "#0a0039",
-                          marginLeft: "5px",
-                          fontSize: "10px",
-                        }}
-                        aria-hidden="true"
-                      ></i>{" "}
-                      &nbsp;
-                    </p>
-                    <p style={{ marginLeft: "24px", marginTop: "-24px" }}>
-                      &nbsp;We help you build business efficiency, optimize
-                      digital processes and accelerate growth in all spheres.
-                    </p>
+                <div className="col-xs-12 col-sm-6">
+                  <div className="info-box-3">
+                    <div className="info-box-3-item">
+                      <img
+                        alt=""
+                        data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/scalable.png"
+                        className="info-box-3-item__img lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      />
+                      <noscript>
+                        <img
+                          src="../wp-content/uploads/2021/09/scalable.png"
+                          className="info-box-3-item__img"
+                          alt=""
+                        />
+                      </noscript>
+                      <span
+                        className="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Specialist of Scalable Apps
+                      </span>
+                      <div className="info-box-3-item__description">
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
+                          Managed 500,000 concurrent users.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="info-box-3-item">
+                      <img
+                        alt=""
+                        data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Your-Journey-Partner.png"
+                        className="info-box-3-item__img lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      />
+                      <noscript>
+                        <img
+                          src="../wp-content/uploads/2021/09/Your-Journey-Partner.png"
+                          className="info-box-3-item__img"
+                          alt=""
+                        />
+                      </noscript>
+
+                      <span
+                        className="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Your journey partner
+                      </span>
+                      <div className="info-box-3-item__description">
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
+                          Help build technology &amp; businesses.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="info-box-3-item">
+                      <img
+                        alt=""
+                        data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Deliver-On-Time.png"
+                        className="info-box-3-item__img lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      />
+                      <noscript>
+                        <img
+                          src="../wp-content/uploads/2021/09/Deliver-On-Time.png"
+                          className="info-box-3-item__img"
+                          alt=""
+                        />
+                      </noscript>
+
+                      <span
+                        className="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Deliver on time
+                      </span>
+                      <div className="info-box-3-item__description">
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
+                          We promise. We deliver.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="info-box-3-item">
+                      <img
+                        alt=""
+                        data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Humanize-Designs.png"
+                        className="info-box-3-item__img lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      />
+                      <noscript>
+                        <img
+                          src="../wp-content/uploads/2021/09/Humanize-Designs.png"
+                          className="info-box-3-item__img"
+                          alt=""
+                        />
+                      </noscript>
+
+                      <span
+                        className="info-box-3-item__title"
+                        style={{ color: "#0a0039" }}
+                      >
+                        Humanize designs
+                      </span>
+                      <div className="info-box-3-item__description">
+                        <p
+                          style={{
+                            paddingLeft: "10px",
+                            marginTop: "-25px",
+                            color: "#212121",
+                          }}
+                        >
+                          Focus on user acquisition and retention.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="info-box-3-item"></div>
                   </div>
                 </div>
               </div>
@@ -1562,11 +1315,8 @@ const Services = () => {
 
           {/* development process start */}
           <section
-            className="section hidden-xs section-lightgray section-2 pb-0"
+            className="section hidden-xs section-2 pt-0 pb-0"
             id="process"
-            style={{
-              background: "rgb(246, 246, 246)",
-            }}
           >
             <div className="container align-left">
               <div className="row">
@@ -1598,556 +1348,6 @@ const Services = () => {
             </div>
           </section>
           {/* development process end */}
-
-          {/* testimonial start */}
-          <section
-            className="section section-lightgray section-2"
-            id="testimonials"
-            style={{ background: "none" }}
-          >
-            <div className="container align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <h3 className="section__title">Testimonials</h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="container align-left">
-              <div className="row">
-                <div className=" col-xs-12 col-sm-12">
-                  <p>
-                    {/* <style>
-                    #sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-dots li button{
-				background: #cccccc;
-			}
-			#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-dots li.slick-active button{
-                background: #f11b27;
-            }
-            #sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-prev,
-			#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-next{
-				background: #777777;
-				border: 0px solid #777777;
-				color: #ffffff;
-			}
-            #sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-prev:hover,
-			#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .slick-next:hover{
-				background: #f11b27;
-				border-color: #f11b27;
-				color: #ffffff;
-			}
-			#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section{
-					padding: 0 50px;
-				}#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .tfree-client-rating{
-					color: #ffb900;
-				}#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .tfree-client-designation{
-					color: #ffffff;
-				}#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .tfree-client-name{
-					color: #ffffff;
-				}#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .tfree-client-testimonial{
-					color: #ffffff;
-				}#sp-testimonial-free-wrapper-3455 .sp-testimonial-free-section .tfree-testimonial-title h3{
-					color: #ffffff;
-				}
-        </style> */}
-                  </p>
-                  <div
-                    id="sp-testimonial-free-wrapper-3455"
-                    className="sp-testimonial-free-wrapper"
-                  >
-                    <div
-                      id="sp-testimonial-free-3455"
-                      className="sp-testimonial-free-section tfree-style-theme-one slick-initialized slick-slider slick-dotted"
-                      dir="ltr"
-                      data-slick='{"dots": true, "adaptiveHeight": false, "pauseOnHover": true, "slidesToShow": 1, "speed": 600, "arrows": true, "autoplay": true, "autoplaySpeed": 3000, "swipe": true, "swipeToSlide": false, "draggable": true, "rtl": false, "infinite": true, "responsive": [
-                        {
-                          "breakpoint": 1280, "settings": { "slidesToShow": 1 } 
-                        },
-                        {
-                          "breakpoint": 980, "settings": { "slidesToShow": 1 } 
-                        },
-                        {
-                          "breakpoint": 736, "settings": { "slidesToShow": 1 } 
-                        },
-                        {
-                          "breakpoint": 480, "settings": {
-                            "slidesToShow": 1,
-                            "dots": true,
-                            "arrows": true,
-                            "autoplay": true
-                          } 
-                        }
-                        ] }'
-                      role="toolbar"
-                    >
-                      <div className="slick-prev slick-arrow" style={{}}>
-                        <i className="fa fa-angle-left"></i>
-                      </div>
-                      <div aria-live="polite" className="slick-list draggable">
-                        <div
-                          className="slick-track"
-                          style={{
-                            opacity: "1",
-                            width: "5470px",
-                            transform: "translate3d(-1094px, 0px, 0px)",
-                          }}
-                          role="listbox"
-                        >
-                          <div
-                            className="sp-testimonial-free-item slick-slide slick-cloned"
-                            data-slick-index="-1"
-                            id=""
-                            aria-hidden="true"
-                            style={{ width: "1094px" }}
-                            tabIndex="-1"
-                          >
-                            <div className="sp-testimonial-free">
-                              <div className="sp-tfree-client-image">
-                                <img
-                                  width="120"
-                                  height="120"
-                                  alt="Ram"
-                                  data-srcset="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Ram.jpg 150w"
-                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg"
-                                  data-sizes="(max-width: 120px) 100vw, 120px"
-                                  className="tfree-client-image wp-post-image ls-is-cached lazyloaded"
-                                  src="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg"
-                                  sizes="(max-width: 120px) 100vw, 120px"
-                                  srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Ram.jpg 150w"
-                                />
-                                <noscript>
-                                  <img
-                                    width="120"
-                                    height="120"
-                                    src="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg"
-                                    className="tfree-client-image wp-post-image"
-                                    alt="Ram"
-                                    srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Ram.jpg 150w"
-                                    sizes="(max-width: 120px) 100vw, 120px"
-                                  />
-                                </noscript>
-                              </div>
-                              <div className="tfree-testimonial-title">
-                                <h3>Ram Niwas</h3>
-                              </div>
-                              <div className="tfree-client-testimonial">
-                                <p className="tfree-testimonial-content"></p>
-                                <p
-                                  style={{
-                                    color: "#000000",
-                                  }}
-                                >
-                                  The most impressive thing we found about this
-                                  company is that we could connect directly with
-                                  the team assigned to me at any time which made
-                                  it easier for us to communicate with them.
-                                </p>
-                                <p></p>
-                              </div>
-                              <h4 className="tfree-client-name">Director</h4>
-                              <div className="tfree-client-rating">
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                              </div>
-                              <div className="tfree-client-designation">
-                                A-One Software
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="sp-testimonial-free-item slick-slide slick-current slick-active"
-                            data-slick-index="0"
-                            aria-hidden="false"
-                            style={{ width: "1094px" }}
-                            tabIndex="-1"
-                            role="option"
-                            aria-describedby="slick-slide00"
-                          >
-                            <div className="sp-testimonial-free">
-                              <div className="sp-tfree-client-image">
-                                <img
-                                  width="120"
-                                  height="120"
-                                  alt="VG"
-                                  data-srcset="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/VG.jpg 150w"
-                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg"
-                                  data-sizes="(max-width: 120px) 100vw, 120px"
-                                  className="tfree-client-image wp-post-image lazyloaded"
-                                  src="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg"
-                                  sizes="(max-width: 120px) 100vw, 120px"
-                                  srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/VG.jpg 150w"
-                                />
-                                <noscript>
-                                  <img
-                                    width="120"
-                                    height="120"
-                                    src="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg"
-                                    className="tfree-client-image wp-post-image"
-                                    alt="VG"
-                                    srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/VG.jpg 150w"
-                                    sizes="(max-width: 120px) 100vw, 120px"
-                                  />
-                                </noscript>
-                              </div>
-                              <div className="tfree-testimonial-title">
-                                <h3>Vinod Gupta</h3>
-                              </div>
-                              <div className="tfree-client-testimonial">
-                                <p className="tfree-testimonial-content"></p>
-                                <p style={{ color: "#000000" }}>
-                                  The most splendid thing we found about Steady
-                                  Rabbit Technology is their work culture and
-                                  time management skills.
-                                </p>
-                                <p></p>
-                              </div>
-                              <h4 className="tfree-client-name">
-                                Legal Consultant
-                              </h4>
-                              <div className="tfree-client-rating">
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                              </div>
-                              <div className="tfree-client-designation">
-                                VKG Associates
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="sp-testimonial-free-item slick-slide"
-                            data-slick-index="1"
-                            aria-hidden="true"
-                            style={{ width: "1094px" }}
-                            tabIndex="-1"
-                            role="option"
-                            aria-describedby="slick-slide01"
-                          >
-                            <div className="sp-testimonial-free">
-                              <div className="sp-tfree-client-image">
-                                <img
-                                  width="120"
-                                  height="120"
-                                  alt="Nidhi"
-                                  data-srcset="https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi.jpg 150w"
-                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi-120x120.jpg"
-                                  data-sizes="(max-width: 120px) 100vw, 120px"
-                                  className="tfree-client-image wp-post-image lazyloaded"
-                                  src="https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi-120x120.jpg"
-                                  sizes="(max-width: 120px) 100vw, 120px"
-                                  srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi.jpg 150w"
-                                />
-                                <noscript>
-                                  <img
-                                    width="120"
-                                    height="120"
-                                    src="https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi-120x120.jpg"
-                                    className="tfree-client-image wp-post-image"
-                                    alt="Nidhi"
-                                    srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Nidhi.jpg 150w"
-                                    sizes="(max-width: 120px) 100vw, 120px"
-                                  />
-                                </noscript>
-                              </div>
-                              <div className="tfree-testimonial-title">
-                                <h3>Nidhi Dhingra</h3>
-                              </div>
-                              <div className="tfree-client-testimonial">
-                                <p className="tfree-testimonial-content"></p>
-                                <p style={{ color: "#000000" }}>
-                                  In my opinion, many vendors would have been
-                                  able to deliver the project at the end of the
-                                  day, but what was unique about Steady Rabbit
-                                  is that I felt as if my project was being
-                                  developed in-house- such was the level of
-                                  transparency. I was never worried about
-                                  misplaced deadlines or budget overshoot.
-                                </p>
-                                <p></p>
-                              </div>
-                              <h4 className="tfree-client-name">
-                                Vice President of Sales
-                              </h4>
-                              <div className="tfree-client-rating">
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                              </div>
-                              <div className="tfree-client-designation">
-                                Brain Shaper
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="sp-testimonial-free-item slick-slide"
-                            data-slick-index="2"
-                            aria-hidden="true"
-                            style={{ width: "1094px" }}
-                            tabIndex="-1"
-                            role="option"
-                            aria-describedby="slick-slide02"
-                          >
-                            <div className="sp-testimonial-free">
-                              <div className="sp-tfree-client-image">
-                                <img
-                                  width="120"
-                                  height="120"
-                                  alt="Ram"
-                                  data-srcset="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Ram.jpg 150w"
-                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg"
-                                  data-sizes="(max-width: 120px) 100vw, 120px"
-                                  className="tfree-client-image wp-post-image lazyloaded"
-                                  src="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg"
-                                  sizes="(max-width: 120px) 100vw, 120px"
-                                  srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Ram.jpg 150w"
-                                />
-                                <noscript>
-                                  <img
-                                    width="120"
-                                    height="120"
-                                    src="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg"
-                                    className="tfree-client-image wp-post-image"
-                                    alt="Ram"
-                                    srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/Ram-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/Ram.jpg 150w"
-                                    sizes="(max-width: 120px) 100vw, 120px"
-                                  />
-                                </noscript>
-                              </div>
-                              <div className="tfree-testimonial-title">
-                                <h3>Ram Niwas</h3>
-                              </div>
-                              <div className="tfree-client-testimonial">
-                                <p className="tfree-testimonial-content"></p>
-                                <p style={{ color: "#000000" }}>
-                                  The most impressive thing we found about this
-                                  company is that we could connect directly with
-                                  the team assigned to me at any time which made
-                                  it easier for us to communicate with them.
-                                </p>
-                                <p></p>
-                              </div>
-                              <h4 className="tfree-client-name">Director</h4>
-                              <div className="tfree-client-rating">
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                              </div>
-                              <div className="tfree-client-designation">
-                                A-One Software
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="sp-testimonial-free-item slick-slide slick-cloned"
-                            data-slick-index="3"
-                            id=""
-                            aria-hidden="true"
-                            style={{ width: "1094px" }}
-                            tabIndex="-1"
-                          >
-                            <div className="sp-testimonial-free">
-                              <div className="sp-tfree-client-image">
-                                <img
-                                  width="120"
-                                  height="120"
-                                  alt="VG"
-                                  data-srcset="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/VG.jpg 150w"
-                                  data-src="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg"
-                                  data-sizes="(max-width: 120px) 100vw, 120px"
-                                  className="tfree-client-image wp-post-image ls-is-cached lazyloaded"
-                                  src="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg"
-                                  sizes="(max-width: 120px) 100vw, 120px"
-                                  srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/VG.jpg 150w"
-                                />
-                                <noscript>
-                                  <img
-                                    width="120"
-                                    height="120"
-                                    src="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg"
-                                    className="tfree-client-image wp-post-image"
-                                    alt="VG"
-                                    srcSet="https://steadyrabbit.in/wp-content/uploads/2021/01/VG-120x120.jpg 120w, https://steadyrabbit.in/wp-content/uploads/2021/01/VG.jpg 150w"
-                                    sizes="(max-width: 120px) 100vw, 120px"
-                                  />
-                                </noscript>
-                              </div>
-                              <div className="tfree-testimonial-title">
-                                <h3>Vinod Gupta</h3>
-                              </div>
-                              <div className="tfree-client-testimonial">
-                                <p className="tfree-testimonial-content"></p>
-                                <p style={{ color: "#000000" }}>
-                                  The most splendid thing we found about Steady
-                                  Rabbit Technology is their work culture and
-                                  time management skills.
-                                </p>
-                                <p></p>
-                              </div>
-                              <h4 className="tfree-client-name">
-                                Legal Consultant
-                              </h4>
-                              <div className="tfree-client-rating">
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
-                              </div>
-                              <div className="tfree-client-designation">
-                                VKG Associates
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="slick-next slick-arrow" style={{}}>
-                        <i className="fa fa-angle-right"></i>
-                      </div>
-                      <ul className="slick-dots" style={{}} role="tablist">
-                        <li
-                          className="slick-active"
-                          aria-hidden="false"
-                          role="presentation"
-                          aria-selected="true"
-                          aria-controls="navigation00"
-                          id="slick-slide00"
-                        >
-                          <button
-                            type="button"
-                            data-role="none"
-                            role="button"
-                            tabIndex="0"
-                          >
-                            1
-                          </button>
-                        </li>
-                        <li
-                          aria-hidden="true"
-                          role="presentation"
-                          aria-selected="false"
-                          aria-controls="navigation01"
-                          id="slick-slide01"
-                          className=""
-                        >
-                          <button
-                            type="button"
-                            data-role="none"
-                            role="button"
-                            tabIndex="0"
-                          >
-                            2
-                          </button>
-                        </li>
-                        <li
-                          aria-hidden="true"
-                          role="presentation"
-                          aria-selected="false"
-                          aria-controls="navigation02"
-                          id="slick-slide02"
-                          className=""
-                        >
-                          <button
-                            type="button"
-                            data-role="none"
-                            role="button"
-                            tabIndex="0"
-                          >
-                            3
-                          </button>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* testimonial end */}
 
           {/* get in touch start */}
           <div className="section pt-0 pb-0" id="cta">

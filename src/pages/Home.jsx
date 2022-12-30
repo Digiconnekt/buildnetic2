@@ -11,18 +11,22 @@ const Home = () => {
             <div className="hero">
               <div className="container hero-section">
                 <div className="left-block">
-                  <h2 className="main-1-item__title">
-                    <span
-                      className="main-1-item__title_part_1"
-                      style={{ color: "#0a0039" }}
-                    >
-                      Compiling Your Ideas <br /> To
+                  <h1
+                    style={{
+                      fontSize: "36px",
+                      fontWeight: "bold",
+                      color: "rgb(0, 117, 255)",
+                      textAlign: "center",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    <span style={{ color: "#0a0039" }}>
+                      {" "}
+                      Compiling Your Ideas To
                     </span>{" "}
-                    <span className="theme-color main-1-item__title_part_2">
-                      Generate Desired Solutions
-                    </span>{" "}
-                    <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                  </h2>
+                    <br />
+                    Generate Desired Solutions
+                  </h1>
                 </div>
                 <div className="right-block">
                   <img src="./assets/images/about.png" alt="" />
@@ -134,10 +138,7 @@ const Home = () => {
           {/* hero section end */}
 
           {/* we provide start */}
-          <div
-            className="section section-lightgray section-2"
-            id="ENGINEERING TEAM"
-          >
+          <div className="section section-2" id="ENGINEERING TEAM">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -315,7 +316,7 @@ const Home = () => {
 
           {/* choose the right start */}
           <div
-            className="section section-white section-2"
+            className="section section-white section-2 pt-0"
             id="engagement model"
           >
             <div className="container align-center">
@@ -1410,7 +1411,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="align-left">
+            <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
                   <div data-v-10ab0e44="" className="widget-final-render">

@@ -12,6 +12,7 @@ import MobileAppDevelopment from "./pages/services/MobileAppDevelopment";
 import DevopsServices from "./pages/services/DevopsServices";
 import ProductReEngineering from "./pages/services/ProductReEngineering";
 import StickyWhatsapp from "./components/StickyWhatsapp";
+import Technology from "./pages/Technology";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/technology" element={<Technology />} />
       </Routes>
       <Footer />
       <StickyWhatsapp />
