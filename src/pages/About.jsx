@@ -167,6 +167,8 @@ const About = () => {
                     needs and create reliable systems and user-friendly
                     solutions. We provide a full range of services, including
                   </p>
+                </div>
+                <div className=" col-xs-12 col-sm-6">
                   <p style={{ lineHeight: "1.7" }}>
                     <i
                       className="fa fa-circle"
@@ -197,8 +199,6 @@ const About = () => {
                   <p style={{ marginLeft: "24px", marginTop: "-24px" }}>
                     &nbsp;Automation
                   </p>
-                </div>
-                <div className=" col-xs-12 col-sm-6">
                   <p style={{ lineHeight: "1.7" }}>
                     <i
                       className="fa fa-circle"
@@ -259,10 +259,7 @@ const About = () => {
           {/* who we end */}
 
           {/* why us start */}
-          <section
-            className="section section-white section-2 pt-0 pb-0"
-            id="Why us"
-          >
+          <section className="section section-white section-2 pt-0" id="Why us">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -275,7 +272,10 @@ const About = () => {
 
             <div className="container align-left">
               <div className="row">
-                <div className=" col-xs-12 col-sm-6">
+                <div
+                  className=" col-xs-12 col-sm-6"
+                  style={{ textAlign: "center" }}
+                >
                   <img
                     alt="Why Choose Us"
                     data-src="./assets/images/about.png"

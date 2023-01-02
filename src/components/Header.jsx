@@ -85,11 +85,6 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a className="menu__link" href="/technology" target="_self">
-                    Technology
-                  </a>
-                </li>
-                <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
                   <a
                     className="menu__link"
                     href="/success-stories"

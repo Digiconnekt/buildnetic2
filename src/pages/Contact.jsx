@@ -4,8 +4,8 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <div class="wrapper-content">
-        <div class="fw-page-builder-content">
+      <div className="wrapper-content">
+        <div className="fw-page-builder-content">
           {/* title start */}
           <div className="section section-2 pb-0">
             <div className="hero">
@@ -33,18 +33,18 @@ const Contact = () => {
           </div>
 
           {/* <div
-            class="section hidden-xs section-white section-2"
+            className="section hidden-xs section-white section-2"
             id="slider"
             style={{ height: "650px" }}
           >
-            <div class="align-left">
+            <div className="align-left">
               <div
-                class="main-1 main-1-slider slide-like-a-pro"
+                className="main-1 main-1-slider slide-like-a-pro"
                 data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
               >
-                <div class="main-1-item">
+                <div className="main-1-item">
                   <div
-                    class="parallax"
+                    className="parallax"
                     style={{
                       backgroundImage:
                         "url(../assets/wp-content/uploads/2021/09/ContactUsBanner.jpg)",
@@ -54,21 +54,21 @@ const Contact = () => {
                     }}
                     data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
                   ></div>
-                  <div class="container">
-                    <div class="main-1-item__inner align-left">
-                      <h2 class="main-1-item__title">
+                  <div className="container">
+                    <div className="main-1-item__inner align-left">
+                      <h2 className="main-1-item__title">
                         <span
-                          class="main-1-item__title_part_1"
+                          className="main-1-item__title_part_1"
                           style={{ color: "#0a0039" }}
                         >
                           Just a Call away
                         </span>
-                        <span class="theme-color main-1-item__title_part_2">
+                        <span className="theme-color main-1-item__title_part_2">
                           Let us discuss your Requirement
                         </span>
-                        <span class="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                        <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
                       </h2>
-                      <p class="main-1-item__subtitle"></p>
+                      <p className="main-1-item__subtitle"></p>
                     </div>
                   </div>
                 </div>
@@ -76,18 +76,18 @@ const Contact = () => {
             </div>
           </div>
           <div
-            class="section hidden-sm hidden-md hidden-lg section-white section-2"
+            className="section hidden-sm hidden-md hidden-lg section-white section-2"
             id="slider-mob"
             style={{ height: "650px" }}
           >
-            <div class="align-left">
+            <div className="align-left">
               <div
-                class="main-1 main-1-slider slide-like-a-pro"
+                className="main-1 main-1-slider slide-like-a-pro"
                 data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
               >
-                <div class="main-1-item">
+                <div className="main-1-item">
                   <div
-                    class="parallax"
+                    className="parallax"
                     style={{
                       backgroundImage:
                         "url(../assets/wp-content/uploads/2022/04/Contact-Mob.jpg)",
@@ -97,21 +97,21 @@ const Contact = () => {
                     }}
                     data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
                   ></div>
-                  <div class="container">
-                    <div class="main-1-item__inner align-left">
-                      <h2 class="main-1-item__title">
+                  <div className="container">
+                    <div className="main-1-item__inner align-left">
+                      <h2 className="main-1-item__title">
                         <span
-                          class="main-1-item__title_part_1"
+                          className="main-1-item__title_part_1"
                           style={{ color: "#0a0039" }}
                         >
                           Just a Call away
                         </span>
-                        <span class="theme-color main-1-item__title_part_2">
+                        <span className="theme-color main-1-item__title_part_2">
                           Let us discuss your Requirement
                         </span>
-                        <span class="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
+                        <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
                       </h2>
-                      <p class="main-1-item__subtitle"></p>
+                      <p className="main-1-item__subtitle"></p>
                     </div>
                   </div>
                 </div>
@@ -122,23 +122,26 @@ const Contact = () => {
 
           {/* contact us start */}
           <section
-            class="section section-white section-2 pt-0 pb-0"
+            className="section section-white section-2 pt-0 pb-0"
             id="contact-us"
           >
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <span class="section__subtitle" style={{ color: "#0a0039" }}>
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12">
+                  <span
+                    className="section__subtitle"
+                    style={{ color: "#0a0039" }}
+                  >
                     Feel free to
                   </span>
-                  <h3 class="section__title">Contact us</h3>
+                  <h3 className="section__title">Contact us</h3>
                 </div>
               </div>
             </div>
 
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
                   <p style={{ fontSize: "20px", color: "#0a0039" }}>
                     <img
                       style={{
@@ -150,12 +153,12 @@ const Contact = () => {
                       width="35"
                       height="25"
                       data-src="./assets/wp-content/uploads/2020/12/india.png"
-                      class="size-full wp-image-2934 alignleft lazyload"
+                      className="size-full wp-image-2934 alignleft lazyload"
                       src="./assets/wp-content/uploads/2020/12/india.png"
                     />
                     <noscript>
                       <img
-                        class="size-full wp-image-2934 alignleft"
+                        className="size-full wp-image-2934 alignleft"
                         style={{
                           float: "left",
                           marginRight: "7px",
@@ -187,12 +190,12 @@ const Contact = () => {
                       width="35"
                       height="25"
                       data-src="./assets/wp-content/uploads/2020/12/us.png"
-                      class="size-full wp-image-2934 alignleft lazyload"
+                      className="size-full wp-image-2934 alignleft lazyload"
                       src="./assets/wp-content/uploads/2020/12/us.png"
                     />
                     <noscript>
                       <img
-                        class="size-full wp-image-2934 alignleft"
+                        className="size-full wp-image-2934 alignleft"
                         style={{
                           float: "left",
                           marginRight: "7px",
@@ -226,12 +229,12 @@ const Contact = () => {
                       width="35"
                       height="25"
                       data-src="./assets/wp-content/uploads/2021/02/UK-Flag.png"
-                      class="size-full wp-image-2934 alignleft lazyload"
+                      className="size-full wp-image-2934 alignleft lazyload"
                       src="./assets/wp-content/uploads/2021/02/UK-Flag.png"
                     />
                     <noscript>
                       <img
-                        class="size-full wp-image-2934 alignleft"
+                        className="size-full wp-image-2934 alignleft"
                         style={{
                           float: "left",
                           marginRight: "7px",
@@ -255,13 +258,13 @@ const Contact = () => {
                     {/* <p style="font-size: 14px;"><a href="mailto:contact@SteadyRabbit.in">contact@SteadyRabbit.in</a></p> */}
                   </p>
                 </div>
-                <div class="col-xs-12 col-sm-8">
-                  <div class="form-wrapper fw-contact-form contact-form">
+                <div className="col-xs-12 col-sm-8">
+                  <div className="form-wrapper fw-contact-form contact-form">
                     <form
                       data-fw-form-id="fw_form"
                       method="post"
                       action="https://steadyrabbit.in/contact-us/"
-                      class="fw_form_fw_form"
+                      className="fw_form_fw_form"
                       data-fw-ext-forms-type="contact-forms"
                     >
                       <input type="hidden" name="fwf" value="fw_form" />
@@ -286,10 +289,10 @@ const Contact = () => {
                         name="fw_ext_forms_form_id"
                         value="988115b28b06a43c2bcfe85acdda5d3e"
                       />
-                      <div class="wrap-forms">
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-12 form-builder-item form-builder-item">
-                            <div class="contact-info__title">
+                      <div className="wrap-forms">
+                        <div className="row">
+                          <div className="col-xs-12 col-sm-12 form-builder-item form-builder-item">
+                            <div className="contact-info__title">
                               <h2></h2>
                               <p style={{ color: "#0a0039" }}>
                                 We&#039;d Love to hear from you
@@ -297,51 +300,48 @@ const Contact = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-6 form-builder-item">
-                            <div class="field-text">
+                        <div className="row">
+                          <div className="col-xs-12 col-sm-6 form-builder-item">
+                            <div className="field-text">
                               <input
                                 type="text"
                                 name="text_01c0f3a"
                                 placeholder="Name"
-                                value=""
                                 id="id-1"
                                 required="required"
                               />
                             </div>
                           </div>
-                          <div class="col-xs-12 col-sm-6 form-builder-item">
-                            <div class="field-text">
+                          <div className="col-xs-12 col-sm-6 form-builder-item">
+                            <div className="field-text">
                               <input
                                 type="text"
                                 name="number_03cf98e"
                                 placeholder="Phone Number"
-                                value=""
                                 id="id-2"
                                 required="required"
                                 data-constraint='{"type":"digits","data":{"min":"0","max":10}}'
-                                maxlength="10"
+                                maxLength="10"
                               />
                             </div>
                           </div>
                         </div>
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-12 form-builder-item">
-                            <div class="field-text">
+                        <div className="row">
+                          <div className="col-xs-12 col-sm-12 form-builder-item">
+                            <div className="field-text">
                               <input
                                 type="text"
                                 name="email_25ad5c7"
                                 placeholder="Business Email"
-                                value=""
                                 id="id-3"
                                 required="required"
                               />
                             </div>
                           </div>
                         </div>
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-12 form-builder-item">
-                            <div class="field-textarea">
+                        <div className="row">
+                          <div className="col-xs-12 col-sm-12 form-builder-item">
+                            <div className="field-textarea">
                               <textarea
                                 name="textarea_c724bbf"
                                 placeholder="Message"
@@ -351,12 +351,12 @@ const Contact = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="row"></div>
+                        <div className="row"></div>
                       </div>
-                      <div class="row">
-                        <div class="col-xs-12 col-sm-12">
+                      <div className="row">
+                        <div className="col-xs-12 col-sm-12">
                           <button
-                            class="btn-a btn-a_fill_theme"
+                            className="btn-a btn-a_fill_theme"
                             style={{ borderRadius: "5px" }}
                           >
                             Submit

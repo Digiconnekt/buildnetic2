@@ -6,88 +6,29 @@ const MobileAppDevelopment = () => {
       <div class="wrapper-content">
         <div class="fw-page-builder-content">
           {/* title start */}
-          <div
-            class="section hidden-xs section-white section-2"
-            id="slider"
-            style={{ height: "650px" }}
-          >
-            <div class="align-left">
-              <div
-                class="main-1 main-1-slider slide-like-a-pro"
-                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
-              >
-                <div class="main-1-item">
-                  <div
-                    class="parallax"
+          <div className="section section-2">
+            <div className="hero">
+              <div className="container hero-section">
+                <div className="left-block">
+                  <h1
                     style={{
-                      backgroundImage:
-                        "url(../assets/wp-content/uploads/2021/09/ProductEngineeringBanner.jpg)",
-                      backgroundSize: "cover",
-                      backgroundAttachment: "local",
-                      backgroundRepeat: "no-repeat",
+                      fontSize: "36px",
+                      fontWeight: "bold",
+                      color: "rgb(0, 117, 255)",
+                      textAlign: "center",
+                      textTransform: "uppercase",
                     }}
-                    data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
-                  ></div>
-                  <div class="container">
-                    <div class="main-1-item__inner align-left">
-                      <h2 class="main-1-item__title">
-                        <span
-                          class="main-1-item__title_part_1"
-                          style={{ color: "#0a0039 " }}
-                        >
-                          Making digital World
-                        </span>
-                        <span class="theme-color main-1-item__title_part_2">
-                          Mobility more Human
-                        </span>
-                        <span class="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                      </h2>
-                      <p class="main-1-item__subtitle"></p>
-                    </div>
-                  </div>
+                  >
+                    <span style={{ color: "#0a0039" }}>
+                      {" "}
+                      Making Digital World
+                    </span>{" "}
+                    <br />
+                    Mobility More Human
+                  </h1>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="section hidden-sm hidden-md hidden-lg section-white section-2"
-            id="slider-mob"
-            style={{ height: "650px" }}
-          >
-            <div class="align-left">
-              <div
-                class="main-1 main-1-slider slide-like-a-pro"
-                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
-              >
-                <div class="main-1-item">
-                  <div
-                    class="parallax"
-                    style={{
-                      backgroundImage:
-                        "url(../assets/wp-content/uploads/2022/04/ProductEngineering-mob.jpg)",
-                      backgroundSize: "cover",
-                      backgroundAttachment: "local",
-                      backgroundRepeat: "no-repeat",
-                    }}
-                    data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
-                  ></div>
-                  <div class="container">
-                    <div class="main-1-item__inner align-left">
-                      <h2 class="main-1-item__title">
-                        <span
-                          class="main-1-item__title_part_1"
-                          style={{ color: "#0a0039 " }}
-                        >
-                          Making digital World
-                        </span>
-                        <span class="theme-color main-1-item__title_part_2">
-                          Mobility more Human
-                        </span>
-                        <span class="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                      </h2>
-                      <p class="main-1-item__subtitle"></p>
-                    </div>
-                  </div>
+                <div className="right-block">
+                  <img src="../assets/images/services/service.png" alt="" />
                 </div>
               </div>
             </div>

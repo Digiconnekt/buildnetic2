@@ -2147,7 +2147,7 @@ const Home = () => {
           {/* awards end */}
 
           {/* our clients start */}
-          <div className="section  section-2" id="ENGINEERING TEAM">
+          {/* <div className="section  section-2" id="ENGINEERING TEAM">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -2441,7 +2441,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* our clients end */}
 
           {/* get in touch start */}

@@ -36,93 +36,6 @@ const SuccessStories = () => {
               </div>
             </div>
           </div>
-
-          {/* <div
-            className="section hidden-xs section-white section-2"
-            id="slider"
-            style={{ height: "650px" }}
-          >
-            <div className="align-left">
-              <div
-                className="main-1 main-1-slider slide-like-a-pro"
-                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
-              >
-                <div className="main-1-item">
-                  <div
-                    className="parallax"
-                    style={{
-                      backgroundImage:
-                        "url(../assets/wp-content/uploads/2021/09/SuccessBanner.jpg)",
-                      backgroundSize: "cover",
-                      backgroundAttachment: "local",
-                      backgroundRepeat: "no-repeat",
-                    }}
-                    data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
-                  ></div>
-                  <div className="container">
-                    <div className="main-1-item__inner align-left">
-                      <h2 className="main-1-item__title">
-                        <span
-                          className="main-1-item__title_part_1"
-                          style={{ color: "#0a0039" }}
-                        >
-                          The Mores of our Journey
-                        </span>
-                        <span className="theme-color main-1-item__title_part_2">
-                          Milestones of our Success
-                        </span>
-                        <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                      </h2>
-                      <p className="main-1-item__subtitle"></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="section hidden-sm hidden-md hidden-lg section-white section-2"
-            id="slider-mob"
-            style={{ height: "650px" }}
-          >
-            <div className="align-left">
-              <div
-                className="main-1 main-1-slider slide-like-a-pro"
-                data-slide-like-a-pro='{"autoplayTimeout":"","firstRunDelay":"","autoplay":"false","timeline":"true","loop":"false","nav":"false"}'
-              >
-                <div className="main-1-item">
-                  <div
-                    className="parallax"
-                    style={{
-                      backgroundImage:
-                        "url(../assets/wp-content/uploads/2022/04/success-mob.jpg)",
-                      backgroundSize: "cover",
-                      backgroundAttachment: "local",
-                      backgroundRepeat: "no-repeat",
-                    }}
-                    data-parallax='{"speed":"0.75","fading":"false","min-fading":"","scale":"false","max-scale":""}'
-                  ></div>
-                  <div className="container">
-                    <div className="main-1-item__inner align-left">
-                      <h2 className="main-1-item__title">
-                        <span
-                          className="main-1-item__title_part_1"
-                          style={{ color: "#0a0039" }}
-                        >
-                          The Mores of our Journey
-                        </span>
-                        <span className="theme-color main-1-item__title_part_2">
-                          Milestones of our Success
-                        </span>
-                        <span className="main-1-item__title_thin theme-color main-1-item__title_part_3"></span>
-                      </h2>
-                      <p className="main-1-item__subtitle"></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           {/* title end */}
 
           {/* success stories start */}
@@ -1082,7 +995,7 @@ const SuccessStories = () => {
             </div>
 
             <div className="container align-left">
-              <div className="row">
+              <div className="row" style={{ textAlign: "center" }}>
                 <div className="col-xs-12 col-sm-6">
                   <img
                     alt="Why Us"

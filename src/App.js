@@ -13,6 +13,7 @@ import DevopsServices from "./pages/services/DevopsServices";
 import ProductReEngineering from "./pages/services/ProductReEngineering";
 import StickyWhatsapp from "./components/StickyWhatsapp";
 import Technology from "./pages/Technology";
+import EngagementModel from "./pages/EngagementModel";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/technology" element={<Technology />} />
+        <Route path="/engagement-model" element={<EngagementModel />} />
       </Routes>
       <Footer />
       <StickyWhatsapp />

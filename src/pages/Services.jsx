@@ -33,7 +33,6 @@ const Services = () => {
               </div>
             </div>
           </div>
-
           {/* title end */}
 
           {/* services offering start */}
@@ -1157,7 +1156,7 @@ const Services = () => {
             </div>
 
             <div className="container align-left">
-              <div className="row">
+              <div className="row" style={{ textAlign: "center" }}>
                 <div className="col-xs-12 col-sm-6">
                   <img
                     alt="Why Us"

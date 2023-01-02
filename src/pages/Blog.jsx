@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <>
-      <div class="wrapper-content">
+      <div className="wrapper-content">
         {/* title start */}
         <div className="section section-2 pb-0">
           <div className="hero">
@@ -34,16 +34,16 @@ const Blog = () => {
         {/* title end */}
 
         {/* blog start */}
-        <div class="blog-wrapper">
-          <div class="container">
-            <div class="row">
-              <main class="col-xs-12 col-sm-12">
+        <div className="blog-wrapper">
+          <div className="container">
+            <div className="row">
+              <main className="col-xs-12 col-sm-12">
                 <article
                   id="post-7514"
-                  class="post-format-standart post-7514 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-sms-gateway-provider"
+                  className="post-format-standart post-7514 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-sms-gateway-provider"
                 >
-                  <div class="post-header">
-                    <div class="post-thumbnail">
+                  <div className="post-header">
+                    <div className="post-thumbnail">
                       <a href="how-to-choose-a-sms-gateway-provider/index.htm">
                         <img
                           width="799"
@@ -52,7 +52,7 @@ const Blog = () => {
                           data-srcset="https://steadyrabbit.in/wp-content/uploads/2022/06/How-to-choose-a-SMS-Gateway-Provider.png 799w, https://steadyrabbit.in/wp-content/uploads/2022/06/How-to-choose-a-SMS-Gateway-Provider-300x160.png 300w, https://steadyrabbit.in/wp-content/uploads/2022/06/How-to-choose-a-SMS-Gateway-Provider-768x410.png 768w"
                           data-src="https://steadyrabbit.in/wp-content/uploads/2022/06/How-to-choose-a-SMS-Gateway-Provider.png"
                           data-sizes="(max-width: 799px) 100vw, 799px"
-                          class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
+                          className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
@@ -60,7 +60,7 @@ const Blog = () => {
                             width="799"
                             height="427"
                             src="../wp-content/uploads/2022/06/How-to-choose-a-SMS-Gateway-Provider.png"
-                            class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
+                            className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
                             alt=""
                             srcset="
                               ../wp-content/uploads/2022/06/How-to-choose-a-SMS-Gateway-Provider.png         799w,
@@ -74,15 +74,15 @@ const Blog = () => {
                     </div>
                   </div>
 
-                  <div class="container">
-                    <div class="post-date">
-                      Jun<span class="post-date__day">17</span>2022
+                  <div className="container">
+                    <div className="post-date">
+                      Jun<span className="post-date__day">17</span>2022
                     </div>
-                    <div class="post-wrap">
-                      <header class="entry-header">
+                    <div className="post-wrap">
+                      <header className="entry-header">
                         <h2>
                           <a
-                            class="post-title"
+                            className="post-title"
                             href="how-to-choose-a-sms-gateway-provider/index.htm"
                             rel="bookmark"
                             style={{ color: "#0a0039" }}
@@ -92,7 +92,7 @@ const Blog = () => {
                         </h2>
                       </header>
 
-                      <div class="post-content">
+                      <div className="post-content">
                         <p>
                           From informing your customers about a flash sale, to
                           letting them know their order has been shipped, the
@@ -112,7 +112,7 @@ const Blog = () => {
 
                         <a
                           href="how-to-choose-a-sms-gateway-provider/index.htm#more-7514"
-                          class="more-link btn-a btn-a_color_theme btn-a_hover_2"
+                          className="more-link btn-a btn-a_color_theme btn-a_hover_2"
                         >
                           Read more
                         </a>
@@ -121,15 +121,15 @@ const Blog = () => {
                   </div>
                 </article>
                 <hr
-                  class="wp-block-separator is-style-dots"
+                  className="wp-block-separator is-style-dots"
                   aria-hidden="true"
                 />
                 <article
                   id="post-6758"
-                  class="post-format-standart post-6758 post type-post status-publish format-standard has-post-thumbnail hentry category-application-development category-mobile-development tag-app-success tag-choosing-the-right-app tag-factors-for-app-development tag-hybrid-mobile-app tag-native-mobile-app tag-native-vs-hybrid-comparison"
+                  className="post-format-standart post-6758 post type-post status-publish format-standard has-post-thumbnail hentry category-application-development category-mobile-development tag-app-success tag-choosing-the-right-app tag-factors-for-app-development tag-hybrid-mobile-app tag-native-mobile-app tag-native-vs-hybrid-comparison"
                 >
-                  <div class="post-header">
-                    <div class="post-thumbnail">
+                  <div className="post-header">
+                    <div className="post-thumbnail">
                       <a href="a-definitive-guide-on-how-to-choose-between-native-vs-hybrid-mobile-apps/index.htm">
                         <img
                           width="799"
@@ -138,7 +138,7 @@ const Blog = () => {
                           data-srcset="https://steadyrabbit.in/wp-content/uploads/2022/04/A-definitive-guide-on-how-to-choose-between-Native-Vs-Hybrid.png 799w, https://steadyrabbit.in/wp-content/uploads/2022/04/A-definitive-guide-on-how-to-choose-between-Native-Vs-Hybrid-300x160.png 300w, https://steadyrabbit.in/wp-content/uploads/2022/04/A-definitive-guide-on-how-to-choose-between-Native-Vs-Hybrid-768x410.png 768w"
                           data-src="https://steadyrabbit.in/wp-content/uploads/2022/04/A-definitive-guide-on-how-to-choose-between-Native-Vs-Hybrid.png"
                           data-sizes="(max-width: 799px) 100vw, 799px"
-                          class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
+                          className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
@@ -146,7 +146,7 @@ const Blog = () => {
                             width="799"
                             height="427"
                             src="../wp-content/uploads/2022/04/A-definitive-guide-on-how-to-choose-between-Native-Vs-Hybrid.png"
-                            class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
+                            className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
                             alt=""
                             srcset="
                               ../wp-content/uploads/2022/04/A-definitive-guide-on-how-to-choose-between-Native-Vs-Hybrid.png         799w,
@@ -160,15 +160,15 @@ const Blog = () => {
                     </div>
                   </div>
 
-                  <div class="container">
-                    <div class="post-date">
-                      Dec<span class="post-date__day">9</span>2021
+                  <div className="container">
+                    <div className="post-date">
+                      Dec<span className="post-date__day">9</span>2021
                     </div>
-                    <div class="post-wrap">
-                      <header class="entry-header">
+                    <div className="post-wrap">
+                      <header className="entry-header">
                         <h2>
                           <a
-                            class="post-title"
+                            className="post-title"
                             href="a-definitive-guide-on-how-to-choose-between-native-vs-hybrid-mobile-apps/index.htm"
                             rel="bookmark"
                             style={{ color: "#0a0039" }}
@@ -179,7 +179,7 @@ const Blog = () => {
                         </h2>
                       </header>
 
-                      <div class="post-content">
+                      <div className="post-content">
                         <p>
                           Not all
                           <a href="../custom-mobile-application-development/index.htm">
@@ -196,7 +196,7 @@ const Blog = () => {
 
                         <a
                           href="a-definitive-guide-on-how-to-choose-between-native-vs-hybrid-mobile-apps/index.htm#more-6758"
-                          class="more-link btn-a btn-a_color_theme btn-a_hover_2"
+                          className="more-link btn-a btn-a_color_theme btn-a_hover_2"
                         >
                           Read more
                         </a>
@@ -205,15 +205,15 @@ const Blog = () => {
                   </div>
                 </article>
                 <hr
-                  class="wp-block-separator is-style-dots"
+                  className="wp-block-separator is-style-dots"
                   aria-hidden="true"
                 />
                 <article
                   id="post-6512"
-                  class="post-format-standart post-6512 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-business-technology"
+                  className="post-format-standart post-6512 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-business-technology"
                 >
-                  <div class="post-header">
-                    <div class="post-thumbnail">
+                  <div className="post-header">
+                    <div className="post-thumbnail">
                       <a href="why-should-you-use-time-and-material-model-for-your-projects/index.htm">
                         <img
                           width="800"
@@ -222,7 +222,7 @@ const Blog = () => {
                           data-srcset="https://steadyrabbit.in/wp-content/uploads/2022/02/Banner-image.png 800w, https://steadyrabbit.in/wp-content/uploads/2022/02/Banner-image-300x161.png 300w, https://steadyrabbit.in/wp-content/uploads/2022/02/Banner-image-768x411.png 768w"
                           data-src="https://steadyrabbit.in/wp-content/uploads/2022/02/Banner-image.png"
                           data-sizes="(max-width: 800px) 100vw, 800px"
-                          class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
+                          className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
@@ -230,7 +230,7 @@ const Blog = () => {
                             width="800"
                             height="428"
                             src="../wp-content/uploads/2022/02/Banner-image.png"
-                            class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
+                            className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
                             alt=""
                             srcset="
                               ../wp-content/uploads/2022/02/Banner-image.png         800w,
@@ -244,15 +244,15 @@ const Blog = () => {
                     </div>
                   </div>
 
-                  <div class="container">
-                    <div class="post-date">
-                      Nov<span class="post-date__day">23</span>2021
+                  <div className="container">
+                    <div className="post-date">
+                      Nov<span className="post-date__day">23</span>2021
                     </div>
-                    <div class="post-wrap">
-                      <header class="entry-header">
+                    <div className="post-wrap">
+                      <header className="entry-header">
                         <h2>
                           <a
-                            class="post-title"
+                            className="post-title"
                             href="why-should-you-use-time-and-material-model-for-your-projects/index.htm"
                             rel="bookmark"
                             style={{ color: "#0a0039" }}
@@ -263,7 +263,7 @@ const Blog = () => {
                         </h2>
                       </header>
 
-                      <div class="post-content">
+                      <div className="post-content">
                         <p>
                           Have you ever faced a pricing dilemma while managing
                           the projects? What were the business losses associated
@@ -275,7 +275,7 @@ const Blog = () => {
                         <p>
                           <a
                             href="why-should-you-use-time-and-material-model-for-your-projects/index.htm#more-6512"
-                            class="more-link btn-a btn-a_color_theme btn-a_hover_2"
+                            className="more-link btn-a btn-a_color_theme btn-a_hover_2"
                           >
                             Read more
                           </a>
@@ -285,15 +285,15 @@ const Blog = () => {
                   </div>
                 </article>
                 <hr
-                  class="wp-block-separator is-style-dots"
+                  className="wp-block-separator is-style-dots"
                   aria-hidden="true"
                 />
                 <article
                   id="post-6410"
-                  class="post-format-standart post-6410 post type-post status-publish format-standard has-post-thumbnail hentry category-software-development"
+                  className="post-format-standart post-6410 post type-post status-publish format-standard has-post-thumbnail hentry category-software-development"
                 >
-                  <div class="post-header">
-                    <div class="post-thumbnail">
+                  <div className="post-header">
+                    <div className="post-thumbnail">
                       <a href="all-you-need-to-know-about-software-delivery/index.htm">
                         <img
                           width="800"
@@ -302,7 +302,7 @@ const Blog = () => {
                           data-srcset="https://steadyrabbit.in/wp-content/uploads/2022/02/All-you-need-to-know-about-Software-Delivery.png 800w, https://steadyrabbit.in/wp-content/uploads/2022/02/All-you-need-to-know-about-Software-Delivery-300x161.png 300w, https://steadyrabbit.in/wp-content/uploads/2022/02/All-you-need-to-know-about-Software-Delivery-768x411.png 768w"
                           data-src="https://steadyrabbit.in/wp-content/uploads/2022/02/All-you-need-to-know-about-Software-Delivery.png"
                           data-sizes="(max-width: 800px) 100vw, 800px"
-                          class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
+                          className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
@@ -310,7 +310,7 @@ const Blog = () => {
                             width="800"
                             height="428"
                             src="../wp-content/uploads/2022/02/All-you-need-to-know-about-Software-Delivery.png"
-                            class="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
+                            className="attachment-nowadays-featured-image size-nowadays-featured-image wp-post-image"
                             alt=""
                             srcset="
                               ../wp-content/uploads/2022/02/All-you-need-to-know-about-Software-Delivery.png         800w,
@@ -324,15 +324,15 @@ const Blog = () => {
                     </div>
                   </div>
 
-                  <div class="container">
-                    <div class="post-date">
-                      Oct<span class="post-date__day">29</span>2021
+                  <div className="container">
+                    <div className="post-date">
+                      Oct<span className="post-date__day">29</span>2021
                     </div>
-                    <div class="post-wrap">
-                      <header class="entry-header">
+                    <div className="post-wrap">
+                      <header className="entry-header">
                         <h2>
                           <a
-                            class="post-title"
+                            className="post-title"
                             href="all-you-need-to-know-about-software-delivery/index.htm"
                             rel="bookmark"
                             style={{ color: "#0a0039" }}
@@ -342,7 +342,7 @@ const Blog = () => {
                         </h2>
                       </header>
 
-                      <div class="post-content">
+                      <div className="post-content">
                         <p>
                           In the business of software development, the
                           importance of delivering the software at the right
@@ -358,7 +358,7 @@ const Blog = () => {
 
                         <a
                           href="all-you-need-to-know-about-software-delivery/index.htm#more-6410"
-                          class="more-link btn-a btn-a_color_theme btn-a_hover_2"
+                          className="more-link btn-a btn-a_color_theme btn-a_hover_2"
                         >
                           Read more
                         </a>
@@ -366,21 +366,21 @@ const Blog = () => {
                     </div>
                   </div>
                 </article>
-                <nav class="blog-nav align-center">
-                  <span class="page-numbers current">
-                    <span class="blog-nav__page-number">1</span>
+                <nav className="blog-nav align-center">
+                  <span className="page-numbers current">
+                    <span className="blog-nav__page-number">1</span>
                   </span>
-                  <a class="page-numbers" href="#">
-                    <span class="blog-nav__page-number">2</span>
+                  <a className="page-numbers" href="#">
+                    <span className="blog-nav__page-number">2</span>
                   </a>
-                  <a class="page-numbers" href="#">
-                    <span class="blog-nav__page-number">3</span>
+                  <a className="page-numbers" href="#">
+                    <span className="blog-nav__page-number">3</span>
                   </a>
-                  <span class="page-numbers dots">&hellip;</span>
-                  <a class="page-numbers" href="#">
-                    <span class="blog-nav__page-number">5</span>
+                  <span className="page-numbers dots">&hellip;</span>
+                  <a className="page-numbers" href="#">
+                    <span className="blog-nav__page-number">5</span>
                   </a>
-                  <a class="next page-numbers" href="#"></a>
+                  <a className="next page-numbers" href="#"></a>
                 </nav>
               </main>
             </div>

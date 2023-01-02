@@ -39,12 +39,12 @@ const Footer = () => {
                 >
                   <div className="textwidget custom-html-widget">
                     <img
-                      data-src="./assets/wp-content/uploads/2021/09/email.png"
+                      data-src="../assets/wp-content/uploads/2021/09/email.png"
                       className="lazyload"
-                      src="./assets/wp-content/uploads/2021/09/email.png"
+                      src="../assets/wp-content/uploads/2021/09/email.png"
                     />
                     <noscript>
-                      <img src="./assets/wp-content/uploads/2021/09/email.png" />
+                      <img src="../assets/wp-content/uploads/2021/09/email.png" />
                     </noscript>
                     <p
                       style={{
@@ -67,12 +67,12 @@ const Footer = () => {
                       </a>
                     </p>
                     <img
-                      data-src="./assets/wp-content/uploads/2021/01/IND-Flag.png"
+                      data-src="../assets/wp-content/uploads/2021/01/IND-Flag.png"
                       className="lazyload"
-                      src="./assets/wp-content/uploads/2021/01/IND-Flag.png"
+                      src="../assets/wp-content/uploads/2021/01/IND-Flag.png"
                     />
                     <noscript>
-                      <img src="./assets/wp-content/uploads/2021/01/IND-Flag.png" />
+                      <img src="../assets/wp-content/uploads/2021/01/IND-Flag.png" />
                     </noscript>
                     <p
                       style={{
@@ -86,12 +86,12 @@ const Footer = () => {
                       <a href="tel:+91 931-007-0057">+91 931-007-0057</a>
                     </p>
                     <img
-                      data-src="./assets/wp-content/uploads/2021/01/USA-Flag.png"
+                      data-src="../assets/wp-content/uploads/2021/01/USA-Flag.png"
                       className="lazyload"
-                      src="./assets/wp-content/uploads/2021/01/USA-Flag.png"
+                      src="../assets/wp-content/uploads/2021/01/USA-Flag.png"
                     />
                     <noscript>
-                      <img src="./assets/wp-content/uploads/2021/01/USA-Flag.png" />
+                      <img src="../assets/wp-content/uploads/2021/01/USA-Flag.png" />
                     </noscript>
                     <p
                       style={{
@@ -107,13 +107,13 @@ const Footer = () => {
                     <img
                       width="25px"
                       height="18px"
-                      data-src="./assets/wp-content/uploads/2021/02/UK-Flag.png"
+                      data-src="../assets/wp-content/uploads/2021/02/UK-Flag.png"
                       className="lazyload"
-                      src="./assets/wp-content/uploads/2021/02/UK-Flag.png"
+                      src="../assets/wp-content/uploads/2021/02/UK-Flag.png"
                     />
                     <noscript>
                       <img
-                        src="./assets/wp-content/uploads/2021/02/UK-Flag.png"
+                        src="../assets/wp-content/uploads/2021/02/UK-Flag.png"
                         width="25px"
                         height="18px"
                       />
@@ -167,6 +167,9 @@ const Footer = () => {
                     </p>
                     <p>
                       <a href="/technology">Technology</a>
+                    </p>
+                    <p>
+                      <a href="/engagement-model">Engagement Model</a>
                     </p>
                     <p>
                       <a href="/success-stories">Success Stories</a>
