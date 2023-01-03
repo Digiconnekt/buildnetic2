@@ -425,7 +425,21 @@ const Services = () => {
                           Backend
                         </span>
                         <div className="info-box-2-subitem__description">
-                          <p>Java, Python, Node.Js, PHP</p>
+                          <p>
+                            Java,{" "}
+                            <a href="/python" target="_blank" rel="noopener">
+                              Python
+                            </a>
+                            ,{" "}
+                            <a
+                              href="/nodejs-development"
+                              target="_blank"
+                              rel="noopener"
+                            >
+                              NodeJS
+                            </a>
+                            , PHP
+                          </p>
                         </div>
                       </div>
                       <div className="info-box-2-subitem">

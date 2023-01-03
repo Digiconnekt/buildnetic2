@@ -82,6 +82,24 @@ const Header = () => {
                         Product Re-Engineering
                       </a>
                     </li>
+                    <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
+                      <a
+                        className="submenu__link"
+                        href="/services/data-analytics"
+                        target="_self"
+                      >
+                        Data Analytics
+                      </a>
+                    </li>
+                    <li className="submenu__item  menu-item menu-item-type-post_type menu-item-object-page">
+                      <a
+                        className="submenu__link"
+                        href="/services/testing"
+                        target="_self"
+                      >
+                        Testing
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">

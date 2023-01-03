@@ -14,6 +14,10 @@ import ProductReEngineering from "./pages/services/ProductReEngineering";
 import StickyWhatsapp from "./components/StickyWhatsapp";
 import Technology from "./pages/Technology";
 import EngagementModel from "./pages/EngagementModel";
+import DataAnalytics from "./pages/services/DataAnalytics";
+import Testing from "./pages/services/Testing";
+import NodeJsDevelopment from "./pages/NodeJsDevelopment";
+import Python from "./pages/Python";
 
 const App = () => {
   return (
@@ -34,12 +38,16 @@ const App = () => {
           path="/services/product-re-engineering"
           element={<ProductReEngineering />}
         />
+        <Route path="/services/data-analytics" element={<DataAnalytics />} />
+        <Route path="/services/testing" element={<Testing />} />
         <Route path="/success-stories" element={<SuccessStories />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/technology" element={<Technology />} />
         <Route path="/engagement-model" element={<EngagementModel />} />
+        <Route path="/nodejs-development" element={<NodeJsDevelopment />} />
+        <Route path="/python" element={<Python />} />
       </Routes>
       <Footer />
       <StickyWhatsapp />
