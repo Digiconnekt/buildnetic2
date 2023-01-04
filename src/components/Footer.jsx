@@ -17,7 +17,7 @@ const Footer = () => {
                       className="header-logo__link"
                       href="/"
                       rel="home"
-                      style={{ maxWidth: "80px" }}
+                      style={{ maxWidth: "90px" }}
                     >
                       <img
                         src="/assets/images/buildnetic-logo.png"
@@ -34,7 +34,7 @@ const Footer = () => {
                   id="custom_html-3"
                   className="widget_text widget widget-footer widget_custom_html"
                   style={{
-                    marginTop: "30px",
+                    marginTop: "25px",
                   }}
                 >
                   <div className="textwidget custom-html-widget">
@@ -211,6 +211,12 @@ const Footer = () => {
                         Product Re-Engineering
                       </a>
                     </p>
+                    <p>
+                      <a href="/services/data-analytics">Data Analytics</a>
+                    </p>
+                    <p>
+                      <a href="/services/testing">Testing</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -225,34 +231,22 @@ const Footer = () => {
                       Technology
                     </h4>
                     <p>
-                      <a href="custom-nodejs-application-development/index.htm">
-                        Nodejs
-                      </a>
+                      <a href="/nodejs-development">Nodejs</a>
                     </p>
                     <p>
-                      <a href="custom-python-application-development/index.htm">
-                        Python
-                      </a>
+                      <a href="/python">Python</a>
                     </p>
                     <p>
-                      <a href="custom-java-application-development/index.htm">
-                        Java
-                      </a>
+                      <a href="#">Java</a>
                     </p>
                     <p>
-                      <a href="android-custom-application-development/index.htm">
-                        Android
-                      </a>
+                      <a href="#">Android</a>
                     </p>
                     <p>
-                      <a href="custom-ios-application-development/index.htm">
-                        iOS
-                      </a>
+                      <a href="#">iOS</a>
                     </p>
                     <p>
-                      <a href="custom-react-application-development/index.htm">
-                        Reactjs
-                      </a>
+                      <a href="#">Reactjs</a>
                     </p>
                   </div>
                 </div>

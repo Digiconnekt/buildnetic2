@@ -19,7 +19,7 @@ const SuccessStories = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>
+                    <span style={{ color: "#fff" }}>
                       {" "}
                       The Mores Of Our Journey
                     </span>{" "}

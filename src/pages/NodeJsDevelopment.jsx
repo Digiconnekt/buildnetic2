@@ -19,7 +19,7 @@ const NodeJsDevelopment = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>
+                    <span style={{ color: "#fff" }}>
                       Paradigm Shifting Technology:
                     </span>{" "}
                     <br />

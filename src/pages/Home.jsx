@@ -20,7 +20,7 @@ const Home = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>
+                    <span style={{ color: "#fff" }}>
                       {" "}
                       Compiling Your Ideas To
                     </span>{" "}
@@ -29,7 +29,7 @@ const Home = () => {
                   </h1>
                 </div>
                 <div className="right-block">
-                  <img src="./assets/images/about.png" alt="" />
+                  <img src="./assets/images/home/home.png" alt="Home" />
                 </div>
               </div>
             </div>
@@ -2010,10 +2010,7 @@ const Home = () => {
           {/* FAQ end */}
 
           {/* awards start */}
-          <section
-            className="section section-lightgray section-2 pb-0"
-            id="awards"
-          >
+          <section className="section section-lightgray section-2" id="awards">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -2031,11 +2028,7 @@ const Home = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-3 equal-cols no-padding">
                   <p>
-                    <a
-                      href="https://clutch.co/profile/steady-rabbit-technology"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="#" target="_blank" rel="noopener">
                       <img
                         alt=""
                         width="250"
@@ -2077,11 +2070,7 @@ const Home = () => {
                 </div>
                 <div className="col-xs-12 col-sm-3 equal-cols no-padding">
                   <p>
-                    <a
-                      href="https://www.goodfirms.co/company/steady-rabbit-technology-pvt-ltd"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="#" target="_blank" rel="noopener">
                       <img
                         alt=""
                         width="250"
@@ -2102,11 +2091,7 @@ const Home = () => {
                     </a>
                   </p>
                   <p>
-                    <a
-                      href="https://twitter.com/letsventurein/status/1141241616516075520?lang=en"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="#" target="_blank" rel="noopener">
                       <img
                         alt=""
                         width="250"
@@ -2129,16 +2114,13 @@ const Home = () => {
                 </div>
                 <div className="col-xs-12 col-sm-6 equal-cols no-padding">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
+                    alt="Award"
+                    data-src="./assets/images/home/award.png"
                     className="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="./assets/images/home/award.png"
                   />
                   <noscript>
-                    <img
-                      src="wp-content/uploads/2022/03/Awards-Recognitions.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2022/03/Awards-Recognitions.png"
-                    />
+                    <img src="./assets/images/home/award.png" alt="award" />
                   </noscript>
                 </div>
               </div>

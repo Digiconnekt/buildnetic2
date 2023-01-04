@@ -3,8 +3,8 @@ import React from "react";
 const MobileAppDevelopment = () => {
   return (
     <>
-      <div class="wrapper-content">
-        <div class="fw-page-builder-content">
+      <div className="wrapper-content">
+        <div className="fw-page-builder-content">
           {/* title start */}
           <div className="section section-2">
             <div className="hero">
@@ -19,16 +19,16 @@ const MobileAppDevelopment = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>
-                      {" "}
-                      Making Digital World
-                    </span>{" "}
+                    <span style={{ color: "#fff" }}> Making Digital World</span>{" "}
                     <br />
                     Mobility More Human
                   </h1>
                 </div>
                 <div className="right-block">
-                  <img src="../assets/images/services/service.png" alt="" />
+                  <img
+                    src="../assets/images/services/mobile-application-development/mobile-application-development.png"
+                    alt="Mobile Application Development"
+                  />
                 </div>
               </div>
             </div>
@@ -37,35 +37,38 @@ const MobileAppDevelopment = () => {
 
           {/* mobile app develop start */}
           <div
-            class="section section-2 nodejs "
+            className="section section-2 nodejs "
             id="intro"
             style={{ backgroundColor: "#f6f6f6" }}
           >
-            <div class="align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4 equal-cols no-padding">
+            <div className="align-left">
+              <div className="row">
+                <div
+                  className="col-xs-12 col-sm-4 equal-cols no-padding"
+                  style={{ textAlign: "center" }}
+                >
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/11/Product-Engineering-Services.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/11/Product-Engineering-Services.png"
-                    class="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    alt="Mobile Application Development"
+                    data-src="../assets/images/services/mobile-application-development/mobile-application-development-2.png"
+                    className="lazyload"
+                    src="../assets/images/services/mobile-application-development/mobile-application-development-2.png"
                   />
                   <noscript>
                     <img
-                      src="../wp-content/uploads/2021/11/Product-Engineering-Services.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/11/Product-Engineering-Services.png"
+                      src="../assets/images/services/mobile-application-development/mobile-application-development-2.png"
+                      alt="Mobile Application Development"
                     />
                   </noscript>
                 </div>
-                <div class="col-xs-12 col-sm-4 equal-cols no-padding">
+                <div className="col-xs-12 col-sm-4 equal-cols no-padding">
                   <div
-                    class="info-box-item"
+                    className="info-box-item"
                     style={{ backgroundColor: "#f6f6f6" }}
                   >
-                    <div class="info-box-item__inner">
-                      <div class="info-box__description">
+                    <div className="info-box-item__inner">
+                      <div className="info-box__description">
                         <h1
-                          class="info-box__title"
+                          className="info-box__title"
                           style={{
                             color: "#0075FF",
                             textTransform: "uppercase",
@@ -84,17 +87,17 @@ const MobileAppDevelopment = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-4 equal-cols no-padding">
+                <div className="col-xs-12 col-sm-4 equal-cols no-padding">
                   <div
-                    class="info-box-item"
+                    className="info-box-item"
                     style={{ backgroundColor: "#f6f6f6" }}
                   >
-                    <div class="info-box-item__inner">
-                      <div class="info-box-2-subitem">
-                        <div class="info-box-2-subitem__description">
+                    <div className="info-box-item__inner">
+                      <div className="info-box-2-subitem">
+                        <div className="info-box-2-subitem__description">
                           <p>
                             <i
-                              class="fa fa-check"
+                              className="fa fa-check"
                               style={{ color: "#0a0039", marginLeft: "-28px" }}
                               aria-hidden="true"
                             ></i>
@@ -106,11 +109,11 @@ const MobileAppDevelopment = () => {
                           </p>
                         </div>
                       </div>
-                      <div class="info-box-2-subitem">
-                        <div class="info-box-2-subitem__description">
+                      <div className="info-box-2-subitem">
+                        <div className="info-box-2-subitem__description">
                           <p>
                             <i
-                              class="fa fa-check"
+                              className="fa fa-check"
                               style={{ color: "#0a0039", marginLeft: "-28px" }}
                               aria-hidden="true"
                             ></i>
@@ -122,11 +125,11 @@ const MobileAppDevelopment = () => {
                           </p>
                         </div>
                       </div>
-                      <div class="info-box-2-subitem">
-                        <div class="info-box-2-subitem__description">
+                      <div className="info-box-2-subitem">
+                        <div className="info-box-2-subitem__description">
                           <p>
                             <i
-                              class="fa fa-check"
+                              className="fa fa-check"
                               style={{ color: "#0a0039", marginLeft: "-28px" }}
                               aria-hidden="true"
                             ></i>
@@ -146,40 +149,43 @@ const MobileAppDevelopment = () => {
           {/* mobile app develop end */}
 
           {/* services offer start */}
-          <section class="section section-white section-2" id="pesdetails">
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title">Services we offer</h3>
+          <section className="section section-white section-2" id="pesdetails">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12">
+                  <h3 className="section__title">Services we offer</h3>
                 </div>
               </div>
             </div>
 
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item" style={{ textAlign: "center" }}>
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-6 equal-cols">
+                  <div
+                    className="features-item"
+                    style={{ textAlign: "center" }}
+                  >
                     <img
                       alt="Experience Design"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Experience-Design.jpg"
-                      class="features-item__icon lazyload"
+                      className="features-item__icon lazyload"
                       src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     />
                     <noscript>
                       <img
                         src="../sr/wp-content/uploads/2021/01/Experience-Design.jpg"
-                        class="features-item__icon"
+                        className="features-item__icon"
                         alt="Experience Design"
                       />
                     </noscript>
 
                     <h5
-                      class="features-item__title"
+                      className="features-item__title"
                       style={{ color: "#0a0039" }}
                     >
                       Personalized Mobile Application
                     </h5>
-                    <div class="features-item__text">
+                    <div className="features-item__text">
                       <p>
                         Our team of incredibly talented developers has a wealth
                         of expertise in creating tailored mobile apps that help
@@ -188,29 +194,32 @@ const MobileAppDevelopment = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item" style={{ textAlign: "center" }}>
+                <div className="col-xs-12 col-sm-6 equal-cols">
+                  <div
+                    className="features-item"
+                    style={{ textAlign: "center" }}
+                  >
                     <img
                       alt="Web Development"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Node.js-Web-Development.jpg"
-                      class="features-item__icon lazyload"
+                      className="features-item__icon lazyload"
                       src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     />
                     <noscript>
                       <img
                         src="../sr/wp-content/uploads/2021/01/Node.js-Web-Development.jpg"
-                        class="features-item__icon"
+                        className="features-item__icon"
                         alt="Web Development"
                       />
                     </noscript>
 
                     <h5
-                      class="features-item__title"
+                      className="features-item__title"
                       style={{ color: "#0a0039" }}
                     >
                       Mobile Hybrid Application
                     </h5>
-                    <div class="features-item__text">
+                    <div className="features-item__text">
                       <p>
                         To effectively engage consumers and reduce the time and
                         expense associated with app creation, use custom hybrid
@@ -219,29 +228,32 @@ const MobileAppDevelopment = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item" style={{ textAlign: "center" }}>
+                <div className="col-xs-12 col-sm-6 equal-cols">
+                  <div
+                    className="features-item"
+                    style={{ textAlign: "center" }}
+                  >
                     <img
                       alt="Mobility"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61486.png"
-                      class="features-item__icon lazyload"
+                      className="features-item__icon lazyload"
                       src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     />
                     <noscript>
                       <img
                         src="../sr/wp-content/uploads/2021/01/Group-61486.png"
-                        class="features-item__icon"
+                        className="features-item__icon"
                         alt="Mobility"
                       />
                     </noscript>
 
                     <h5
-                      class="features-item__title"
+                      className="features-item__title"
                       style={{ color: "#0a0039" }}
                     >
                       App for Native Mobile Devices
                     </h5>
-                    <div class="features-item__text">
+                    <div className="features-item__text">
                       <p>
                         Our firm offers full-cycle development of safe,
                         scalable, and feature-rich native mobile applications
@@ -251,29 +263,32 @@ const MobileAppDevelopment = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item" style={{ textAlign: "center" }}>
+                <div className="col-xs-12 col-sm-6 equal-cols">
+                  <div
+                    className="features-item"
+                    style={{ textAlign: "center" }}
+                  >
                     <img
                       alt="Testing"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61490.png"
-                      class="features-item__icon lazyload"
+                      className="features-item__icon lazyload"
                       src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     />
                     <noscript>
                       <img
                         src="../sr/wp-content/uploads/2021/01/Group-61490.png"
-                        class="features-item__icon"
+                        className="features-item__icon"
                         alt="Testing"
                       />
                     </noscript>
 
                     <h5
-                      class="features-item__title"
+                      className="features-item__title"
                       style={{ color: "#0a0039" }}
                     >
                       Explicit Design
                     </h5>
-                    <div class="features-item__text">
+                    <div className="features-item__text">
                       <p>
                         You can guarantee increased client acquisition and
                         retention by humanizing your customer experience. For a
@@ -283,29 +298,32 @@ const MobileAppDevelopment = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item" style={{ textAlign: "center" }}>
+                <div className="col-xs-12 col-sm-6 equal-cols">
+                  <div
+                    className="features-item"
+                    style={{ textAlign: "center" }}
+                  >
                     <img
                       alt="Testing"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61490.png"
-                      class="features-item__icon lazyload"
+                      className="features-item__icon lazyload"
                       src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     />
                     <noscript>
                       <img
                         src="../sr/wp-content/uploads/2021/01/Group-61490.png"
-                        class="features-item__icon"
+                        className="features-item__icon"
                         alt="Testing"
                       />
                     </noscript>
 
                     <h5
-                      class="features-item__title"
+                      className="features-item__title"
                       style={{ color: "#0a0039" }}
                     >
                       Testing and QA Services
                     </h5>
-                    <div class="features-item__text">
+                    <div className="features-item__text">
                       <p>
                         In order to guarantee that your mobile app functions
                         flawlessly on all devices, we provide a comprehensive
@@ -315,29 +333,32 @@ const MobileAppDevelopment = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 equal-cols">
-                  <div class="features-item" style={{ textAlign: "center" }}>
+                <div className="col-xs-12 col-sm-6 equal-cols">
+                  <div
+                    className="features-item"
+                    style={{ textAlign: "center" }}
+                  >
                     <img
                       alt="Testing"
                       data-src="https://steadyrabbit.in/sr/wp-content/uploads/2021/01/Group-61490.png"
-                      class="features-item__icon lazyload"
+                      className="features-item__icon lazyload"
                       src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     />
                     <noscript>
                       <img
                         src="../sr/wp-content/uploads/2021/01/Group-61490.png"
-                        class="features-item__icon"
+                        className="features-item__icon"
                         alt="Testing"
                       />
                     </noscript>
 
                     <h5
-                      class="features-item__title"
+                      className="features-item__title"
                       style={{ color: "#0a0039" }}
                     >
                       Migration & Upgrading
                     </h5>
-                    <div class="features-item__text">
+                    <div className="features-item__text">
                       <p>
                         We are here to help you with our skilled team if you
                         want to update your current mobile app to the most
@@ -354,20 +375,20 @@ const MobileAppDevelopment = () => {
 
           {/* tech expert start */}
           <div
-            class="section hidden-xs section-2 pt-0 pb-0"
+            className="section hidden-xs section-2 pt-0 pb-0"
             id="Technology"
             style={{ backgroundColor: "#f6f6f6" }}
           >
-            <div class="align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4 equal-cols no-padding">
+            <div className="align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-4 equal-cols no-padding">
                   <div
-                    class="info-box-item"
+                    className="info-box-item"
                     style={{ backgroundColor: "#f6f6f6" }}
                   >
-                    <div class="info-box-item__inner">
+                    <div className="info-box-item__inner">
                       <h5
-                        class="info-box__title"
+                        className="info-box__title"
                         style={{
                           color: "#0075FF",
                           textTransform: "uppercase",
@@ -378,198 +399,200 @@ const MobileAppDevelopment = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-4 equal-cols no-padding">
+                <div className="col-xs-12 col-sm-4 equal-cols no-padding">
                   <div
-                    class="info-box-item"
+                    className="info-box-item"
                     style={{ backgroundColor: "#f6f6f6" }}
                   >
-                    <div class="info-box-item__inner">
-                      <div class="info-box-2-subitem">
+                    <div className="info-box-item__inner">
+                      <div className="info-box-2-subitem">
                         <img
                           alt=""
                           data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Frontend-UX.png"
-                          class="info-box-2-subitem__ico lazyload"
+                          className="info-box-2-subitem__ico lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Frontend-UX.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               src="../wp-content/uploads/2021/09/Frontend-UX.png"
-                              class="info-box-2-subitem__ico"
+                              className="info-box-2-subitem__ico"
                               alt=""
                             />
                           </noscript>
                         </noscript>
 
                         <span
-                          class="info-box-2-subitem__title"
+                          className="info-box-2-subitem__title"
                           style={{ color: "#0a0039" }}
                         >
                           Frontend &amp; UX
                         </span>
-                        <div class="info-box-2-subitem__description">
+                        <div className="info-box-2-subitem__description">
                           <p>
                             React.js, AngularJS, VueJS, React Native, Flutter,
                             Android, iOS
                           </p>
                         </div>
                       </div>
-                      <div class="info-box-2-subitem">
+                      <div className="info-box-2-subitem">
                         <img
                           alt=""
                           data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Backend.png"
-                          class="info-box-2-subitem__ico lazyload"
+                          className="info-box-2-subitem__ico lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Backend.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               src="../wp-content/uploads/2021/09/Backend.png"
-                              class="info-box-2-subitem__ico"
+                              className="info-box-2-subitem__ico"
                               alt=""
                             />
                           </noscript>
                         </noscript>
 
                         <span
-                          class="info-box-2-subitem__title"
+                          className="info-box-2-subitem__title"
                           style={{ color: "#0a0039" }}
                         >
                           Backend
                         </span>
-                        <div class="info-box-2-subitem__description">
+                        <div className="info-box-2-subitem__description">
                           <p>Java, Python, Node.Js, PHP</p>
                         </div>
                       </div>
-                      <div class="info-box-2-subitem">
+                      <div className="info-box-2-subitem">
                         <img
                           alt=""
                           data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Database.png"
-                          class="info-box-2-subitem__ico lazyload"
+                          className="info-box-2-subitem__ico lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Database.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               src="../wp-content/uploads/2021/09/Database.png"
-                              class="info-box-2-subitem__ico"
+                              className="info-box-2-subitem__ico"
                               alt=""
                             />
                           </noscript>
                         </noscript>
                         <span
-                          class="info-box-2-subitem__title"
+                          className="info-box-2-subitem__title"
                           style={{ color: "#0a0039" }}
                         >
                           Database
                         </span>
-                        <div class="info-box-2-subitem__description">
+                        <div className="info-box-2-subitem__description">
                           <p>MongoDB, SQL, Redis</p>
                         </div>
                       </div>
-                      <div class="info-box-2-subitem">
+                      <div className="info-box-2-subitem">
                         <img
                           alt=""
                           data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Analytics.png"
-                          class="info-box-2-subitem__ico lazyload"
+                          className="info-box-2-subitem__ico lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Analytics.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               src="../wp-content/uploads/2021/09/Analytics.png"
-                              class="info-box-2-subitem__ico"
+                              className="info-box-2-subitem__ico"
                               alt=""
                             />
                           </noscript>
                         </noscript>
                         <span
-                          class="info-box-2-subitem__title"
+                          className="info-box-2-subitem__title"
                           style={{ color: "#0a0039" }}
                         >
                           Analytics
                         </span>
-                        <div class="info-box-2-subitem__description">
+                        <div className="info-box-2-subitem__description">
                           <p>Panda, R, Hadoop, Hive</p>
                         </div>
                       </div>
-                      <div class="info-box-2-subitem">
+                      <div className="info-box-2-subitem">
                         <img
                           alt=""
                           data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Cloud-and-DevOps.png"
-                          class="info-box-2-subitem__ico lazyload"
+                          className="info-box-2-subitem__ico lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Cloud-and-DevOps.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               src="../wp-content/uploads/2021/09/Cloud-and-DevOps.png"
-                              class="info-box-2-subitem__ico"
+                              className="info-box-2-subitem__ico"
                               alt=""
                             />
                           </noscript>
                         </noscript>
                         <span
-                          class="info-box-2-subitem__title"
+                          className="info-box-2-subitem__title"
                           style={{ color: "#0a0039" }}
                         >
                           Cloud And Devops
                         </span>
-                        <div class="info-box-2-subitem__description">
+                        <div className="info-box-2-subitem__description">
                           <p>AWS, Jenkins, Docker, Kubernet</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-4 equal-cols no-padding">
+                <div className="col-xs-12 col-sm-4 equal-cols no-padding">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                    class="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    alt="Mobile Technical Expertise"
+                    data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                    className="lazyload"
+                    src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                   />
                   <noscript>
                     <img
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      class="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      alt="Mobile Technical Expertise"
+                      data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                      className="lazyload"
+                      src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                     />
                     <noscript>
                       <img
-                        src="../wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                        alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                        alt="Mobile Technical Expertise"
+                        data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                        className="lazyload"
+                        src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                       />
                     </noscript>
                   </noscript>
@@ -578,21 +601,21 @@ const MobileAppDevelopment = () => {
             </div>
           </div>
           <div
-            class="section hidden-sm hidden-md hidden-lg section-2 pt-0 pb-0"
+            className="section hidden-sm hidden-md hidden-lg section-2 pt-0 pb-0"
             id="Technology-Mob"
             style={{ backgroundColor: "#f6f6f6" }}
           >
-            <div class="container-middle">
-              <div class="container align-left">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-4 no-padding">
+            <div className="container-middle">
+              <div className="container align-left">
+                <div className="row">
+                  <div className="col-xs-12 col-sm-4 no-padding">
                     <div
-                      class="info-box-item"
+                      className="info-box-item"
                       style={{ backgroundColor: "#f6f6f6" }}
                     >
-                      <div class="info-box-item__inner">
+                      <div className="info-box-item__inner">
                         <h5
-                          class="info-box__title"
+                          className="info-box__title"
                           style={{
                             color: "#0075FF",
                             textTransform: "uppercase",
@@ -604,173 +627,173 @@ const MobileAppDevelopment = () => {
                     </div>
 
                     <div
-                      class="info-box-item"
+                      className="info-box-item"
                       style={{ backgroundColor: "#f6f6f6" }}
                     >
-                      <div class="info-box-item__inner">
-                        <div class="info-box-2-subitem">
+                      <div className="info-box-item__inner">
+                        <div className="info-box-2-subitem">
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Frontend-UX.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt=""
                               data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Frontend-UX.png"
-                              class="info-box-2-subitem__ico lazyload"
+                              className="info-box-2-subitem__ico lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 src="../wp-content/uploads/2021/09/Frontend-UX.png"
-                                class="info-box-2-subitem__ico"
+                                className="info-box-2-subitem__ico"
                                 alt=""
                               />
                             </noscript>
                           </noscript>
 
                           <span
-                            class="info-box-2-subitem__title"
+                            className="info-box-2-subitem__title"
                             style={{ color: "#0a0039" }}
                           >
                             Frontend &amp; UX
                           </span>
-                          <div class="info-box-2-subitem__description">
+                          <div className="info-box-2-subitem__description">
                             <p>
                               React.js , AngularJS , VueJS, React Native ,
                               Flutter, Android , iOS
                             </p>
                           </div>
                         </div>
-                        <div class="info-box-2-subitem">
+                        <div className="info-box-2-subitem">
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Backend.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt=""
                               data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Backend.png"
-                              class="info-box-2-subitem__ico lazyload"
+                              className="info-box-2-subitem__ico lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 src="../wp-content/uploads/2021/09/Backend.png"
-                                class="info-box-2-subitem__ico"
+                                className="info-box-2-subitem__ico"
                                 alt=""
                               />
                             </noscript>
                           </noscript>
 
                           <span
-                            class="info-box-2-subitem__title"
+                            className="info-box-2-subitem__title"
                             style={{ color: "#0a0039" }}
                           >
                             Backend
                           </span>
-                          <div class="info-box-2-subitem__description">
+                          <div className="info-box-2-subitem__description">
                             <p>Java, Python, Node.Js, PHP</p>
                           </div>
                         </div>
-                        <div class="info-box-2-subitem">
+                        <div className="info-box-2-subitem">
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Database.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt=""
                               data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Database.png"
-                              class="info-box-2-subitem__ico lazyload"
+                              className="info-box-2-subitem__ico lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 src="../wp-content/uploads/2021/09/Database.png"
-                                class="info-box-2-subitem__ico"
+                                className="info-box-2-subitem__ico"
                                 alt=""
                               />
                             </noscript>
                           </noscript>
 
                           <span
-                            class="info-box-2-subitem__title"
+                            className="info-box-2-subitem__title"
                             style={{ color: "#0a0039" }}
                           >
                             Database
                           </span>
-                          <div class="info-box-2-subitem__description">
+                          <div className="info-box-2-subitem__description">
                             <p>MongoDB, SQL, Redis</p>
                           </div>
                         </div>
-                        <div class="info-box-2-subitem">
+                        <div className="info-box-2-subitem">
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Analytics.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt=""
                               data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Analytics.png"
-                              class="info-box-2-subitem__ico lazyload"
+                              className="info-box-2-subitem__ico lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 src="../wp-content/uploads/2021/09/Analytics.png"
-                                class="info-box-2-subitem__ico"
+                                className="info-box-2-subitem__ico"
                                 alt=""
                               />
                             </noscript>
                           </noscript>
                           <span
-                            class="info-box-2-subitem__title"
+                            className="info-box-2-subitem__title"
                             style={{ color: "#0a0039" }}
                           >
                             Analytics
                           </span>
-                          <div class="info-box-2-subitem__description">
+                          <div className="info-box-2-subitem__description">
                             <p>Panda, R, Hadoop, Hive</p>
                           </div>
                         </div>
-                        <div class="info-box-2-subitem">
+                        <div className="info-box-2-subitem">
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Cloud-and-DevOps.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               alt=""
                               data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Cloud-and-DevOps.png"
-                              class="info-box-2-subitem__ico lazyload"
+                              className="info-box-2-subitem__ico lazyload"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             />
                             <noscript>
                               <img
                                 src="../wp-content/uploads/2021/09/Cloud-and-DevOps.png"
-                                class="info-box-2-subitem__ico"
+                                className="info-box-2-subitem__ico"
                                 alt=""
                               />
                             </noscript>
                           </noscript>
                           <span
-                            class="info-box-2-subitem__title"
+                            className="info-box-2-subitem__title"
                             style={{ color: "#0a0039" }}
                           >
                             Cloud And Devops
                           </span>
-                          <div class="info-box-2-subitem__description">
+                          <div className="info-box-2-subitem__description">
                             <p>AWS, Jenkins, Docker, Kubernet</p>
                           </div>
                         </div>
@@ -778,22 +801,24 @@ const MobileAppDevelopment = () => {
                     </div>
 
                     <img
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      class="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      alt="Mobile Technical Expertise"
+                      data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                      className="lazyload"
+                      src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                     />
                     <noscript>
                       <img
-                        alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                        class="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        alt="Mobile Technical Expertise"
+                        data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                        className="lazyload"
+                        src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                          alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                          alt="Mobile Technical Expertise"
+                          data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                          className="lazyload"
+                          src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                         />
                       </noscript>
                     </noscript>
@@ -1131,29 +1156,29 @@ const MobileAppDevelopment = () => {
 
           {/* development process start */}
           <section
-            class="section hidden-xs section-lightgray section-2 pb-0"
+            className="section hidden-xs section-lightgray section-2 pb-0"
             id="process"
             style={{
               background: "rgb(246, 246, 246)",
             }}
           >
-            <div class="container align-left">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h3 class="section__title" style={{ color: "#0075FF" }}>
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12">
+                  <h3 className="section__title" style={{ color: "#0075FF" }}>
                     Development Process
                   </h3>
                 </div>
               </div>
             </div>
 
-            <div class="container align-left">
-              <div class="row">
-                <div class=" col-xs-12 col-sm-12">
+            <div className="container align-left">
+              <div className="row">
+                <div className=" col-xs-12 col-sm-12">
                   <img
                     alt="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
                     data-src="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
-                    class=" ls-is-cached lazyloaded"
+                    className=" ls-is-cached lazyloaded"
                     src="//steadyrabbit.in/wp-content/uploads/2021/09/development-process.jpg"
                   />
                   <noscript>

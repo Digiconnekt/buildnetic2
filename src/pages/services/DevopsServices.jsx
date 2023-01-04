@@ -19,13 +19,16 @@ const DevopsServices = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>Cloud And DevOps</span>{" "}
+                    <span style={{ color: "#fff" }}>Cloud And DevOps</span>{" "}
                     <br />
                     All Under One Sky
                   </h1>
                 </div>
                 <div className="right-block">
-                  <img src="../assets/images/services/service.png" alt="" />
+                  <img
+                    src="../assets/images/services/devops/devops.png"
+                    alt="DevOps"
+                  />
                 </div>
               </div>
             </div>
@@ -40,17 +43,20 @@ const DevopsServices = () => {
           >
             <div class="align-left">
               <div class="row">
-                <div class="col-xs-12 col-sm-4 equal-cols no-padding">
+                <div
+                  class="col-xs-12 col-sm-4 equal-cols no-padding"
+                  style={{ textAlign: "center" }}
+                >
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/11/Product-Engineering-Services.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/11/Product-Engineering-Services.png"
+                    alt="DevOps"
+                    data-src="../assets/images/services/devops/devops.png"
                     class="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="../assets/images/services/devops/devops.png"
                   />
                   <noscript>
                     <img
-                      src="../wp-content/uploads/2021/11/Product-Engineering-Services.png"
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/11/Product-Engineering-Services.png"
+                      src="../assets/images/services/devops/devops.png"
+                      alt="DevOps"
                     />
                   </noscript>
                 </div>
@@ -334,36 +340,36 @@ const DevopsServices = () => {
                     style={{ backgroundColor: "#f6f6f6" }}
                   >
                     <div class="info-box-item__inner">
-                      <div class="info-box-2-subitem">
+                      <div className="info-box-2-subitem">
                         <img
                           alt=""
                           data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Frontend-UX.png"
-                          class="info-box-2-subitem__ico lazyload"
+                          className="info-box-2-subitem__ico lazyload"
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         />
                         <noscript>
                           <img
                             alt=""
                             data-src="https://steadyrabbit.in/wp-content/uploads/2021/09/Frontend-UX.png"
-                            class="info-box-2-subitem__ico lazyload"
+                            className="info-box-2-subitem__ico lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           />
                           <noscript>
                             <img
                               src="../wp-content/uploads/2021/09/Frontend-UX.png"
-                              class="info-box-2-subitem__ico"
+                              className="info-box-2-subitem__ico"
                               alt=""
                             />
                           </noscript>
                         </noscript>
 
                         <span
-                          class="info-box-2-subitem__title"
+                          className="info-box-2-subitem__title"
                           style={{ color: "#0a0039" }}
                         >
                           Frontend &amp; UX
                         </span>
-                        <div class="info-box-2-subitem__description">
+                        <div className="info-box-2-subitem__description">
                           <p>
                             React.js, AngularJS, VueJS, React Native, Flutter,
                             Android, iOS
@@ -504,22 +510,24 @@ const DevopsServices = () => {
                 </div>
                 <div class="col-xs-12 col-sm-4 equal-cols no-padding">
                   <img
-                    alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                    data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                    alt="Web Technical Expertise"
+                    data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                     class="lazyload"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                   />
                   <noscript>
                     <img
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                      alt="Mobile Technical Expertise"
+                      data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                       class="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                     />
                     <noscript>
                       <img
-                        src="../wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                        alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                        alt="Mobile Technical Expertise"
+                        data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                        class="lazyload"
+                        src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                       />
                     </noscript>
                   </noscript>
@@ -728,22 +736,24 @@ const DevopsServices = () => {
                     </div>
 
                     <img
-                      alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                      data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                      alt="Mobile Technical Expertise"
+                      data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                       class="lazyload"
-                      src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                     />
                     <noscript>
                       <img
-                        alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                        data-src="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                        alt="Mobile Technical Expertise"
+                        data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                         class="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                       />
                       <noscript>
                         <img
-                          src="../wp-content/uploads/2021/09/Technical-Expertise-1.png"
-                          alt="//steadyrabbit.in/wp-content/uploads/2021/09/Technical-Expertise-1.png"
+                          alt="Mobile Technical Expertise"
+                          data-src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
+                          class="lazyload"
+                          src="../assets/images/services/mobile-application-development/mobile-technical-expertise.png"
                         />
                       </noscript>
                     </noscript>

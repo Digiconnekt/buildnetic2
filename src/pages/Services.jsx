@@ -19,10 +19,7 @@ const Services = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>
-                      {" "}
-                      Expect More From Us!
-                    </span>{" "}
+                    <span style={{ color: "#fff" }}> Expect More From Us!</span>{" "}
                     <br />
                     Services
                   </h1>

@@ -18,7 +18,7 @@ const Blog = () => {
                     textTransform: "uppercase",
                   }}
                 >
-                  <span style={{ color: "#0a0039" }}>
+                  <span style={{ color: "#fff" }}>
                     {/* The Mores Of Our Journey */}
                   </span>{" "}
                   <br />
@@ -26,7 +26,7 @@ const Blog = () => {
                 </h1>
               </div>
               <div className="right-block">
-                <img src="./assets/images/about.png" alt="" />
+                <img src="./assets/images/blog/blog.png" alt="Blog" />
               </div>
             </div>
           </div>

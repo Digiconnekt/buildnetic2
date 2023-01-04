@@ -19,7 +19,7 @@ const Testing = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>We Test</span> <br />
+                    <span style={{ color: "#fff" }}>We Test</span> <br />
                     All The Aspects
                   </h1>
                 </div>

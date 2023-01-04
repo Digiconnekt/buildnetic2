@@ -18,6 +18,7 @@ import DataAnalytics from "./pages/services/DataAnalytics";
 import Testing from "./pages/services/Testing";
 import NodeJsDevelopment from "./pages/NodeJsDevelopment";
 import Python from "./pages/Python";
+import Error from "./pages/Error";
 
 const App = () => {
   return (
@@ -48,6 +49,8 @@ const App = () => {
         <Route path="/engagement-model" element={<EngagementModel />} />
         <Route path="/nodejs-development" element={<NodeJsDevelopment />} />
         <Route path="/python" element={<Python />} />
+
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
       <StickyWhatsapp />

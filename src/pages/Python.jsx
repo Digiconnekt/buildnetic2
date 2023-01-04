@@ -19,7 +19,7 @@ const Python = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>
+                    <span style={{ color: "#fff" }}>
                       A Multi-Purpose Language:
                     </span>{" "}
                     <br />

@@ -13,7 +13,7 @@ const Technology = () => {
                   <h2 className="main-1-item__title">
                     <span
                       className="main-1-item__title_part_1"
-                      style={{ color: "#0a0039" }}
+                      style={{ color: "#fff" }}
                     >
                       Partners In The
                     </span>{" "}

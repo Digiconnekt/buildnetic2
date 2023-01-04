@@ -19,7 +19,7 @@ const DataAnalytics = () => {
                       textTransform: "uppercase",
                     }}
                   >
-                    <span style={{ color: "#0a0039" }}>Order Your Raws</span>{" "}
+                    <span style={{ color: "#fff" }}>Order Your Raws</span>{" "}
                     <br />
                     Into Analytics
                   </h1>

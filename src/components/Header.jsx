@@ -1,6 +1,9 @@
 import React from "react";
 
 const Header = () => {
+  const location = window.location.pathname;
+  console.log(location);
+
   return (
     <>
       <header className="header">
@@ -11,7 +14,7 @@ const Header = () => {
                 className="header-logo__link"
                 href="/"
                 rel="home"
-                style={{ maxWidth: "80px" }}
+                style={{ maxWidth: "90px" }}
               >
                 <img
                   src="/assets/images/buildnetic-logo.png"
@@ -41,17 +44,46 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a className="menu__link" href="/" target="_self">
+                  <a
+                    className={`${
+                      location === "/"
+                        ? "menu__link menu__link_active"
+                        : "menu__link"
+                    }`}
+                    href="/"
+                    target="_self"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a className="menu__link" href="/about-us" target="_self">
+                  <a
+                    className={`${
+                      location === "/about-us"
+                        ? "menu__link menu__link_active"
+                        : "menu__link"
+                    }`}
+                    href="/about-us"
+                    target="_self"
+                  >
                     About Us
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                  <a className="menu__link" href="/services" target="_self">
+                  <a
+                    className={`${
+                      location === "/services" ||
+                      location === "/services/mobile-application-development" ||
+                      location === "/services/devops-solution-and-services" ||
+                      location === "/services/product-re-engineering" ||
+                      location === "/services/data-analytics" ||
+                      location === "/services/testing"
+                        ? "menu__link menu__link_active"
+                        : "menu__link"
+                    }`}
+                    href="/services"
+                    target="_self"
+                  >
                     Services
                   </a>
                   <ul className="submenu">
@@ -104,7 +136,11 @@ const Header = () => {
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
                   <a
-                    className="menu__link"
+                    className={`${
+                      location === "/success-stories"
+                        ? "menu__link menu__link_active"
+                        : "menu__link"
+                    }`}
                     href="/success-stories"
                     target="_self"
                   >
@@ -112,12 +148,28 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a className="menu__link" href="/blog" target="_self">
+                  <a
+                    className={`${
+                      location === "/blog"
+                        ? "menu__link menu__link_active"
+                        : "menu__link"
+                    }`}
+                    href="/blog"
+                    target="_self"
+                  >
                     Blog
                   </a>
                 </li>
                 <li className="menu__item  menu-item menu-item-type-post_type menu-item-object-page">
-                  <a className="menu__link" href="/contact-us" target="_self">
+                  <a
+                    className={`${
+                      location === "/contact-us"
+                        ? "menu__link menu__link_active"
+                        : "menu__link"
+                    }`}
+                    href="/contact-us"
+                    target="_self"
+                  >
                     Contact Us
                   </a>
                 </li>
