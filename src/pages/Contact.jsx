@@ -332,7 +332,20 @@ const Contact = () => {
                               <input
                                 type="text"
                                 name="email_25ad5c7"
-                                placeholder="Business Email"
+                                placeholder="Email"
+                                id="id-3"
+                                required="required"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div className="col-xs-12 col-sm-12 form-builder-item">
+                            <div className="field-text">
+                              <input
+                                type="text"
+                                name=""
+                                placeholder="Subject"
                                 id="id-3"
                                 required="required"
                               />

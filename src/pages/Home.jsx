@@ -1,4 +1,5 @@
 import React from "react";
+import Testimonial from "../components/Testimonial";
 import "./HeroSection.css";
 
 const Home = () => {
@@ -1389,7 +1390,7 @@ const Home = () => {
           {/* how to start?? end */}
 
           {/* testimonial start */}
-          <section
+          {/* <section
             className="section section-white section-2 pb-0 pt-0 pb-0"
             id="testimonials"
             data-animation-name="fadeInUp"
@@ -1412,32 +1413,9 @@ const Home = () => {
             </div>
 
             <div className="container align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <div data-v-10ab0e44="" className="widget-final-render">
-                    <div
-                      className="clutch-widget"
-                      data-url="https://widget.clutch.co"
-                      data-widget-type="12"
-                      data-height="375"
-                      data-clutchcompany-id="1574801"
-                    >
-                      <iframe
-                        id="iframe-0.49193515623649753"
-                        width="100%"
-                        height="375px"
-                        style={{ border: "none", display: "block" }}
-                        title="Steady Rabbit Technology Clutch Review Widget 12"
-                        data-src="https://widget.clutch.co/widgets/get/12?ref_domain=vendor.clutch.co&amp;uid=1574801&amp;ref_path=/vendor/dashboard/widgets"
-                        className="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <Testimonial />
             </div>
-          </section>
+          </section> */}
           {/* testimonial end */}
 
           {/* success stories start */}

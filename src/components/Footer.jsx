@@ -7,6 +7,7 @@ const Footer = () => {
         <div className="footer-top">
           <div className="container">
             <div className="row">
+              {/* logo and contact details start */}
               <div className="col-xs-12 col-sm-6 col-md-3 pb-50">
                 <div
                   id="custom_html-2"
@@ -56,14 +57,14 @@ const Footer = () => {
                       }}
                     >
                       <a
-                        href="mailto:contact@steadyrabbit.in"
+                        href="mailto:info@buildnetic.com"
                         style={{
                           fontSize: "14px",
                           color: "#000000",
                           fontWeight: "500",
                         }}
                       >
-                        contact@SteadyRabbit.in
+                        info@buildnetic.com
                       </a>
                     </p>
                     <img
@@ -83,51 +84,7 @@ const Footer = () => {
                         fontWeight: "500",
                       }}
                     >
-                      <a href="tel:+91 931-007-0057">+91 931-007-0057</a>
-                    </p>
-                    <img
-                      data-src="../assets/wp-content/uploads/2021/01/USA-Flag.png"
-                      className="lazyload"
-                      src="../assets/wp-content/uploads/2021/01/USA-Flag.png"
-                    />
-                    <noscript>
-                      <img src="../assets/wp-content/uploads/2021/01/USA-Flag.png" />
-                    </noscript>
-                    <p
-                      style={{
-                        marginTop: "-37px",
-                        marginLeft: "36px",
-                        fontSize: "14px",
-                        color: "#ffffff",
-                        fontWeight: "500",
-                      }}
-                    >
-                      <a href="tel:+1 609-454-2480">+1 609-454-2480</a>
-                    </p>
-                    <img
-                      width="25px"
-                      height="18px"
-                      data-src="../assets/wp-content/uploads/2021/02/UK-Flag.png"
-                      className="lazyload"
-                      src="../assets/wp-content/uploads/2021/02/UK-Flag.png"
-                    />
-                    <noscript>
-                      <img
-                        src="../assets/wp-content/uploads/2021/02/UK-Flag.png"
-                        width="25px"
-                        height="18px"
-                      />
-                    </noscript>
-                    <p
-                      style={{
-                        marginTop: "-37px",
-                        marginLeft: "36px",
-                        fontSize: "14px",
-                        color: "#ffffff",
-                        fontWeight: "500",
-                      }}
-                    >
-                      <a href="tel:+44 203-287-8632">+44 203-287-8632</a>
+                      <a href="tel:+6587993124">+65 87993124</a>
                     </p>
                   </div>
                 </div>
@@ -137,14 +94,17 @@ const Footer = () => {
                 >
                   <ul className="footer-contacts"></ul>
                   <div className="footer-social">
-                    <a href="https://fb.me/Steadyrabbit" target="_blank">
+                    <a
+                      href="https://www.facebook.com/buildnetic"
+                      target="_blank"
+                    >
                       <i className="ico-7 footer-social__item"></i>
                     </a>
-                    <a href="https://twitter.com/SteadyRabbits" target="_blank">
+                    <a href="https://twitter.com/buildnetic_" target="_blank">
                       <i className="ico-6 footer-social__item"></i>
                     </a>
                     <a
-                      href="https://www.linkedin.com/company/steady-rabbit-technology"
+                      href="https://www.linkedin.com/company/buildnetic/"
                       target="_blank"
                     >
                       <i className="ico-2 footer-social__item"></i>
@@ -152,7 +112,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+              {/* logo and contact details end */}
 
+              {/* company start */}
               <div className="col-xs-12 col-sm-6 col-md-3 pb-50">
                 <div id="text-5" className="widget widget-footer widget_text">
                   <h4
@@ -186,7 +148,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+              {/* company end */}
 
+              {/* services start */}
               <div className="col-xs-12 col-sm-6 col-md-3 pb-50">
                 <div id="text-6" className="widget widget-footer widget_text">
                   <div className="textwidget">
@@ -220,7 +184,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+              {/* services end */}
 
+              {/* technology start */}
               <div className="col-xs-12 col-sm-6 col-md-3 pb-50">
                 <div id="text-7" className="widget widget-footer widget_text">
                   <div className="textwidget">
@@ -231,26 +197,36 @@ const Footer = () => {
                       Technology
                     </h4>
                     <p>
-                      <a href="/nodejs-development">Nodejs</a>
+                      <a href="/nodejs">NodeJs</a>
                     </p>
                     <p>
                       <a href="/python">Python</a>
                     </p>
                     <p>
-                      <a href="#">Java</a>
+                      <a href="/java">Java</a>
                     </p>
                     <p>
-                      <a href="#">Android</a>
+                      <a href="/android">Android</a>
                     </p>
                     <p>
-                      <a href="#">iOS</a>
+                      <a href="/ios">iOS</a>
                     </p>
                     <p>
-                      <a href="#">Reactjs</a>
+                      <a href="/reactjs">ReactJs</a>
+                    </p>
+                    <p>
+                      <a href="/react-native">React Native</a>
+                    </p>
+                    <p>
+                      <a href="/angular">Angular</a>
+                    </p>
+                    <p>
+                      <a href="/blockchain">Blockchain</a>
                     </p>
                   </div>
                 </div>
               </div>
+              {/* technology end */}
             </div>
           </div>
         </div>

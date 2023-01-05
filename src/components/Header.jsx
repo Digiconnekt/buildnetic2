@@ -2,7 +2,6 @@ import React from "react";
 
 const Header = () => {
   const location = window.location.pathname;
-  console.log(location);
 
   return (
     <>
