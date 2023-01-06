@@ -1,31 +1,36 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import "./App.css";
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import StickyWhatsapp from "./components/StickyWhatsapp";
+
 import Home from "./pages/Home";
-import Services from "./pages/Services";
-import SuccessStories from "./pages/SuccessStories";
 import About from "./pages/About";
+import Services from "./pages/Services";
+import Technology from "./pages/Technology";
+import SuccessStories from "./pages/SuccessStories";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Error from "./pages/Error";
+
+import ProductReEngineering from "./pages/services/ProductReEngineering";
 import MobileAppDevelopment from "./pages/services/MobileAppDevelopment";
 import DevopsServices from "./pages/services/DevopsServices";
-import ProductReEngineering from "./pages/services/ProductReEngineering";
-import StickyWhatsapp from "./components/StickyWhatsapp";
-import Technology from "./pages/Technology";
 import EngagementModel from "./pages/EngagementModel";
 import DataAnalytics from "./pages/services/DataAnalytics";
 import Testing from "./pages/services/Testing";
-import NodeJsDevelopment from "./pages/services/NodeJsDevelopment";
-import Python from "./pages/services/Python";
-import Error from "./pages/Error";
-import Java from "./pages/services/Java";
-import Android from "./pages/services/Android";
-import Ios from "./pages/services/Ios";
-import ReactJs from "./pages/services/ReactJs";
-import ReactNative from "./pages/services/ReactNative";
-import Angular from "./pages/services/Angular";
-import Blockchain from "./pages/services/Blockchain";
+
+import NodeJsDevelopment from "./pages/technologies/NodeJsDevelopment";
+import Python from "./pages/technologies/Python";
+import Java from "./pages/technologies/Java";
+import Android from "./pages/technologies/Android";
+import Ios from "./pages/technologies/Ios";
+import ReactJs from "./pages/technologies/ReactJs";
+import ReactNative from "./pages/technologies/ReactNative";
+import Angular from "./pages/technologies/Angular";
+import Blockchain from "./pages/technologies/Blockchain";
 
 const App = () => {
   return (
@@ -50,17 +55,17 @@ const App = () => {
         />
         <Route path="/services/data-analytics" element={<DataAnalytics />} />
         <Route path="/services/testing" element={<Testing />} />
-        <Route path="/technology" element={<Technology />} />
         <Route path="/engagement-model" element={<EngagementModel />} />
-        <Route path="/nodejs" element={<NodeJsDevelopment />} />
-        <Route path="/python" element={<Python />} />
-        <Route path="/java" element={<Java />} />
-        <Route path="/android" element={<Android />} />
-        <Route path="/ios" element={<Ios />} />
-        <Route path="/reactjs" element={<ReactJs />} />
-        <Route path="/react-native" element={<ReactNative />} />
-        <Route path="/angular" element={<Angular />} />
-        <Route path="/blockchain" element={<Blockchain />} />
+        <Route path="/technology" element={<Technology />} />
+        <Route path="/technology/nodejs" element={<NodeJsDevelopment />} />
+        <Route path="/technology/python" element={<Python />} />
+        <Route path="/technology/java" element={<Java />} />
+        <Route path="/technology/android" element={<Android />} />
+        <Route path="/technology/ios" element={<Ios />} />
+        <Route path="/technology/reactjs" element={<ReactJs />} />
+        <Route path="/technology/react-native" element={<ReactNative />} />
+        <Route path="/technology/angular" element={<Angular />} />
+        <Route path="/technology/blockchain" element={<Blockchain />} />
 
         <Route path="/success-stories" element={<SuccessStories />} />
         <Route path="/blog" element={<Blog />} />

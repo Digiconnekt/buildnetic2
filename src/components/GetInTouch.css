@@ -1,0 +1,13 @@
+.getInTouch h5 span a {
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+.getInTouch h5 span a i {
+  margin-right: 8px;
+}
+
+.getInTouch h5 span a:hover {
+  color: #0075ff;
+  transition: all 0.25s ease;
+}

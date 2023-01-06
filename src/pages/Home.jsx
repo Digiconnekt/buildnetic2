@@ -1,4 +1,7 @@
 import React from "react";
+import HomeFAQ from "../components/FAQ/HomeFAQ";
+import GetInTouch from "../components/GetInTouch";
+import HowToStart from "../components/HowToStart";
 import Testimonial from "../components/Testimonial";
 import "./HeroSection.css";
 
@@ -192,7 +195,10 @@ const Home = () => {
                         >
                           Experts
                         </h5>
-                        <div className="features-item__text">
+                        <div
+                          className="features-item__text"
+                          style={{ color: "#000" }}
+                        >
                           <p>
                             Work with our certified experts, who have a wide
                             range of experience in technology stacks.
@@ -228,7 +234,7 @@ const Home = () => {
                           Pocket-Friendly
                         </h5>
                         <div className="features-item__text">
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Our team delivers marketing-led business solutions
                             from analysis to optimization all under a minimal
                             cover.
@@ -264,7 +270,7 @@ const Home = () => {
                           Transparency
                         </h5>
                         <div className="features-item__text">
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Creating a competitive advantage from better
                             knowledge to define bold ambitions and maintaining
                             visibility throughout is what our technocrats aspire
@@ -301,7 +307,7 @@ const Home = () => {
                           Availability
                         </h5>
                         <div className="features-item__text">
-                          <p>
+                          <p style={{ color: "#000" }}>
                             To ensure a quicker ramp-up and our capacity to meet
                             your needs, we maintain a robust bench.
                           </p>
@@ -414,7 +420,7 @@ const Home = () => {
                             style={{ fontSize: "inherit", textAlign: "center" }}
                             width="25%"
                           >
-                            Setting up a team of min 3 FTE
+                            Setting up a team as per your requirement
                           </td>
                           <td
                             style={{ fontSize: "inherit", textAlign: "center" }}
@@ -458,8 +464,7 @@ const Home = () => {
                             style={{ fontSize: "inherit", textAlign: "center" }}
                             width="30%"
                           >
-                            Full-Time: 1 Backend, 1 Frontend, 1 Testing
-                            Part-time: Architect, Designer, DevOps, PM
+                            Custom as per technical skill requirement
                           </td>
                         </tr>
                         <tr>
@@ -540,7 +545,7 @@ const Home = () => {
                             Ramp down time
                           </td>
                           <td style={{ textAlign: "center" }} width="25%">
-                            60 days
+                            30 days
                           </td>
                           <td style={{ textAlign: "center" }} width="25%">
                             30 days
@@ -570,29 +575,6 @@ const Home = () => {
                           </td>
                           <td style={{ textAlign: "center" }} width="30%">
                             Min 50%
-                          </td>
-                        </tr>
-                        <tr>
-                          <td
-                            style={{
-                              fontSize: "inherit",
-                              background: "#caecff",
-                              color: "#0a0039",
-                              fontWeight: "bold",
-                              textAlign: "center",
-                            }}
-                            width="25%"
-                          >
-                            Pricing
-                          </td>
-                          <td style={{ textAlign: "center" }} width="25%">
-                            Starts from $2400 monthly rate
-                          </td>
-                          <td style={{ textAlign: "center" }} width="25%">
-                            Starts from $3000 monthly rate
-                          </td>
-                          <td style={{ textAlign: "center" }} width="30%">
-                            $8999 per month
                           </td>
                         </tr>
                         <tr>
@@ -690,10 +672,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-6">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="Frontend"
@@ -741,10 +720,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-6">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="backendend"
@@ -817,7 +793,7 @@ const Home = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    Mob Development
+                    Mobility Solutions
                   </p>
                 </div>
               </div>
@@ -826,10 +802,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="iOS"
@@ -891,10 +864,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="Andriod"
@@ -960,10 +930,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="Cross platform"
@@ -1025,10 +992,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="AI ML"
@@ -1058,10 +1022,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="Database"
@@ -1091,10 +1052,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="DevOps"
@@ -1139,10 +1097,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="/assets/wp-content/uploads/2022/06/Testing-Automation.png"
@@ -1188,10 +1143,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-4">
                   <div className="features-item align-left">
                     <div className="features-item__text">
-                      <div
-                        className="features-item"
-                        style={{ textAlign: "center" }}
-                      >
+                      <div className="features-item">
                         <p>
                           <img
                             alt="Tools"
@@ -1225,38 +1177,11 @@ const Home = () => {
           {/* tech we excel end */}
 
           {/* get in touch start */}
-          <div className="section pt-0 pb-0" id="cta">
-            <div className="align-left">
-              <div className="s-get-it-2">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-xs-12 col-sm-12 col-md-8 align-middle">
-                      <h5 className="s-get-it-2__title">
-                        Get In Touch <br /> Be a part of the solution!
-                      </h5>
-                    </div>
-                    <div className="col-xs-12 col-sm-12 col-md-4 align-middle">
-                      <a
-                        href="contact-us/index.htm"
-                        target="_blank"
-                        className="btn-a btn-a_fill_theme"
-                        style={{
-                          borderRadius: "5px",
-                          borderColor: "#0075ff",
-                        }}
-                      >
-                        Get quote
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <GetInTouch />
           {/* get in touch end */}
 
           {/* how to start?? start */}
-          <div className="section section-white section-2" id="Onboarding">
+          <div className="section section-white section-2 pb-0" id="Onboarding">
             <div className="align-center">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -1296,105 +1221,263 @@ const Home = () => {
                     </div>
                   </div>
 
-                  <div
-                    className="fw-divider-space"
-                    style={{ paddingTop: "30px" }}
-                  ></div>
-
-                  <ul className="tabs" role="tablist">
-                    <li className="tabs__item" id="tab-title-0">
-                      <a
-                        href="#fw-tabs-63a7941f32382-1"
-                        className="tabs__link tabs__link_active"
-                        role="tab"
-                        aria-controls="tab-0"
-                        style={{
-                          color: "#0075FF",
-                        }}
-                      >
-                        Demand
-                      </a>
-                    </li>
-                    <li className="tabs__item" id="tab-title-1">
-                      <a
-                        href="#fw-tabs-63a7941f32382-2"
-                        className="tabs__link"
-                        role="tab"
-                        aria-controls="tab-1"
-                        style={{
-                          color: "#0075FF",
-                        }}
-                      >
-                        Solution
-                      </a>
-                    </li>
-                    <li className="tabs__item" id="tab-title-2">
-                      <a
-                        href="#fw-tabs-63a7941f32382-3"
-                        className="tabs__link"
-                        role="tab"
-                        aria-controls="tab-2"
-                        style={{
-                          color: "#0075FF",
-                        }}
-                      >
-                        Launch
-                      </a>
-                    </li>
-                  </ul>
-
-                  <div className="tabs__content">
-                    <div
-                      id="fw-tabs-63a7941f32382-1"
-                      className="tabs__tab"
-                      role="tabpanel"
-                      aria-labelledby="tab-title-0"
-                    >
-                      <p>&nbsp;</p>
-                      <p>
-                        Submit your requirements in terms of project definition,
-                        project domain, tech stack, number of team members, and
-                        all that you need in your platter.
-                      </p>
-                    </div>
-                    <div
-                      id="fw-tabs-63a7941f32382-2"
-                      className="tabs__tab"
-                      role="tabpanel"
-                      aria-labelledby="tab-title-1"
-                    >
-                      <p>&nbsp;</p>
-                      <p>
-                        We analyze, understand, and then handpick the most
-                        qualified candidates for you who work on singular
-                        campaigns to wide-reaching transformation programs.
-                      </p>
-                    </div>
-                    <div
-                      id="fw-tabs-63a7941f32382-3"
-                      className="tabs__tab"
-                      role="tabpanel"
-                      aria-labelledby="tab-title-2"
-                    >
-                      <p>&nbsp;</p>
-                      <p>
-                        When your demand meets the solution you are ready to
-                        launch into your digital revolution. Yes, it starts!
-                      </p>
-                    </div>
-                  </div>
+                  <HowToStart />
                 </div>
               </div>
             </div>
           </div>
           {/* how to start?? end */}
 
+          {/* FAQ start */}
+          <section className="section section-white section-2" id="FAQs">
+            <div className="container align-left">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12">
+                  <h3
+                    className="section__title"
+                    style={{
+                      color: "#0075ff",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Frequently Asked Questions
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="container align-left">
+              {/* <div className="row accordion">
+                <div className="col-xs-12 col-sm-12">
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    How can Steady Rabbit’s staff augmentation services help my
+                    business?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Lack of access to good talent can often be a hindrance to
+                      the growth of your business. With Steady Rabbit’s staff
+                      augmentation services, you can tap into our large pool of
+                      highly experienced developers. Further, staff augmentation
+                      is especially suitable for technology startups seeking to
+                      scale up quickly, in addition to being a flexible option
+                      for supplementing your team for short-term projects.
+                      Through staff augmentation, it is possible for you to
+                      access the best talent at significantly lower costs and
+                      complete the recruitment process in a much shorter time
+                      period compared to direct hiring.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    What kind of professional experience do your developers
+                    have?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Our developers have an average experience of more than 5
+                      years which allows you to leverage their competence,
+                      skills and knowledge. Our engineering team has worked on
+                      several complex projects of all business sizes and types.
+                      Our engineers always keep themselves updated with the
+                      latest technology trends and build advanced business
+                      solutions. Due to this, you can be assured of always
+                      getting timely deliverables without compromising the
+                      quality of the work.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    How long does it take to on-board a team?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Due to our exceptional bench strength, we are able to
+                      mobilise resources in a short span of time. Typically 15 –
+                      30 days, it may vary based on your requirements. – and We
+                      ensure that your team starts contributing to your business
+                      as quickly as possible.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    How long is the ramp down period?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      As a project nears completion, there is an expected
+                      decline in workload and this phase is known as the ramp
+                      down period. At Steady Rabbit, we provide flexibility by
+                      offering shorter ramp down times, typically lasting
+                      between 30-60 days, depending on the kind of staff
+                      augmentation services you choose to avail.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    What are the approximate costs of your staff augmentation
+                    services?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Our goal at Steady Rabbit is to provide your business with
+                      the best of talent at competitive prices. The hourly rates
+                      starting as low as $15. Junior developer will cost you
+                      around $2,400/month. For an experienced resource with 4
+                      years + ex, will cost $3000 per month. We assure you
+                      minimum 50% savings – in some cases, even up to 60% – on
+                      hiring costs relative to developers of similar calibre in
+                      the USA. Contact us with your requirements and we will get
+                      back to you with a detailed quote within 24 hours.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    How does the hiring process work?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      The hiring process of our staff augmentation services is
+                      divided into three stages.
+                      <br />
+                      <i
+                        className="fa fa-circle"
+                        style={{ fontSize: "10px", color: "#55555" }}
+                      ></i>
+                       In the first stage, the client needs to establish the
+                      level of experience, abilities and qualifications of the
+                      developers required, as well as the number of developers
+                      needed. This stage can be considered similar to creating a
+                      comprehensive job description.
+                      <br />
+                      <i
+                        className="fa fa-circle"
+                        style={{ fontSize: "10px", color: "#55555" }}
+                      ></i>
+                       The second stage involves combing through our database
+                      for developers that match the skills and profile that the
+                      client is looking for. We create and share a shortlist of
+                      candidates that suits your requirements.
+                      <br />
+                      <i
+                        className="fa fa-circle"
+                        style={{ fontSize: "10px", color: "#55555" }}
+                      ></i>
+                       The final stage involves interviews with the candidates
+                      and after the approval of the client, the recruitment
+                      process is finalized. After completion of contractual
+                      formalities, the hired engineers start working with you as
+                      per the mutual agreed date.
+                    </p>
+                    <p>
+                      In rare cases if in case you are not satisfied with a
+                      specific engineer, we provide replacement flexibility
+                      within a period of 45 days. The hiring process can be
+                      completed in 15-30 days, providing an advantage over
+                      on-site company hiring which often takes several months.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    What are the key technology stacks that you serve?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Our engineers specialize in Frontend and UX ( React.js ,
+                      React Native, Vue, Angular, Flutter, Android , iOS etc.),
+                      Backend ( Java , Python , Node.js , PHP), Cloud &amp;
+                      DevOps (AWS, Jenkins, Docker etc.) and more. Thus, Steady
+                      Rabbit’s staff augmentation services help you customize
+                      your team based on your business requirements.
+                    </p>
+                  </div>
+                  <div
+                    className="accordion__title ico-110 fx"
+                    data-animation-name="fadeInUp"
+                    data-animation-duration=".8s"
+                    data-animation-delay="0.2s"
+                    style={{
+                      color: "#0a0039",
+                    }}
+                  >
+                    How will I manage a remote team based in India?
+                  </div>
+                  <div className="accordion__content">
+                    <p>
+                      Remote management across different time zones can seem
+                      like a daunting task but at Steady Rabbit, we dedicate
+                      ourselves to making sure that the process is as smooth and
+                      efficient. We ensure that our team of developers has an
+                      overlapping hours so you can have a daily scrum meeting.
+                      You can keep tabs on deliverables through regular
+                      performance monitoring. All the developers are fluent in
+                      English so you will have no trouble in communication.
+                      Further, we provide you with 24x7 support services to look
+                      into any issues you might be facing with utmost immediacy.
+                    </p>
+                  </div>
+                </div>
+              </div> */}
+
+              <HomeFAQ />
+            </div>
+          </section>
+          {/* FAQ end */}
+
           {/* testimonial start */}
-          {/* <section
-            className="section section-white section-2 pb-0 pt-0 pb-0"
+          <section
+            className="section section-lightgray section-2"
             id="testimonials"
-            data-animation-name="fadeInUp"
-            data-animation-visible-percent="10"
           >
             <div className="container align-left">
               <div className="row">
@@ -1415,7 +1498,7 @@ const Home = () => {
             <div className="container align-left">
               <Testimonial />
             </div>
-          </section> */}
+          </section>
           {/* testimonial end */}
 
           {/* success stories start */}
@@ -1743,252 +1826,8 @@ const Home = () => {
           </section>
           {/* success stories end */}
 
-          {/* FAQ start */}
-          <section className="section section-white section-2" id="FAQs">
-            <div className="container align-left">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12">
-                  <h3
-                    className="section__title"
-                    style={{
-                      color: "#0075ff",
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    Frequently Asked Questions
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="container align-left">
-              <div className="row accordion">
-                <div className="col-xs-12 col-sm-12">
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    How can Steady Rabbit’s staff augmentation services help my
-                    business?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Lack of access to good talent can often be a hindrance to
-                      the growth of your business. With Steady Rabbit’s staff
-                      augmentation services, you can tap into our large pool of
-                      highly experienced developers. Further, staff augmentation
-                      is especially suitable for technology startups seeking to
-                      scale up quickly, in addition to being a flexible option
-                      for supplementing your team for short-term projects.
-                      Through staff augmentation, it is possible for you to
-                      access the best talent at significantly lower costs and
-                      complete the recruitment process in a much shorter time
-                      period compared to direct hiring.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    What kind of professional experience do your developers
-                    have?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Our developers have an average experience of more than 5
-                      years which allows you to leverage their competence,
-                      skills and knowledge. Our engineering team has worked on
-                      several complex projects of all business sizes and types.
-                      Our engineers always keep themselves updated with the
-                      latest technology trends and build advanced business
-                      solutions. Due to this, you can be assured of always
-                      getting timely deliverables without compromising the
-                      quality of the work.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    How long does it take to on-board a team?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Due to our exceptional bench strength, we are able to
-                      mobilise resources in a short span of time. Typically 15 –
-                      30 days, it may vary based on your requirements. – and We
-                      ensure that your team starts contributing to your business
-                      as quickly as possible.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    How long is the ramp down period?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      As a project nears completion, there is an expected
-                      decline in workload and this phase is known as the ramp
-                      down period. At Steady Rabbit, we provide flexibility by
-                      offering shorter ramp down times, typically lasting
-                      between 30-60 days, depending on the kind of staff
-                      augmentation services you choose to avail.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    What are the approximate costs of your staff augmentation
-                    services?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Our goal at Steady Rabbit is to provide your business with
-                      the best of talent at competitive prices. The hourly rates
-                      starting as low as $15. Junior developer will cost you
-                      around $2,400/month. For an experienced resource with 4
-                      years + ex, will cost $3000 per month. We assure you
-                      minimum 50% savings – in some cases, even up to 60% – on
-                      hiring costs relative to developers of similar calibre in
-                      the USA. Contact us with your requirements and we will get
-                      back to you with a detailed quote within 24 hours.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    How does the hiring process work?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      The hiring process of our staff augmentation services is
-                      divided into three stages.
-                      <br />
-                      <i
-                        className="fa fa-circle"
-                        style={{ fontSize: "10px", color: "#55555" }}
-                      ></i>
-                       In the first stage, the client needs to establish the
-                      level of experience, abilities and qualifications of the
-                      developers required, as well as the number of developers
-                      needed. This stage can be considered similar to creating a
-                      comprehensive job description.
-                      <br />
-                      <i
-                        className="fa fa-circle"
-                        style={{ fontSize: "10px", color: "#55555" }}
-                      ></i>
-                       The second stage involves combing through our database
-                      for developers that match the skills and profile that the
-                      client is looking for. We create and share a shortlist of
-                      candidates that suits your requirements.
-                      <br />
-                      <i
-                        className="fa fa-circle"
-                        style={{ fontSize: "10px", color: "#55555" }}
-                      ></i>
-                       The final stage involves interviews with the candidates
-                      and after the approval of the client, the recruitment
-                      process is finalized. After completion of contractual
-                      formalities, the hired engineers start working with you as
-                      per the mutual agreed date.
-                    </p>
-                    <p>
-                      In rare cases if in case you are not satisfied with a
-                      specific engineer, we provide replacement flexibility
-                      within a period of 45 days. The hiring process can be
-                      completed in 15-30 days, providing an advantage over
-                      on-site company hiring which often takes several months.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    What are the key technology stacks that you serve?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Our engineers specialize in Frontend and UX ( React.js ,
-                      React Native, Vue, Angular, Flutter, Android , iOS etc.),
-                      Backend ( Java , Python , Node.js , PHP), Cloud &amp;
-                      DevOps (AWS, Jenkins, Docker etc.) and more. Thus, Steady
-                      Rabbit’s staff augmentation services help you customize
-                      your team based on your business requirements.
-                    </p>
-                  </div>
-                  <div
-                    className="accordion__title ico-110 fx"
-                    data-animation-name="fadeInUp"
-                    data-animation-duration=".8s"
-                    data-animation-delay="0.2s"
-                    style={{
-                      color: "#0a0039",
-                    }}
-                  >
-                    How will I manage a remote team based in India?
-                  </div>
-                  <div className="accordion__content">
-                    <p>
-                      Remote management across different time zones can seem
-                      like a daunting task but at Steady Rabbit, we dedicate
-                      ourselves to making sure that the process is as smooth and
-                      efficient. We ensure that our team of developers has an
-                      overlapping hours so you can have a daily scrum meeting.
-                      You can keep tabs on deliverables through regular
-                      performance monitoring. All the developers are fluent in
-                      English so you will have no trouble in communication.
-                      Further, we provide you with 24x7 support services to look
-                      into any issues you might be facing with utmost immediacy.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* FAQ end */}
-
           {/* awards start */}
-          <section className="section section-lightgray section-2" id="awards">
+          {/* <section className="section section-lightgray section-2" id="awards">
             <div className="container align-left">
               <div className="row">
                 <div className="col-xs-12 col-sm-12">
@@ -2103,7 +1942,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/* awards end */}
 
           {/* our clients start */}
